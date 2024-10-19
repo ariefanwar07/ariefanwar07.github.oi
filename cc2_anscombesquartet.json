@@ -1,0 +1,28 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "AnscombeQuartet Example",
+  "title": {
+    "text": "AnscombeQuartet Example",
+    "subtitle": ["Policy (x) and impact measured (y)"],
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "black"
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/ariefanwar07/ariefanwar07.github.oi/refs/heads/main/anscombesQuartet.csv",
+    "format": {"type": "csv"}
+  },
+  "mark": {
+    "type": "point",
+    "size": 80,
+    "color": "rgb(0,67,167)",
+    "opacity": 1
+  },
+  "height": 150,
+  "width": 150,
+  "encoding": {
+    "x": {"field": "policyX", "type": "quantitative"},
+    "y": {"field": "impactY", "type": "quantitative"},
+    "facet": {"field": "Dataset", "type": "nominal", "title": null, "columns":2}}
+}
