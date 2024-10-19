@@ -58,7 +58,7 @@
     <!-- We're organising the page into sections, with each section containing a chart, title and a description -->
     <section>
         <div class="chart-description">
-            <h2>CC1 - Hosting: Set up a GitHub account and display charts on a live page using Vega-embed </h2>
+            <h2>CC1 - Hosting: Set up a GitHub account and display charts on a live page using Vega-embed. Two charts are required.</h2>
             <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
                 We've organised the page into sections, with each section containing a chart, title and a description. Here, we can describe the chart and give some context.
                 As a first example, we're using a basic chart from our repo.
@@ -103,10 +103,10 @@
         // let figure_3_spec = ...
         // vegaEmbed('#Location3', figure_3_spec)
 
-        let figure_2_spec = "cc1_decliningpopulation.json"
-        vegaEmbed('#Location2', figure_2_spec)
+        let figure_2_spec = "cc1_declining_population.json"
+        vegaEmbed("#Location2", figure_2_spec)
 
-        let figure_3_spec = "cc1_inflation_fourg7countries.json"
+        let figure_3_spec = "cc1_inflation_four_g7_countries.json"
         vegaEmbed("#Location3", figure_3_spec)
         
         vegaEmbed('#china_electricity', 'china_electricity')
