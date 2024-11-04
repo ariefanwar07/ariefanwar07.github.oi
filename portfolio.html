@@ -44,13 +44,10 @@
 <!-- The body tag contains the elements that visitors to our page will see. -->
     <h1 class="big" style="margin-bottom: 0px;"> <!-- We have added a class to the header called "big" which we can use to style it in the CSS -->
         <!-- This is a header, it is the largest text on the page -->
-        Arief Anwar
+        Arief Anwar <br> Portfolio
     </h1>
     <p style="margin-top: 0px; color: darkblue">
-        <!-- we're setting the margin to 0px so the header and authour name are close together -->
-        Arief Anwar | <a href="https://www.linkedin.com/in/YOUR_LINKEDIN/">LinkedIn</a> | <a
-            href="https://www.github.com/YOUR_GITHUB">GitHub</a>
-            <a href="https://ariefanwar07.github.io/project">Project</a>
+      
     </p>
     <h3 class="small"> <!-- We have added a class to the header called "small" which we can use to style it in the CSS -->
         This portfolio showcases 10 coding challenges, each demonstrating diverse data science skills—ranging from data visualization and web development to analysis. Tasks include building interactive charts, mapping, implementing machine learning models, and data scrapers, all applied to real-world economic and policy issues. 
@@ -76,8 +73,7 @@
         <div class="chart-description">
             <h2>CC2 - Building: Create two visualizations using the Economics Observatory Data Hub, save them as JSON files, and embed them on the website</h2>
             <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
-                We've organised the page into sections, with each section containing a chart, title and a description. Here, we can describe the chart and give some context.
-                As a first example, we're using a basic chart from our repo.
+                Text
             </p>
         </div>
         <figure id="indonesia_electricity"></figure> 
@@ -90,6 +86,87 @@
 
     </section>
 
+    <section>
+        <div class="chart-description">
+            <h2>CC3 - Debating: Choose a topic discussed at the Festival of Economics, create two charts that either support or refute a topic, and provide commentary.</h2>
+            <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
+                Text
+            </p>
+        </div>
+          
+    </section>
+
+    <section>
+        <div class="chart-description">
+            <h2>CC4 - Replication: Find a chart from a journalist or similar source, replicate it, and improve upon it using Vega-Lite.</h2>
+            <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
+                Text
+            </p>
+        </div>
+          
+    </section>
+
+    <section>
+        <div class="chart-description">
+            <h2>CC5 - Scraper: Scrape data from a website, clean it, and use it to create a chart in Vega-Lite. A link to a Google Colab notebook where the analysis was conducted is required.</h2>
+            <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
+                Text
+            </p>
+        </div>
+          
+    </section>
+
+    <section>
+        <div class="chart-description">
+            <h2>CC6 - Loops: Build a dashboard with nine charts using data from the ONS API and display it on the GitHub page.</h2>
+            <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
+                Text
+            </p>
+        </div>
+          
+    </section>
+
+    <section>
+        <div class="chart-description">
+            <h2>CC7 - Maps: Create a base map and a choropleth map of the same region, using GeoJSON data.</h2>
+            <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
+                Text
+            </p>
+        </div>
+          
+    </section>
+
+    <section>
+        <div class="chart-description">
+            <h2>CC8 - Analytics charts: Create two charts using advanced analytics techniques like scatter plots, bubble charts, or Diff-in-Diff analysis.</h2>
+            <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
+                Text
+            </p>
+        </div>
+          
+    </section>
+
+    <section>
+        <div class="chart-description">
+            <h2>CC9 - Big Data: Use price data from a provided UK dataset to produce two charts and provide an explanation.</h2>
+            <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
+                Text
+            </p>
+        </div>
+          
+    </section>
+
+    <section>
+        <div class="chart-description">
+            <h2>CC10 - Option 1 (Machine Learning): Apply both supervised and unsupervised machine learning techniques to analyze data, with results presented in Python or Vega-Lite.
+
+                CC10 - Option 2 (Interactive Visualizations): Create two charts with interactive elements (beyond tooltips) to enhance user experience.</h2>
+            <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
+                Text
+            </p>
+        </div>
+          
+    </section>
     <!-- Do you want to add more sections? -->
         <!-- Try copying pasting the section above -->
         <!-- You'll need to change the id of the figure "<figure id="Location3"... -->
@@ -116,15 +193,10 @@
 
         let figure_3_spec = "cc1_inflation_four_g7_countries.json"
         vegaEmbed("#Location3", figure_3_spec)
-        
         vegaEmbed("#indonesia_electricity", "cc2_indonesia_electricity.json")
         vegaEmbed("#mexico_electricity", "cc2_mexico_electricity.json")
         vegaEmbed("#indonesia_mexico_electricity", "cc2_indonesia_mexico_electricity.json")
-
-
-        vegaEmbed("#vices_spending", "cc2_vices_spending.json")
-      
-
+        vegaEmbed("#vices_spending", "cc2_vices_spending.json") 
         vegaEmbed("#anscombesquartet", "cc2_anscombesquartet.json")
     </script>
 
