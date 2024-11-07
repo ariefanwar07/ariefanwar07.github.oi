@@ -5,7 +5,7 @@
       {"filter":"year(datum.date)==Year & datum.rol_index>0"}
     ],
     "title": {
-        "text": "The Economy and The Environment",
+        "text": "The Economy and The Rule of Law",
         "anchor": "start",
         "subtitle": ["GDP per Capita (PPP USD constant), Source: World Bank","",""],
         "fontSize": 16,
