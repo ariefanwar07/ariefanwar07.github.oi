@@ -1,722 +1,722 @@
-﻿country;iso3;region;date; gdp_pc ; rol_index ; pop ;epi
-Zimbabwe;ZWE;Africa;2014-01-01; 3,588.86 ; 0.34 ; 13,855,753 ;49.54
-Zambia;ZMB;Africa;2014-01-01; 3,621.47 ; 0.47 ; 15,737,793 ;41.72
-Viet Nam;VNM;Asia;2014-01-01; 8,794.48 ; 0.48 ; 91,235,504 ;38.17
-Uzbekistan;UZB;Asia;2014-01-01; 6,356.89 ; 0.45 ; 30,757,700 ;43.23
-Uruguay;URY;Americas;2014-01-01; 28,726.73 ; 0.69 ; 3,391,662 ;53.61
-United States;USA;Americas;2014-01-01; 63,214.90 ; 0.71 ; 318,386,329 ;67.52
-United Kingdom;GBR;Europe;2014-01-01; 51,054.59 ; 0.78 ; 64,602,298 ;77.35
-United Arab Emirates;ARE;Asia;2014-01-01; 63,309.31 ; 0.65 ; 8,835,951 ;72.91
-Ukraine;UKR;Europe;2014-01-01; 17,255.29 ; 0.47 ; 45,272,155 ;49.01
-Uganda;UGA;Africa;2014-01-01; 2,474.52 ; 0.41 ; 36,336,539 ;39.18
-Turkiye;TUR;Asia;2014-01-01; 24,830.58 ; 0.50 ; 77,181,884 ;54.91
-Tunisia;TUN;Africa;2014-01-01; 12,538.20 ; 0.55 ; 11,428,948 ;58.99
-Thailand;THA;Asia;2014-01-01; 18,390.86 ; 0.52 ; 69,960,943 ;52.83
-Tanzania;TZA;Africa;2014-01-01; 2,999.98 ; 0.47 ; 50,814,552 ;36.19
-Sweden;SWE;Europe;2014-01-01; 57,639.77 ; 0.85 ; 9,696,110 ;78.09
-Sri Lanka;LKA;Asia;2014-01-01; 12,629.48 ; 0.52 ; 21,239,457 ;53.88
-Spain;ESP;Europe;2014-01-01; 40,962.02 ; 0.67 ; 46,480,882 ;79.79
-South Africa;ZAF;Africa;2014-01-01; 14,869.05 ; 0.55 ; 54,729,551 ;53.51
-Slovenia;SVN;Europe;2014-01-01; 38,373.11 ; 0.65 ; 2,061,980 ;76.43
-Singapore;SGP;Asia;2014-01-01; 106,604.49 ; 0.79 ; 5,469,724 ;81.78
-Sierra Leone;SLE;Africa;2014-01-01; 1,963.99 ; 0.44 ; 7,140,688 ;21.74
-Senegal;SEN;Africa;2014-01-01; 3,529.35 ; 0.54 ; 13,970,308 ;40.83
-Russian Federation;RUS;Europe;2014-01-01; 36,217.96 ; 0.45 ; 144,237,223 ;53.45
-Romania;ROU;Europe;2014-01-01; 28,331.53 ; 0.59 ; 19,908,979 ;50.52
-Portugal;PRT;Europe;2014-01-01; 35,102.80 ; 0.66 ; 10,401,062 ;75.8
-Poland;POL;Europe;2014-01-01; 30,671.43 ; 0.67 ; 38,011,735 ;69.53
-Philippines;PHL;Asia;2014-01-01; 7,517.26 ; 0.50 ; 101,325,201 ;44.02
-Peru;PER;Americas;2014-01-01; 14,135.33 ; 0.49 ; 30,353,951 ;45.05
-Panama;PAN;Americas;2014-01-01; 28,887.86 ; 0.50 ; 3,888,793 ;56.84
-Pakistan;PAK;Asia;2014-01-01; 4,650.75 ; 0.36 ; 208,251,628 ;34.58
-Norway;NOR;Europe;2014-01-01; 85,044.75 ; 0.88 ; 5,137,232 ;78.04
-North Macedonia;MKD;Europe;2014-01-01; 18,641.61 ; 0.58 ; 1,917,557 ;50.41
-Nigeria;NGA;Africa;2014-01-01; 6,197.49 ; 0.39 ; 179,379,016 ;39.2
-Nicaragua;NIC;Americas;2014-01-01; 6,504.70 ; 0.43 ; 6,208,676 ;50.32
-New Zealand;NZL;Oceania;2014-01-01; 44,440.12 ; 0.83 ; 4,516,500 ;76.41
-Netherlands;NLD;Europe;2014-01-01; 61,615.59 ; 0.83 ; 16,865,008 ;77.75
-Nepal;NPL;Asia;2014-01-01; 3,649.46 ; 0.50 ; 27,462,106 ;37
-Morocco;MAR;Africa;2014-01-01; 7,938.92 ; 0.51 ; 34,248,603 ;51.89
-Mongolia;MNG;Asia;2014-01-01; 14,233.02 ; 0.51 ; 2,902,823 ;44.67
-Moldova;MDA;Europe;2014-01-01; 11,641.12 ; 0.45 ; 2,857,815 ;53.36
-Mexico;MEX;Americas;2014-01-01; 21,545.65 ; 0.45 ; 118,755,887 ;55.03
-Malaysia;MYS;Asia;2014-01-01; 26,905.05 ; 0.58 ; 30,606,459 ;59.31
-Malawi;MWI;Africa;2014-01-01; 1,670.22 ; 0.51 ; 16,477,966 ;40.06
-Madagascar;MDG;Africa;2014-01-01; 1,662.84 ; 0.45 ; 24,215,976 ;26.7
-Liberia;LBR;Africa;2014-01-01; 1,767.53 ; 0.42 ; 4,519,398 ;23.95
-Lebanon;LBN;Asia;2014-01-01; 15,381.94 ; 0.51 ; 6,274,342 ;50.15
-Kyrgyz Republic;KGZ;Asia;2014-01-01; 5,580.22 ; 0.45 ; 5,835,500 ;40.63
-Kenya;KEN;Africa;2014-01-01; 4,580.39 ; 0.43 ; 45,831,863 ;36.99
-Kazakhstan;KAZ;Asia;2014-01-01; 31,932.79 ; 0.47 ; 17,288,285 ;51.07
-Jordan;JOR;Asia;2014-01-01; 10,305.70 ; 0.57 ; 8,658,026 ;55.78
-Japan;JPN;Asia;2014-01-01; 42,909.01 ; 0.78 ; 127,276,000 ;72.35
-Jamaica;JAM;Americas;2014-01-01; 9,751.44 ; 0.53 ; 2,784,543 ;58.26
-Italy;ITA;Europe;2014-01-01; 46,779.75 ; 0.63 ; 60,789,140 ;74.36
-Indonesia;IDN;Asia;2014-01-01; 10,612.93 ; 0.52 ; 256,229,761 ;44.36
-India;IND;Asia;2014-01-01; 6,103.24 ; 0.48 ; 1,307,246,509 ;31.23
-Hungary;HUN;Europe;2014-01-01; 30,460.72 ; 0.61 ; 9,866,468 ;70.28
-Guatemala;GTM;Americas;2014-01-01; 10,766.68 ; 0.44 ; 15,306,316 ;48.06
-Greece;GRC;Europe;2014-01-01; 31,345.70 ; 0.59 ; 10,892,413 ;73.28
-Ghana;GHA;Africa;2014-01-01; 5,588.23 ; 0.57 ; 28,196,358 ;32.07
-Germany;DEU;Europe;2014-01-01; 58,981.48 ; 0.80 ; 80,982,500 ;80.47
-Georgia;GEO;Asia;2014-01-01; 14,475.31 ; 0.60 ; 3,719,414 ;47.23
-France;FRA;Europe;2014-01-01; 51,534.80 ; 0.74 ; 66,312,067 ;71.05
-Finland;FIN;Europe;2014-01-01; 53,464.33 ; 0.84 ; 5,461,512 ;75.72
-Ethiopia;ETH;Africa;2014-01-01; 1,846.39 ; 0.42 ; 99,746,766 ;39.43
-Estonia;EST;Europe;2014-01-01; 35,466.23 ; 0.76 ; 1,314,545 ;74.66
-El Salvador;SLV;Americas;2014-01-01; 9,380.86 ; 0.48 ; 6,209,526 ;43.79
-Ecuador;ECU;Americas;2014-01-01; 14,115.39 ; 0.45 ; 15,957,994 ;58.54
-Dominican Republic;DOM;Americas;2014-01-01; 16,872.30 ; 0.47 ; 10,282,115 ;53.24
-Denmark;DNK;Europe;2014-01-01; 61,852.02 ; 0.88 ; 5,643,475 ;76.92
-Czechia;CZE;Europe;2014-01-01; 40,862.97 ; 0.67 ; 10,525,347 ;81.47
-Croatia;HRV;Europe;2014-01-01; 28,154.11 ; 0.57 ; 4,238,389 ;62.23
-Cote d'Ivoire;CIV;Africa;2014-01-01; 5,234.49 ; 0.46 ; 22,995,555 ;39.72
-Colombia;COL;Americas;2014-01-01; 16,740.42 ; 0.49 ; 46,677,947 ;50.77
-China;CHN;Asia;2014-01-01; 13,696.52 ; 0.45 ; 1,371,860,000 ;43
-Chile;CHL;Americas;2014-01-01; 27,790.25 ; 0.68 ; 17,687,108 ;69.93
-Canada;CAN;Americas;2014-01-01; 54,880.86 ; 0.78 ; 35,434,066 ;73.14
-Cameroon;CMR;Africa;2014-01-01; 4,537.31 ; 0.39 ; 22,299,585 ;36.68
-Cambodia;KHM;Asia;2014-01-01; 3,621.72 ; 0.40 ; 15,210,817 ;35.44
-Burkina Faso;BFA;Africa;2014-01-01; 2,084.33 ; 0.51 ; 18,169,842 ;40.52
-Bulgaria;BGR;Europe;2014-01-01; 23,155.45 ; 0.53 ; 7,223,938 ;64.01
-Brazil;BRA;Americas;2014-01-01; 18,865.01 ; 0.54 ; 203,459,650 ;52.97
-Botswana;BWA;Africa;2014-01-01; 16,385.85 ; 0.67 ; 2,260,376 ;47.6
-Bosnia and Herzegovina;BIH;Europe;2014-01-01; 13,620.68 ; 0.55 ; 3,571,068 ;45.79
-Bolivia;BOL;Americas;2014-01-01; 8,796.50 ; 0.39 ; 10,916,987 ;50.48
-Belgium;BEL;Europe;2014-01-01; 58,028.55 ; 0.76 ; 11,209,057 ;66.61
-Belarus;BLR;Europe;2014-01-01; 26,564.43 ; 0.51 ; 9,448,515 ;67.69
-Bangladesh;BGD;Asia;2014-01-01; 5,133.76 ; 0.39 ; 155,961,299 ;25.61
-Austria;AUT;Europe;2014-01-01; 62,378.97 ; 0.82 ; 8,546,356 ;78.32
-Australia;AUS;Oceania;2014-01-01; 54,610.39 ; 0.80 ; 23,475,686 ;82.4
-Argentina;ARG;Americas;2014-01-01; 28,442.25 ; 0.50 ; 42,669,500 ;49.55
-Albania;ALB;Europe;2014-01-01; 12,909.24 ; 0.49 ; 2,889,104 ;54.73
-Zimbabwe;ZWE;Africa;2016-01-01; 3,541.88 ; 0.37 ; 14,452,704 ;59.25
-Zambia;ZMB;Africa;2016-01-01; 3,629.64 ; 0.48 ; 16,767,761 ;66.06
-Viet Nam;VNM;Asia;2016-01-01; 9,834.59 ; 0.51 ; 93,126,529 ;58.5
-Uzbekistan;UZB;Asia;2016-01-01; 6,972.94 ; 0.46 ; 31,847,900 ;63.67
-Uruguay;URY;Americas;2016-01-01; 29,130.61 ; 0.73 ; 3,413,766 ;73.98
-United States;USA;Americas;2016-01-01; 65,300.00 ; 0.74 ; 323,071,755 ;84.72
-United Kingdom;GBR;Europe;2016-01-01; 52,372.48 ; 0.81 ; 65,611,593 ;87.38
-United Arab Emirates;ARE;Asia;2016-01-01; 70,109.73 ; 0.66 ; 8,994,263 ;69.35
-Ukraine;UKR;Europe;2016-01-01; 16,071.81 ; 0.49 ; 45,038,236 ;79.69
-Uganda;UGA;Africa;2016-01-01; 2,557.58 ; 0.39 ; 38,748,299 ;57.56
-Turkiye;TUR;Asia;2016-01-01; 26,497.14 ; 0.44 ; 79,277,962 ;67.68
-Tunisia;TUN;Africa;2016-01-01; 12,519.78 ; 0.53 ; 11,685,667 ;77.28
-Thailand;THA;Asia;2016-01-01; 19,439.27 ; 0.52 ; 70,607,037 ;69.54
-Tanzania;TZA;Africa;2016-01-01; 3,180.11 ; 0.47 ; 54,401,802 ;58.34
-Sweden;SWE;Europe;2016-01-01; 60,068.31 ; 0.86 ; 9,923,085 ;90.43
-Sri Lanka;LKA;Asia;2016-01-01; 13,705.71 ; 0.51 ; 21,425,494 ;65.55
-Spain;ESP;Europe;2016-01-01; 43,823.45 ; 0.70 ; 46,484,062 ;88.91
-South Africa;ZAF;Africa;2016-01-01; 14,710.73 ; 0.59 ; 56,422,274 ;70.52
-Slovenia;SVN;Europe;2016-01-01; 40,413.05 ; 0.68 ; 2,065,042 ;88.98
-Singapore;SGP;Asia;2016-01-01; 110,927.69 ; 0.82 ; 5,607,283 ;87.04
-Sierra Leone;SLE;Africa;2016-01-01; 1,582.38 ; 0.45 ; 7,493,913 ;45.98
-Senegal;SEN;Africa;2016-01-01; 3,781.27 ; 0.58 ; 14,751,356 ;63.73
-Russian Federation;RUS;Europe;2016-01-01; 35,361.55 ; 0.46 ; 145,015,460 ;83.52
-Romania;ROU;Europe;2016-01-01; 30,377.53 ; 0.66 ; 19,702,267 ;83.24
-Portugal;PRT;Europe;2016-01-01; 36,720.39 ; 0.72 ; 10,325,452 ;88.63
-Poland;POL;Europe;2016-01-01; 32,997.60 ; 0.72 ; 37,970,087 ;81.26
-Philippines;PHL;Asia;2016-01-01; 8,276.08 ; 0.51 ; 104,875,266 ;73.7
-Peru;PER;Americas;2016-01-01; 14,792.49 ; 0.52 ; 31,132,779 ;72.95
-Panama;PAN;Americas;2016-01-01; 30,961.83 ; 0.53 ; 4,026,336 ;78
-Pakistan;PAK;Asia;2016-01-01; 5,037.98 ; 0.39 ; 213,524,840 ;51.42
-Norway;NOR;Europe;2016-01-01; 86,004.54 ; 0.88 ; 5,234,519 ;86.9
-North Macedonia;MKD;Europe;2016-01-01; 20,029.28 ; 0.55 ; 1,906,313 ;78.02
-Nigeria;NGA;Africa;2016-01-01; 5,950.90 ; 0.44 ; 188,666,931 ;58.27
-Nicaragua;NIC;Americas;2016-01-01; 6,926.06 ; 0.42 ; 6,389,235 ;64.19
-New Zealand;NZL;Oceania;2016-01-01; 45,822.71 ; 0.83 ; 4,714,100 ;88
-Netherlands;NLD;Europe;2016-01-01; 63,576.48 ; 0.86 ; 17,030,314 ;82.03
-Nepal;NPL;Asia;2016-01-01; 3,756.41 ; 0.52 ; 27,861,186 ;50.21
-Morocco;MAR;Africa;2016-01-01; 8,119.81 ; 0.53 ; 35,107,264 ;74.18
-Mongolia;MNG;Asia;2016-01-01; 14,170.19 ; 0.54 ; 3,029,555 ;64.39
-Moldova;MDA;Europe;2016-01-01; 12,377.37 ; 0.50 ; 2,803,186 ;76.69
-Mexico;MEX;Americas;2016-01-01; 22,008.00 ; 0.46 ; 121,519,221 ;73.59
-Malaysia;MYS;Asia;2016-01-01; 28,671.31 ; 0.54 ; 31,526,418 ;74.23
-Malawi;MWI;Africa;2016-01-01; 1,666.11 ; 0.51 ; 17,405,624 ;49.69
-Madagascar;MDG;Africa;2016-01-01; 1,693.47 ; 0.46 ; 25,501,941 ;37.1
-Liberia;LBR;Africa;2016-01-01; 1,670.70 ; 0.45 ; 4,706,097 ;43.42
-Lebanon;LBN;Asia;2016-01-01; 15,732.70 ; 0.46 ; 6,258,619 ;69.14
-Kyrgyz Republic;KGZ;Asia;2016-01-01; 5,805.10 ; 0.47 ; 6,079,500 ;73.13
-Kenya;KEN;Africa;2016-01-01; 4,794.71 ; 0.43 ; 47,894,670 ;62.49
-Kazakhstan;KAZ;Asia;2016-01-01; 31,742.82 ; 0.51 ; 17,794,055 ;73.29
-Jordan;JOR;Asia;2016-01-01; 9,360.93 ; 0.59 ; 9,964,656 ;72.24
-Japan;JPN;Asia;2016-01-01; 43,976.27 ; 0.78 ; 127,076,000 ;80.59
-Jamaica;JAM;Americas;2016-01-01; 9,912.02 ; 0.58 ; 2,802,695 ;77.02
-Italy;ITA;Europe;2016-01-01; 47,880.94 ; 0.65 ; 60,627,498 ;84.48
-Indonesia;IDN;Asia;2016-01-01; 11,439.72 ; 0.52 ; 261,850,182 ;65.85
-India;IND;Asia;2016-01-01; 6,968.15 ; 0.52 ; 1,338,636,340 ;53.58
-Hungary;HUN;Europe;2016-01-01; 32,457.83 ; 0.57 ; 9,814,023 ;84.6
-Guatemala;GTM;Americas;2016-01-01; 11,128.32 ; 0.44 ; 15,827,690 ;69.64
-Greece;GRC;Europe;2016-01-01; 31,468.23 ; 0.61 ; 10,775,971 ;85.81
-Ghana;GHA;Africa;2016-01-01; 5,628.20 ; 0.58 ; 29,554,303 ;58.89
-Germany;DEU;Europe;2016-01-01; 60,181.10 ; 0.84 ; 82,348,669 ;84.26
-Georgia;GEO;Asia;2016-01-01; 15,442.96 ; 0.66 ; 3,727,505 ;64.96
-France;FRA;Europe;2016-01-01; 52,353.86 ; 0.72 ; 66,724,104 ;88.2
-Finland;FIN;Europe;2016-01-01; 54,926.45 ; 0.88 ; 5,495,303 ;90.68
-Ethiopia;ETH;Africa;2016-01-01; 2,113.05 ; 0.39 ; 105,293,228 ;45.83
-Estonia;EST;Europe;2016-01-01; 37,228.06 ; 0.79 ; 1,315,790 ;88.59
-El Salvador;SLV;Americas;2016-01-01; 9,785.32 ; 0.50 ; 6,250,510 ;68.07
-Ecuador;ECU;Americas;2016-01-01; 13,623.91 ; 0.46 ; 16,439,585 ;66.58
-Dominican Republic;DOM;Americas;2016-01-01; 18,793.75 ; 0.47 ; 10,527,592 ;75.32
-Denmark;DNK;Europe;2016-01-01; 64,391.16 ; 0.89 ; 5,728,010 ;89.21
-Czechia;CZE;Europe;2016-01-01; 43,986.22 ; 0.75 ; 10,566,332 ;84.67
-Croatia;HRV;Europe;2016-01-01; 30,384.48 ; 0.61 ; 4,174,349 ;86.98
-Cote d'Ivoire;CIV;Africa;2016-01-01; 5,711.07 ; 0.48 ; 24,213,622 ;59.89
-Colombia;COL;Americas;2016-01-01; 17,244.78 ; 0.51 ; 47,625,955 ;75.93
-China;CHN;Asia;2016-01-01; 15,485.21 ; 0.49 ; 1,387,790,000 ;65.1
-Chile;CHL;Americas;2016-01-01; 28,252.16 ; 0.69 ; 18,083,879 ;77.67
-Canada;CAN;Americas;2016-01-01; 54,765.30 ; 0.81 ; 36,110,803 ;85.06
-Cameroon;CMR;Africa;2016-01-01; 4,713.44 ; 0.38 ; 23,711,630 ;57.13
-Cambodia;KHM;Asia;2016-01-01; 4,032.89 ; 0.33 ; 15,624,584 ;51.24
-Burkina Faso;BFA;Africa;2016-01-01; 2,163.47 ; 0.49 ; 19,275,498 ;43.71
-Bulgaria;BGR;Europe;2016-01-01; 24,999.43 ; 0.55 ; 7,127,822 ;83.4
-Brazil;BRA;Americas;2016-01-01; 17,310.74 ; 0.56 ; 206,859,578 ;78.9
-Botswana;BWA;Africa;2016-01-01; 16,060.20 ; 0.58 ; 2,352,416 ;70.72
-Bosnia and Herzegovina;BIH;Europe;2016-01-01; 15,048.66 ; 0.56 ; 3,480,986 ;63.28
-Bolivia;BOL;Americas;2016-01-01; 9,321.59 ; 0.40 ; 11,263,015 ;71.09
-Belgium;BEL;Europe;2016-01-01; 59,315.70 ; 0.79 ; 11,331,422 ;80.15
-Belarus;BLR;Europe;2016-01-01; 24,846.96 ; 0.54 ; 9,469,379 ;82.3
-Bangladesh;BGD;Asia;2016-01-01; 5,719.07 ; 0.41 ; 159,784,568 ;41.77
-Austria;AUT;Europe;2016-01-01; 62,865.49 ; 0.84 ; 8,736,668 ;86.64
-Australia;AUS;Oceania;2016-01-01; 55,667.92 ; 0.81 ; 24,190,907 ;87.22
-Argentina;ARG;Americas;2016-01-01; 28,006.77 ; 0.56 ; 43,590,368 ;79.84
-Albania;ALB;Europe;2016-01-01; 13,694.73 ; 0.51 ; 2,876,101 ;74.38
-Zimbabwe;ZWE;Africa;2020-01-01; 3,082.92 ; 0.39 ; 15,669,666 ;37
-Zambia;ZMB;Africa;2020-01-01; 3,415.19 ; 0.45 ; 18,927,715 ;34.7
-Viet Nam;VNM;Asia;2020-01-01; 12,026.81 ; 0.49 ; 96,648,685 ;33.4
-Uzbekistan;UZB;Asia;2020-01-01; 7,751.21 ; 0.47 ; 34,232,050 ;44.3
-Uruguay;URY;Americas;2020-01-01; 27,626.80 ; 0.71 ; 3,429,086 ;49.1
-United States;USA;Americas;2020-01-01; 67,266.19 ; 0.72 ; 331,526,933 ;69.3
-United Kingdom;GBR;Europe;2020-01-01; 48,583.76 ; 0.79 ; 67,081,234 ;81.3
-United Arab Emirates;ARE;Asia;2020-01-01; 66,590.40 ; 0.65 ; 9,287,289 ;55.6
-Ukraine;UKR;Europe;2020-01-01; 17,285.90 ; 0.51 ; 44,207,754 ;49.5
-Uganda;UGA;Africa;2020-01-01; 2,681.18 ; 0.40 ; 44,404,611 ;35.6
-Turkiye;TUR;Asia;2020-01-01; 28,649.56 ; 0.43 ; 83,384,680 ;42.6
-Tunisia;TUN;Africa;2020-01-01; 11,720.50 ; 0.54 ; 12,161,723 ;46.7
-Thailand;THA;Asia;2020-01-01; 20,002.85 ; 0.51 ; 71,475,664 ;45.4
-Tanzania;TZA;Africa;2020-01-01; 3,408.91 ; 0.47 ; 61,704,518 ;31.1
-Sweden;SWE;Europe;2020-01-01; 60,064.63 ; 0.86 ; 10,353,442 ;78.7
-Sri Lanka;LKA;Asia;2020-01-01; 13,886.65 ; 0.52 ; 21,919,000 ;39
-Spain;ESP;Europe;2020-01-01; 41,038.98 ; 0.73 ; 47,365,655 ;74.3
-South Africa;ZAF;Africa;2020-01-01; 13,671.83 ; 0.59 ; 58,801,927 ;43.1
-Slovenia;SVN;Europe;2020-01-01; 43,082.26 ; 0.69 ; 2,102,419 ;72
-Singapore;SGP;Asia;2020-01-01; 115,304.15 ; 0.79 ; 5,685,807 ;58.1
-Sierra Leone;SLE;Africa;2020-01-01; 1,595.31 ; 0.45 ; 8,233,970 ;25.7
-Senegal;SEN;Africa;2020-01-01; 4,104.36 ; 0.55 ; 16,436,120 ;30.7
-Russian Federation;RUS;Europe;2020-01-01; 36,746.38 ; 0.47 ; 145,245,148 ;50.5
-Romania;ROU;Europe;2020-01-01; 35,651.63 ; 0.63 ; 19,265,250 ;64.7
-Portugal;PRT;Europe;2020-01-01; 36,909.24 ; 0.70 ; 10,297,081 ;67
-Poland;POL;Europe;2020-01-01; 37,686.89 ; 0.66 ; 37,899,070 ;60.9
-Philippines;PHL;Asia;2020-01-01; 8,446.92 ; 0.47 ; 112,190,977 ;38.4
-Peru;PER;Americas;2020-01-01; 13,421.49 ; 0.50 ; 33,304,756 ;44
-Panama;PAN;Americas;2020-01-01; 27,025.32 ; 0.52 ; 4,294,396 ;47.3
-Pakistan;PAK;Asia;2020-01-01; 5,311.42 ; 0.39 ; 227,196,741 ;33.1
-Norway;NOR;Europe;2020-01-01; 86,313.75 ; 0.89 ; 5,379,475 ;77.7
-North Macedonia;MKD;Europe;2020-01-01; 21,186.71 ; 0.53 ; 1,856,124 ;55.4
-Nigeria;NGA;Africa;2020-01-01; 5,557.92 ; 0.43 ; 208,327,405 ;31
-Nicaragua;NIC;Americas;2020-01-01; 6,318.27 ; 0.39 ; 6,755,895 ;39.2
-New Zealand;NZL;Oceania;2020-01-01; 46,289.39 ; 0.83 ; 5,090,200 ;71.3
-Netherlands;NLD;Europe;2020-01-01; 64,080.83 ; 0.84 ; 17,441,500 ;75.3
-Nepal;NPL;Asia;2020-01-01; 4,355.10 ; 0.53 ; 29,348,627 ;32.7
-Morocco;MAR;Africa;2020-01-01; 8,028.88 ; 0.50 ; 36,688,772 ;42.3
-Mongolia;MNG;Asia;2020-01-01; 14,949.02 ; 0.53 ; 3,294,335 ;32.2
-Moldova;MDA;Europe;2020-01-01; 13,559.26 ; 0.50 ; 2,635,130 ;44.4
-Mexico;MEX;Americas;2020-01-01; 20,097.05 ; 0.44 ; 125,998,302 ;52.6
-Malaysia;MYS;Asia;2020-01-01; 29,815.85 ; 0.58 ; 33,199,993 ;47.9
-Malawi;MWI;Africa;2020-01-01; 1,727.05 ; 0.52 ; 19,377,061 ;38.3
-Madagascar;MDG;Africa;2020-01-01; 1,591.15 ; 0.44 ; 28,225,177 ;26.5
-Liberia;LBR;Africa;2020-01-01; 1,515.59 ; 0.45 ; 5,087,584 ;22.6
-Lebanon;LBN;Asia;2020-01-01; 12,594.62 ; 0.45 ; 5,662,923 ;45.4
-Kyrgyz Republic;KGZ;Asia;2020-01-01; 5,661.26 ; 0.48 ; 6,579,900 ;39.8
-Kenya;KEN;Africa;2020-01-01; 5,079.93 ; 0.45 ; 51,985,780 ;34.7
-Kazakhstan;KAZ;Asia;2020-01-01; 33,251.43 ; 0.52 ; 18,755,666 ;44.7
-Jordan;JOR;Asia;2020-01-01; 8,970.22 ; 0.57 ; 10,928,721 ;53.4
-Japan;JPN;Asia;2020-01-01; 43,238.30 ; 0.78 ; 126,261,000 ;75.1
-Jamaica;JAM;Americas;2020-01-01; 9,211.85 ; 0.57 ; 2,820,436 ;48.2
-Italy;ITA;Europe;2020-01-01; 45,835.91 ; 0.66 ; 59,438,851 ;71
-Indonesia;IDN;Asia;2020-01-01; 12,523.29 ; 0.53 ; 271,857,970 ;37.8
-India;IND;Asia;2020-01-01; 7,432.55 ; 0.51 ; 1,396,387,127 ;27.6
-Hungary;HUN;Europe;2020-01-01; 35,949.92 ; 0.53 ; 9,750,149 ;63.7
-Guatemala;GTM;Americas;2020-01-01; 11,376.57 ; 0.45 ; 16,858,333 ;31.8
-Greece;GRC;Europe;2020-01-01; 30,096.82 ; 0.61 ; 10,698,599 ;69.1
-Ghana;GHA;Africa;2020-01-01; 6,354.38 ; 0.57 ; 32,180,401 ;27.6
-Germany;DEU;Europe;2020-01-01; 60,065.51 ; 0.84 ; 83,160,871 ;77.2
-Georgia;GEO;Asia;2020-01-01; 17,031.14 ; 0.60 ; 3,722,716 ;41.3
-France;FRA;Europe;2020-01-01; 50,724.49 ; 0.73 ; 67,571,107 ;80
-Finland;FIN;Europe;2020-01-01; 56,310.62 ; 0.87 ; 5,529,543 ;78.9
-Ethiopia;ETH;Africa;2020-01-01; 2,553.63 ; 0.41 ; 117,190,911 ;34.4
-Estonia;EST;Europe;2020-01-01; 41,677.98 ; 0.81 ; 1,329,522 ;65.3
-El Salvador;SLV;Americas;2020-01-01; 9,603.02 ; 0.49 ; 6,292,731 ;43.1
-Ecuador;ECU;Americas;2020-01-01; 12,394.97 ; 0.49 ; 17,588,595 ;51
-Dominican Republic;DOM;Americas;2020-01-01; 19,736.80 ; 0.48 ; 10,999,664 ;46.3
-Denmark;DNK;Europe;2020-01-01; 65,686.53 ; 0.90 ; 5,831,404 ;82.5
-Czechia;CZE;Europe;2020-01-01; 45,917.29 ; 0.73 ; 10,697,858 ;71
-Croatia;HRV;Europe;2020-01-01; 31,564.45 ; 0.61 ; 4,047,680 ;63.1
-Cote d'Ivoire;CIV;Africa;2020-01-01; 6,241.93 ; 0.46 ; 26,811,790 ;25.8
-Colombia;COL;Americas;2020-01-01; 16,055.38 ; 0.50 ; 50,930,662 ;52.9
-China;CHN;Asia;2020-01-01; 18,833.78 ; 0.48 ; 1,411,100,000 ;37.3
-Chile;CHL;Americas;2020-01-01; 26,353.49 ; 0.67 ; 19,300,315 ;55.3
-Canada;CAN;Americas;2020-01-01; 53,274.91 ; 0.81 ; 38,028,638 ;71
-Cameroon;CMR;Africa;2020-01-01; 4,711.11 ; 0.36 ; 26,491,087 ;33.6
-Cambodia;KHM;Asia;2020-01-01; 4,584.21 ; 0.33 ; 16,396,860 ;33.6
-Burkina Faso;BFA;Africa;2020-01-01; 2,369.59 ; 0.51 ; 21,522,626 ;38.3
-Bulgaria;BGR;Europe;2020-01-01; 27,090.71 ; 0.55 ; 6,934,015 ;57
-Brazil;BRA;Americas;2020-01-01; 16,958.90 ; 0.52 ; 213,196,304 ;51.2
-Botswana;BWA;Africa;2020-01-01; 15,134.70 ; 0.60 ; 2,546,402 ;40.4
-Bosnia and Herzegovina;BIH;Europe;2020-01-01; 16,885.51 ; 0.52 ; 3,318,407 ;45.4
-Bolivia;BOL;Americas;2020-01-01; 8,910.59 ; 0.38 ; 11,936,162 ;44.3
-Belgium;BEL;Europe;2020-01-01; 58,337.76 ; 0.79 ; 11,538,604 ;73.3
-Belarus;BLR;Europe;2020-01-01; 26,731.49 ; 0.51 ; 9,379,952 ;53
-Bangladesh;BGD;Asia;2020-01-01; 6,968.15 ; 0.41 ; 167,420,951 ;29
-Austria;AUT;Europe;2020-01-01; 61,108.42 ; 0.82 ; 8,916,864 ;79.6
-Australia;AUS;Oceania;2020-01-01; 56,298.20 ; 0.80 ; 25,649,248 ;74.9
-Argentina;ARG;Americas;2020-01-01; 23,785.78 ; 0.58 ; 45,376,763 ;52.2
-Albania;ALB;Europe;2020-01-01; 14,793.85 ; 0.50 ; 2,837,849 ;49
-Zimbabwe;ZWE;Africa;2022-01-01; 3,420.03 ; 0.39 ; 16,320,537 ;46.2
-Zambia;ZMB;Africa;2022-01-01; 3,610.67 ; 0.45 ; 20,017,675 ;38.4
-Viet Nam;VNM;Asia;2022-01-01; 13,126.98 ; 0.49 ; 98,186,856 ;20.1
-Uzbekistan;UZB;Asia;2022-01-01; 8,447.55 ; 0.50 ; 35,648,100 ;38.2
-Uruguay;URY;Americas;2022-01-01; 30,592.30 ; 0.71 ; 3,422,794 ;37.4
-United States;USA;Americas;2022-01-01; 72,165.48 ; 0.71 ; 333,271,411 ;51.1
-United Kingdom;GBR;Europe;2022-01-01; 54,515.75 ; 0.79 ; 67,791,000 ;77.7
-United Arab Emirates;ARE;Asia;2022-01-01; 73,724.31 ; 0.63 ; 9,441,129 ;52.4
-Ukraine;UKR;Europe;2022-01-01; 15,022.49 ; 0.50 ; 38,000,000 ;49.6
-Uganda;UGA;Africa;2022-01-01; 2,728.55 ; 0.39 ; 47,249,585 ;35.8
-Turkiye;TUR;Asia;2022-01-01; 33,061.06 ; 0.42 ; 84,979,913 ;26.3
-Tunisia;TUN;Africa;2022-01-01; 12,381.60 ; 0.52 ; 12,356,117 ;40.7
-Thailand;THA;Asia;2022-01-01; 20,752.60 ; 0.50 ; 71,697,030 ;38.1
-Tanzania;TZA;Africa;2022-01-01; 3,504.42 ; 0.46 ; 65,497,748 ;34.2
-Sweden;SWE;Europe;2022-01-01; 64,621.55 ; 0.86 ; 10,486,941 ;72.7
-Sri Lanka;LKA;Asia;2022-01-01; 13,249.41 ; 0.50 ; 22,181,000 ;34.7
-Spain;ESP;Europe;2022-01-01; 45,787.70 ; 0.73 ; 47,778,340 ;56.6
-South Africa;ZAF;Africa;2022-01-01; 14,322.33 ; 0.58 ; 59,893,885 ;37.2
-Slovenia;SVN;Europe;2022-01-01; 47,558.27 ; 0.68 ; 2,111,986 ;67.3
-Singapore;SGP;Asia;2022-01-01; 132,468.93 ; 0.78 ; 5,637,022 ;50.9
-Sierra Leone;SLE;Africa;2022-01-01; 1,643.99 ; 0.45 ; 8,605,718 ;32.7
-Senegal;SEN;Africa;2022-01-01; 4,309.27 ; 0.56 ; 17,316,449 ;33.9
-Russian Federation;RUS;Europe;2022-01-01; 38,263.62 ; 0.45 ; 144,236,933 ;37.5
-Romania;ROU;Europe;2022-01-01; 39,684.31 ; 0.63 ; 19,047,009 ;56
-Portugal;PRT;Europe;2022-01-01; 41,240.39 ; 0.69 ; 10,409,704 ;50.4
-Poland;POL;Europe;2022-01-01; 43,818.00 ; 0.64 ; 36,821,749 ;50.6
-Philippines;PHL;Asia;2022-01-01; 9,326.60 ; 0.47 ; 115,559,009 ;28.9
-Peru;PER;Americas;2022-01-01; 15,286.74 ; 0.49 ; 34,049,588 ;39.8
-Panama;PAN;Americas;2022-01-01; 33,790.40 ; 0.52 ; 4,408,581 ;50.5
-Pakistan;PAK;Asia;2022-01-01; 5,710.26 ; 0.39 ; 235,824,862 ;24.6
-Norway;NOR;Europe;2022-01-01; 91,068.60 ; 0.89 ; 5,457,127 ;59.3
-North Macedonia;MKD;Europe;2022-01-01; 22,935.97 ; 0.53 ; 1,831,712 ;54.3
-Nigeria;NGA;Africa;2022-01-01; 5,669.96 ; 0.41 ; 218,541,212 ;28.3
-Nicaragua;NIC;Americas;2022-01-01; 7,031.22 ; 0.36 ; 6,948,392 ;37.7
-New Zealand;NZL;Oceania;2022-01-01; 49,474.24 ; 0.83 ; 5,117,200 ;56.7
-Netherlands;NLD;Europe;2022-01-01; 69,953.67 ; 0.83 ; 17,700,982 ;62.6
-Nepal;NPL;Asia;2022-01-01; 4,633.63 ; 0.52 ; 30,547,580 ;28.3
-Morocco;MAR;Africa;2022-01-01; 8,599.82 ; 0.48 ; 37,457,971 ;28.4
-Mongolia;MNG;Asia;2022-01-01; 15,469.84 ; 0.54 ; 3,398,366 ;29.6
-Moldova;MDA;Europe;2022-01-01; 15,229.46 ; 0.52 ; 2,538,894 ;42.7
-Mexico;MEX;Americas;2022-01-01; 21,828.77 ; 0.42 ; 127,504,125 ;45.5
-Malaysia;MYS;Asia;2022-01-01; 32,735.40 ; 0.57 ; 33,938,221 ;35
-Malawi;MWI;Africa;2022-01-01; 1,700.71 ; 0.52 ; 20,405,317 ;40.6
-Madagascar;MDG;Africa;2022-01-01; 1,664.58 ; 0.44 ; 29,611,714 ;28
-Liberia;LBR;Africa;2022-01-01; 1,600.03 ; 0.43 ; 5,302,681 ;24.9
-Lebanon;LBN;Asia;2022-01-01; 12,007.23 ; 0.45 ; 5,489,739 ;32.2
-Kyrgyz Republic;KGZ;Asia;2022-01-01; 6,140.06 ; 0.46 ; 6,974,900 ;35.7
-Kenya;KEN;Africa;2022-01-01; 5,513.86 ; 0.45 ; 54,027,487 ;30.8
-Kazakhstan;KAZ;Asia;2022-01-01; 34,188.21 ; 0.53 ; 19,634,983 ;40.9
-Jordan;JOR;Asia;2022-01-01; 9,222.52 ; 0.54 ; 11,285,869 ;43.6
-Japan;JPN;Asia;2022-01-01; 45,174.73 ; 0.79 ; 125,124,989 ;57.2
-Jamaica;JAM;Americas;2022-01-01; 10,113.97 ; 0.58 ; 2,827,377 ;45.6
-Italy;ITA;Europe;2022-01-01; 52,060.33 ; 0.67 ; 58,940,425 ;57.7
-Indonesia;IDN;Asia;2022-01-01; 13,495.43 ; 0.53 ; 275,501,339 ;28.2
-India;IND;Asia;2022-01-01; 8,594.43 ; 0.50 ; 1,417,173,173 ;18.9
-Hungary;HUN;Europe;2022-01-01; 40,699.57 ; 0.52 ; 9,643,048 ;55.1
-Guatemala;GTM;Americas;2022-01-01; 12,424.77 ; 0.44 ; 17,357,886 ;28
-Greece;GRC;Europe;2022-01-01; 35,328.79 ; 0.61 ; 10,426,919 ;56.2
-Ghana;GHA;Africa;2022-01-01; 6,663.60 ; 0.55 ; 33,475,870 ;27.7
-Germany;DEU;Europe;2022-01-01; 62,605.47 ; 0.83 ; 83,797,985 ;62.4
-Georgia;GEO;Asia;2022-01-01; 20,966.53 ; 0.60 ; 3,712,502 ;39.1
-France;FRA;Europe;2022-01-01; 54,988.33 ; 0.73 ; 67,971,311 ;62.5
-Finland;FIN;Europe;2022-01-01; 58,401.62 ; 0.87 ; 5,556,106 ;76.5
-Ethiopia;ETH;Africa;2022-01-01; 2,698.72 ; 0.39 ; 123,379,924 ;31.8
-Estonia;EST;Europe;2022-01-01; 43,856.06 ; 0.82 ; 1,348,840 ;61.4
-El Salvador;SLV;Americas;2022-01-01; 10,970.97 ; 0.46 ; 6,336,392 ;40.8
-Ecuador;ECU;Americas;2022-01-01; 14,122.88 ; 0.48 ; 18,001,000 ;46.5
-Dominican Republic;DOM;Americas;2022-01-01; 22,761.27 ; 0.48 ; 11,228,821 ;42.2
-Denmark;DNK;Europe;2022-01-01; 71,224.34 ; 0.90 ; 5,903,037 ;77.9
-Czechia;CZE;Europe;2022-01-01; 48,783.99 ; 0.73 ; 10,672,118 ;59.9
-Croatia;HRV;Europe;2022-01-01; 40,090.24 ; 0.61 ; 3,855,641 ;60.2
-Cote d'Ivoire;CIV;Africa;2022-01-01; 6,758.37 ; 0.45 ; 28,160,542 ;32.8
-Colombia;COL;Americas;2022-01-01; 18,739.12 ; 0.48 ; 51,874,024 ;42.4
-China;CHN;Asia;2022-01-01; 21,019.46 ; 0.47 ; 1,412,175,000 ;28.4
-Chile;CHL;Americas;2022-01-01; 29,480.96 ; 0.66 ; 19,603,733 ;46.7
-Canada;CAN;Americas;2022-01-01; 56,872.61 ; 0.80 ; 38,939,056 ;50
-Cameroon;CMR;Africa;2022-01-01; 4,785.68 ; 0.36 ; 27,914,536 ;30.2
-Cambodia;KHM;Asia;2022-01-01; 4,860.45 ; 0.31 ; 16,767,842 ;30.1
-Burkina Faso;BFA;Africa;2022-01-01; 2,448.13 ; 0.49 ; 22,673,762 ;35.5
-Bulgaria;BGR;Europe;2022-01-01; 32,510.04 ; 0.55 ; 6,465,097 ;51.9
-Brazil;BRA;Americas;2022-01-01; 18,122.57 ; 0.49 ; 215,313,498 ;43.6
-Botswana;BWA;Africa;2022-01-01; 17,298.22 ; 0.59 ; 2,630,296 ;54
-Bosnia and Herzegovina;BIH;Europe;2022-01-01; 19,395.93 ; 0.52 ; 3,233,526 ;39.4
-Bolivia;BOL;Americas;2022-01-01; 9,565.32 ; 0.38 ; 12,224,110 ;40.1
-Belgium;BEL;Europe;2022-01-01; 63,450.45 ; 0.79 ; 11,685,814 ;58.2
-Belarus;BLR;Europe;2022-01-01; 26,537.55 ; 0.46 ; 9,228,071 ;48.5
-Bangladesh;BGD;Asia;2022-01-01; 7,805.15 ; 0.39 ; 171,186,372 ;23.1
-Austria;AUT;Europe;2022-01-01; 65,836.89 ; 0.80 ; 9,041,851 ;66.5
-Australia;AUS;Oceania;2022-01-01; 59,099.85 ; 0.79 ; 26,014,399 ;60.1
-Argentina;ARG;Americas;2022-01-01; 27,127.44 ; 0.55 ; 46,234,830 ;41.1
-Albania;ALB;Europe;2022-01-01; 17,260.12 ; 0.49 ; 2,777,689 ;47.1
-Rep. Korea;KOR;Asia;2014-01-01; 41,648.25 ; 0.77 ; 50,746,659 ;63.79
-Islamic Rep. Iran;IRN;Asia;2014-01-01; 14,575.04 ; 0.44 ; 79,961,672 ;51.08
-Arab Rep. Egypt;EGY;Africa;2014-01-01; 13,402.46 ; 0.45 ; 95,592,324 ;61.11
-Rep. Korea;KOR;Asia;2016-01-01; 43,674.51 ; 0.73 ; 51,217,803 ;70.61
-Islamic Rep. Iran;IRN;Asia;2016-01-01; 15,006.19 ; 0.47 ; 83,306,231 ;66.32
-Arab Rep. Egypt;EGY;Africa;2016-01-01; 13,983.28 ; 0.36 ; 99,784,030 ;66.45
-Rep. Korea;KOR;Asia;2020-01-01; 46,506.93 ; 0.73 ; 51,836,239 ;66.5
-Islamic Rep. Iran;IRN;Asia;2020-01-01; 14,468.61 ; 0.43 ; 87,290,193 ;48
-Arab Rep. Egypt;EGY;Africa;2020-01-01; 15,572.78 ; 0.36 ; 107,465,134 ;43.3
-Rep. Korea;KOR;Asia;2022-01-01; 49,933.98 ; 0.73 ; 51,672,569 ;46.9
-Islamic Rep. Iran;IRN;Asia;2022-01-01; 15,499.91 ; 0.41 ; 88,550,570 ;34.5
-Arab Rep. Egypt;EGY;Africa;2022-01-01; 16,600.39 ; 0.35 ; 110,990,103 ;35.5
-Zimbabwe;ZWE;Africa;2018-01-01; 3,717.00 ; 0.37 ; 15,052,184 ;43.41
-Zambia;ZMB;Africa;2018-01-01; 3,675.00 ; 0.47 ; 17,835,893 ;50.97
-Viet Nam;VNM;Asia;2018-01-01; 11,089.00 ; 0.50 ; 94,914,330 ;46.96
-Uzbekistan;UZB;Asia;2018-01-01; 7,448.00 ; 0.46 ; 32,956,100 ;45.88
-Uruguay;URY;Americas;2018-01-01; 29,571.00 ; 0.71 ; 3,427,042 ;64.65
-United States;USA;Americas;2018-01-01; 68,096.00 ; 0.73 ; 326,838,199 ;71.19
-United Kingdom;GBR;Europe;2018-01-01; 53,821.00 ; 0.81 ; 66,460,344 ;79.89
-United Arab Emirates;ARE;Asia;2018-01-01; 70,411.00 ; 0.65 ; 9,140,169 ;58.9
-Ukraine;UKR;Europe;2018-01-01; 17,187.00 ; 0.50 ; 44,690,584 ;52.87
-Uganda;UGA;Africa;2018-01-01; 2,617.00 ; 0.40 ; 41,515,395 ;44.28
-Turkiye;TUR;Asia;2018-01-01; 28,576.00 ; 0.42 ; 81,407,204 ;52.96
-Tunisia;TUN;Africa;2018-01-01; 12,864.00 ; 0.53 ; 11,933,041 ;62.35
-Trinidad and Tobago;TTO;Americas;2018-01-01; 31,025.00 ; 0.56 ; 1,504,709 ;67.36
-Thailand;THA;Asia;2018-01-01; 20,952.00 ; 0.51 ; 71,127,802 ;49.88
-Tanzania;TZA;Africa;2018-01-01; 3,355.00 ; 0.47 ; 58,090,443 ;50.83
-Sweden;SWE;Europe;2018-01-01; 61,256.00 ; 0.86 ; 10,175,214 ;80.51
-Suriname;SUR;Americas;2018-01-01; 22,965.00 ; 0.51 ; 593,715 ;54.2
-St. Vincent and the Grenadines;VCT;Americas;2018-01-01; 15,910.00 ; 0.61 ; 105,281 ;66.48
-St. Lucia;LCA;Americas;2018-01-01; 22,378.00 ; 0.63 ; 177,888 ;56.18
-Sri Lanka;LKA;Asia;2018-01-01; 14,760.00 ; 0.53 ; 21,670,000 ;60.61
-Spain;ESP;Europe;2018-01-01; 45,849.00 ; 0.70 ; 46,797,754 ;78.39
-South Africa;ZAF;Africa;2018-01-01; 14,871.00 ; 0.59 ; 57,339,635 ;44.73
-Slovenia;SVN;Europe;2018-01-01; 44,057.00 ; 0.67 ; 2,073,894 ;67.57
-Singapore;SGP;Asia;2018-01-01; 119,343.00 ; 0.80 ; 5,638,676 ;64.23
-Sierra Leone;SLE;Africa;2018-01-01; 1,619.00 ; 0.45 ; 7,861,281 ;42.54
-Senegal;SEN;Africa;2018-01-01; 4,085.00 ; 0.55 ; 15,574,909 ;49.52
-Russian Federation;RUS;Europe;2018-01-01; 36,908.00 ; 0.47 ; 145,398,106 ;63.79
-Romania;ROU;Europe;2018-01-01; 35,258.00 ; 0.66 ; 19,473,970 ;64.78
-Portugal;PRT;Europe;2018-01-01; 39,249.00 ; 0.72 ; 10,283,822 ;71.91
-Poland;POL;Europe;2018-01-01; 36,752.00 ; 0.68 ; 37,974,750 ;64.11
-Philippines;PHL;Asia;2018-01-01; 9,091.00 ; 0.47 ; 108,568,836 ;57.65
-Peru;PER;Americas;2018-01-01; 15,243.00 ; 0.52 ; 32,203,944 ;61.92
-Panama;PAN;Americas;2018-01-01; 32,767.00 ; 0.52 ; 4,165,255 ;62.71
-Pakistan;PAK;Asia;2018-01-01; 5,427.00 ; 0.39 ; 219,731,479 ;37.5
-Norway;NOR;Europe;2018-01-01; 87,559.00 ; 0.89 ; 5,311,916 ;77.49
-North Macedonia;MKD;Europe;2018-01-01; 21,019.00 ; 0.53 ; 1,889,051 ;61.06
-Nigeria;NGA;Africa;2018-01-01; 5,815.00 ; 0.44 ; 198,387,623 ;54.76
-Nicaragua;NIC;Americas;2018-01-01; 6,808.00 ; 0.44 ; 6,572,233 ;55.04
-New Zealand;NZL;Oceania;2018-01-01; 47,171.00 ; 0.83 ; 4,900,600 ;75.96
-Netherlands;NLD;Europe;2018-01-01; 66,189.00 ; 0.85 ; 17,231,624 ;75.46
-Nepal;NPL;Asia;2018-01-01; 4,306.00 ; 0.53 ; 28,506,712 ;31.44
-Myanmar;MMR;Asia;2018-01-01; 6,155.00 ; 0.42 ; 52,666,014 ;45.32
-Morocco;MAR;Africa;2018-01-01; 8,588.00 ; 0.51 ; 35,927,511 ;63.47
-Mongolia;MNG;Asia;2018-01-01; 15,443.00 ; 0.54 ; 3,163,991 ;57.51
-Moldova;MDA;Europe;2018-01-01; 13,896.00 ; 0.49 ; 2,707,203 ;51.97
-Mexico;MEX;Americas;2018-01-01; 22,402.00 ; 0.46 ; 124,013,861 ;59.69
-Malaysia;MYS;Asia;2018-01-01; 30,950.00 ; 0.54 ; 32,399,271 ;59.22
-Malawi;MWI;Africa;2018-01-01; 1,714.00 ; 0.51 ; 18,367,883 ;49.21
-Madagascar;MDG;Africa;2018-01-01; 1,725.00 ; 0.44 ; 26,846,541 ;33.73
-Liberia;LBR;Africa;2018-01-01; 1,667.00 ; 0.45 ; 4,889,391 ;41.62
-Lebanon;LBN;Asia;2018-01-01; 16,381.00 ; 0.47 ; 5,950,839 ;61.08
-Kyrgyz Republic;KGZ;Asia;2018-01-01; 6,066.00 ; 0.48 ; 6,322,800 ;54.86
-Kenya;KEN;Africa;2018-01-01; 5,043.00 ; 0.45 ; 49,953,304 ;47.25
-Kazakhstan;KAZ;Asia;2018-01-01; 33,491.00 ; 0.52 ; 18,276,452 ;54.56
-Jordan;JOR;Asia;2018-01-01; 9,314.00 ; 0.60 ; 10,459,865 ;62.2
-Japan;JPN;Asia;2018-01-01; 45,095.00 ; 0.79 ; 126,811,000 ;74.69
-Jamaica;JAM;Americas;2018-01-01; 10,167.00 ; 0.58 ; 2,811,835 ;58.58
-Italy;ITA;Europe;2018-01-01; 49,297.00 ; 0.65 ; 60,421,760 ;76.96
-Indonesia;IDN;Asia;2018-01-01; 12,395.00 ; 0.52 ; 267,066,843 ;46.92
-India;IND;Asia;2018-01-01; 7,746.00 ; 0.52 ; 1,369,003,306 ;30.57
-Hungary;HUN;Europe;2018-01-01; 35,800.00 ; 0.55 ; 9,775,564 ;65.01
-Honduras;HND;Americas;2018-01-01; 6,202.00 ; 0.41 ; 9,792,850 ;51.51
-Guyana;GUY;Americas;2018-01-01; 13,086.00 ; 0.50 ; 785,514 ;47.93
-Guatemala;GTM;Americas;2018-01-01; 11,485.00 ; 0.44 ; 16,346,950 ;52.33
-Grenada;GRD;Americas;2018-01-01; 16,119.00 ; 0.61 ; 121,838 ;50.93
-Greece;GRC;Europe;2018-01-01; 32,473.00 ; 0.61 ; 10,732,882 ;73.6
-Ghana;GHA;Africa;2018-01-01; 6,187.00 ; 0.59 ; 30,870,641 ;49.66
-Germany;DEU;Europe;2018-01-01; 61,981.00 ; 0.84 ; 82,905,782 ;78.37
-Georgia;GEO;Asia;2018-01-01; 17,229.00 ; 0.61 ; 3,726,549 ;55.69
-France;FRA;Europe;2018-01-01; 54,200.00 ; 0.74 ; 67,158,348 ;83.95
-Finland;FIN;Europe;2018-01-01; 57,116.00 ; 0.87 ; 5,515,525 ;78.64
-Ethiopia;ETH;Africa;2018-01-01; 2,343.00 ; 0.38 ; 111,129,438 ;44.78
-Estonia;EST;Europe;2018-01-01; 40,683.00 ; 0.80 ; 1,321,977 ;64.31
-El Salvador;SLV;Americas;2018-01-01; 10,204.00 ; 0.48 ; 6,276,342 ;53.91
-Ecuador;ECU;Americas;2018-01-01; 14,094.00 ; 0.47 ; 17,015,672 ;57.42
-Dominican Republic;DOM;Americas;2018-01-01; 20,579.00 ; 0.47 ; 10,765,531 ;64.71
-Dominica;DMA;Americas;2018-01-01; 15,734.00 ; 0.60 ; 70,823 ;59.38
-Denmark;DNK;Europe;2018-01-01; 66,760.00 ; 0.89 ; 5,793,636 ;81.6
-Czechia;CZE;Europe;2018-01-01; 47,464.00 ; 0.74 ; 10,629,928 ;67.68
-Croatia;HRV;Europe;2018-01-01; 33,028.00 ; 0.61 ; 4,087,843 ;65.45
-Cote d'Ivoire;CIV;Africa;2018-01-01; 6,108.00 ; 0.47 ; 25,493,988 ;45.25
-Costa Rica;CRI;Americas;2018-01-01; 22,900.00 ; 0.69 ; 5,040,734 ;67.85
-Colombia;COL;Americas;2018-01-01; 17,327.00 ; 0.51 ; 49,276,961 ;65.22
-China;CHN;Asia;2018-01-01; 17,490.00 ; 0.50 ; 1,402,760,000 ;50.74
-Chile;CHL;Americas;2018-01-01; 28,795.00 ; 0.67 ; 18,701,450 ;57.49
-Canada;CAN;Americas;2018-01-01; 56,470.00 ; 0.81 ; 37,072,620 ;72.18
-Cameroon;CMR;Africa;2018-01-01; 4,797.00 ; 0.37 ; 25,076,747 ;40.81
-Cambodia;KHM;Asia;2018-01-01; 4,521.00 ; 0.32 ; 16,025,238 ;43.23
-Burkina Faso;BFA;Africa;2018-01-01; 2,315.00 ; 0.51 ; 20,392,723 ;42.83
-Bulgaria;BGR;Europe;2018-01-01; 26,764.00 ; 0.54 ; 7,025,037 ;67.85
-Brazil;BRA;Americas;2018-01-01; 17,572.00 ; 0.54 ; 210,166,592 ;60.7
-Botswana;BWA;Africa;2018-01-01; 16,718.00 ; 0.59 ; 2,451,409 ;51.7
-Bosnia and Herzegovina;BIH;Europe;2018-01-01; 16,515.00 ; 0.53 ; 3,400,129 ;41.84
-Bolivia;BOL;Americas;2018-01-01; 9,823.00 ; 0.38 ; 11,606,905 ;55.98
-Belize;BLZ;Americas;2018-01-01; 11,420.00 ; 0.48 ; 382,066 ;57.79
-Belgium;BEL;Europe;2018-01-01; 60,844.00 ; 0.77 ; 11,427,054 ;77.38
-Belarus;BLR;Europe;2018-01-01; 26,364.00 ; 0.51 ; 9,438,785 ;64.98
-Barbados;BRB;Americas;2018-01-01; 17,097.00 ; 0.65 ; 279,688 ;55.76
-Bangladesh;BGD;Asia;2018-01-01; 6,386.00 ; 0.41 ; 163,683,958 ;29.56
-Austria;AUT;Europe;2018-01-01; 65,071.00 ; 0.82 ; 8,840,521 ;78.97
-Australia;AUS;Oceania;2018-01-01; 56,801.00 ; 0.81 ; 24,963,258 ;74.12
-Argentina;ARG;Americas;2018-01-01; 27,473.00 ; 0.58 ; 44,494,502 ;59.3
-Antigua and Barbuda;ATG;Americas;2018-01-01; 28,663.00 ; 0.63 ; 91,626 ;59.18
-Albania;ALB;Europe;2018-01-01; 14,837.00 ; 0.51 ; 2,866,376 ;65.46
-Afghanistan;AFG;Asia;2018-01-01; 2,907.00 ; 0.35 ; 36,686,784 ;37.74
-Rep. Korea;KOR;Asia;2018-01-01; 46,034.00 ; 0.72 ; 51,585,058 ;62.3
-Islamic Rep. Iran;IRN;Asia;2018-01-01; 14,728.00 ; 0.48 ; 85,617,562 ;58.16
-Arab Rep. Egypt;EGY;Africa;2018-01-01; 14,759.00 ; 0.36 ; 103,740,765 ;61.21
-The Bahamas;BHS;Americas;2018-01-01; 32,350.00 ; 0.60 ; 401,906 ;54.99
-Senegal;Sub-Saharan Africa;01/01/2018;49.52;0.55;;;
-Serbia;Eastern Europe;01/01/2018;57.49;0.5;;;
-Sierra Leone;Sub-Saharan Africa;01/01/2018;42.54;0.45;;;
-Singapore;Asia-Pacific;01/01/2018;64.23;0.8;;;
-Slovenia;Eastern Europe;01/01/2018;67.57;0.67;;;
-South Africa;Sub-Saharan Africa;01/01/2018;44.73;0.59;;;
-South Korea;Asia-Pacific;01/01/2018;62.3;0.72;;;
-Spain;Global West;01/01/2018;78.39;0.7;;;
-Sri Lanka;Southern Asia;01/01/2018;60.61;0.53;;;
-Suriname;Latin America & Caribbean;01/01/2018;54.2;0.51;;;
-Sweden;Global West;01/01/2018;80.51;0.86;;;
-Tanzania;Sub-Saharan Africa;01/01/2018;50.83;0.47;;;
-Thailand;Asia-Pacific;01/01/2018;49.88;0.51;;;
-Trinidad and Tobago;Latin America & Caribbean;01/01/2018;67.36;0.56;;;
-Tunisia;Greater Middle East;01/01/2018;62.35;0.53;;;
-Turkiye;Eastern Europe;01/01/2018;52.96;0.42;;;
-Uganda;Sub-Saharan Africa;01/01/2018;44.28;0.4;;;
-Ukraine;Former Soviet States;01/01/2018;52.87;0.5;;;
-United Arab Emirates;Greater Middle East;01/01/2018;58.9;0.65;;;
-United Kingdom;Global West;01/01/2018;79.89;0.81;;;
-United States of America;Global West;01/01/2018;71.19;0.73;;;
-Uruguay;Latin America & Caribbean;01/01/2018;64.65;0.71;;;
-Uzbekistan;Former Soviet States;01/01/2018;45.88;0.46;;;
-Venezuela;Latin America & Caribbean;01/01/2018;63.89;0.29;;;
-Viet Nam;Asia-Pacific;01/01/2018;46.96;0.5;;;
-Zambia;Sub-Saharan Africa;01/01/2018;50.97;0.47;;;
-Zimbabwe;Sub-Saharan Africa;01/01/2018;43.41;0.37;;;
-Afghanistan;Southern Asia;01/01/2016;37.5;0.35;;;
-Albania;Eastern Europe;01/01/2016;74.38;0.51;;;
-Antigua and Barbuda;Latin America & Caribbean;01/01/2016;62.55;0.67;;;
-Argentina;Latin America & Caribbean;01/01/2016;79.84;0.56;;;
-Australia;Global West;01/01/2016;87.22;0.81;;;
-Austria;Global West;01/01/2016;86.64;0.84;;;
-Bahamas;Latin America & Caribbean;01/01/2016;69.34;0.61;;;
-Bangladesh;Southern Asia;01/01/2016;41.77;0.41;;;
-Barbados;Latin America & Caribbean;01/01/2016;54.96;0.67;;;
-Belarus;Former Soviet States;01/01/2016;82.3;0.54;;;
-Belgium;Global West;01/01/2016;80.15;0.79;;;
-Belize;Latin America & Caribbean;01/01/2016;73.55;0.48;;;
-Bolivia;Latin America & Caribbean;01/01/2016;71.09;0.4;;;
-Bosnia and Herzegovina;Eastern Europe;01/01/2016;63.28;0.56;;;
-Botswana;Sub-Saharan Africa;01/01/2016;70.72;0.58;;;
-Brazil;Latin America & Caribbean;01/01/2016;78.9;0.56;;;
-Bulgaria;Eastern Europe;01/01/2016;83.4;0.55;;;
-Burkina Faso;Sub-Saharan Africa;01/01/2016;43.71;0.49;;;
-Cambodia;Asia-Pacific;01/01/2016;51.24;0.33;;;
-Cameroon;Sub-Saharan Africa;01/01/2016;57.13;0.38;;;
-Canada;Global West;01/01/2016;85.06;0.81;;;
-Chile;Latin America & Caribbean;01/01/2016;77.67;0.69;;;
-China;Asia-Pacific;01/01/2016;65.1;0.49;;;
-Colombia;Latin America & Caribbean;01/01/2016;75.93;0.51;;;
-Costa Rica;Latin America & Caribbean;01/01/2016;80.03;0.69;;;
-Cote d'Ivoire;Sub-Saharan Africa;01/01/2016;59.89;0.48;;;
-Croatia;Eastern Europe;01/01/2016;86.98;0.61;;;
-Czech Republic;Eastern Europe;01/01/2016;84.67;0.75;;;
-Denmark;Global West;01/01/2016;89.21;0.89;;;
-Dominica;Latin America & Caribbean;01/01/2016;73.25;0.6;;;
-Dominican Republic;Latin America & Caribbean;01/01/2016;75.32;0.47;;;
-Ecuador;Latin America & Caribbean;01/01/2016;66.58;0.46;;;
-Egypt;Greater Middle East;01/01/2016;66.45;0.36;;;
-El Salvador;Latin America & Caribbean;01/01/2016;68.07;0.5;;;
-Estonia;Eastern Europe;01/01/2016;88.59;0.79;;;
-Ethiopia;Sub-Saharan Africa;01/01/2016;45.83;0.39;;;
-Finland;Global West;01/01/2016;90.68;0.88;;;
-France;Global West;01/01/2016;88.2;0.72;;;
-Georgia;Former Soviet States;01/01/2016;64.96;0.66;;;
-Germany;Global West;01/01/2016;84.26;0.84;;;
-Ghana;Sub-Saharan Africa;01/01/2016;58.89;0.58;;;
-Greece;Eastern Europe;01/01/2016;85.81;0.61;;;
-Grenada;Latin America & Caribbean;01/01/2016;63.28;0.66;;;
-Guatemala;Latin America & Caribbean;01/01/2016;69.64;0.44;;;
-Guyana;Latin America & Caribbean;01/01/2016;71.14;0.5;;;
-Honduras;Latin America & Caribbean;01/01/2016;69.64;0.42;;;
-Hungary;Eastern Europe;01/01/2016;84.6;0.57;;;
-India;Southern Asia;01/01/2016;53.58;0.52;;;
-Indonesia;Asia-Pacific;01/01/2016;65.85;0.52;;;
-Iran;Greater Middle East;01/01/2016;66.32;0.47;;;
-Italy;Global West;01/01/2016;84.48;0.65;;;
-Jamaica;Latin America & Caribbean;01/01/2016;77.02;0.58;;;
-Japan;Asia-Pacific;01/01/2016;80.59;0.78;;;
-Jordan;Greater Middle East;01/01/2016;72.24;0.59;;;
-Kazakhstan;Former Soviet States;01/01/2016;73.29;0.51;;;
-Kenya;Sub-Saharan Africa;01/01/2016;62.49;0.43;;;
-Kyrgyzstan;Former Soviet States;01/01/2016;73.13;0.47;;;
-Lebanon;Greater Middle East;01/01/2016;69.14;0.46;;;
-Liberia;Sub-Saharan Africa;01/01/2016;43.42;0.45;;;
-Madagascar;Sub-Saharan Africa;01/01/2016;37.1;0.46;;;
-Malawi;Sub-Saharan Africa;01/01/2016;49.69;0.51;;;
-Malaysia;Asia-Pacific;01/01/2016;74.23;0.54;;;
-Mexico;Latin America & Caribbean;01/01/2016;73.59;0.46;;;
-Moldova;Former Soviet States;01/01/2016;76.69;0.5;;;
-Mongolia;Asia-Pacific;01/01/2016;64.39;0.54;;;
-Morocco;Greater Middle East;01/01/2016;74.18;0.53;;;
-Myanmar;Asia-Pacific;01/01/2016;48.98;0.44;;;
-Nepal;Southern Asia;01/01/2016;50.21;0.52;;;
-Netherlands;Global West;01/01/2016;82.03;0.86;;;
-New Zealand;Global West;01/01/2016;88;0.83;;;
-Nicaragua;Latin America & Caribbean;01/01/2016;64.19;0.42;;;
-Nigeria;Sub-Saharan Africa;01/01/2016;58.27;0.44;;;
-North Macedonia;Eastern Europe;01/01/2016;78.02;0.55;;;
-Norway;Global West;01/01/2016;86.9;0.88;;;
-Pakistan;Southern Asia;01/01/2016;51.42;0.39;;;
-Panama;Latin America & Caribbean;01/01/2016;78;0.53;;;
-Peru;Latin America & Caribbean;01/01/2016;72.95;0.52;;;
-Philippines;Asia-Pacific;01/01/2016;73.7;0.51;;;
-Poland;Eastern Europe;01/01/2016;81.26;0.72;;;
-Portugal;Global West;01/01/2016;88.63;0.72;;;
-Romania;Eastern Europe;01/01/2016;83.24;0.66;;;
-Russia;Former Soviet States;01/01/2016;83.52;0.46;;;
-Saint Lucia;Latin America & Caribbean;01/01/2016;;0.65;;;
-Saint Vincent and the Grenadines;Latin America & Caribbean;01/01/2016;;0.61;;;
-Senegal;Sub-Saharan Africa;01/01/2016;63.73;0.58;;;
-Serbia;Eastern Europe;01/01/2016;78.67;0.5;;;
-Sierra Leone;Sub-Saharan Africa;01/01/2016;45.98;0.45;;;
-Singapore;Asia-Pacific;01/01/2016;87.04;0.82;;;
-Slovenia;Eastern Europe;01/01/2016;88.98;0.68;;;
-South Africa;Sub-Saharan Africa;01/01/2016;70.52;0.59;;;
-South Korea;Asia-Pacific;01/01/2016;70.61;0.73;;;
-Spain;Global West;01/01/2016;88.91;0.7;;;
-Sri Lanka;Southern Asia;01/01/2016;65.55;0.51;;;
-Suriname;Latin America & Caribbean;01/01/2016;68.58;0.53;;;
-Sweden;Global West;01/01/2016;90.43;0.86;;;
-Tanzania;Sub-Saharan Africa;01/01/2016;58.34;0.47;;;
-Thailand;Asia-Pacific;01/01/2016;69.54;0.52;;;
-Trinidad and Tobago;Latin America & Caribbean;01/01/2016;74.34;0.57;;;
-Tunisia;Greater Middle East;01/01/2016;77.28;0.53;;;
-Turkiye;Eastern Europe;01/01/2016;67.68;0.44;;;
-Uganda;Sub-Saharan Africa;01/01/2016;57.56;0.39;;;
-Ukraine;Former Soviet States;01/01/2016;79.69;0.49;;;
-United Arab Emirates;Greater Middle East;01/01/2016;69.35;0.66;;;
-United Kingdom;Global West;01/01/2016;87.38;0.81;;;
-United States of America;Global West;01/01/2016;84.72;0.74;;;
-Uruguay;Latin America & Caribbean;01/01/2016;73.98;0.73;;;
-Uzbekistan;Former Soviet States;01/01/2016;63.67;0.46;;;
-Venezuela;Latin America & Caribbean;01/01/2016;76.23;0.28;;;
-Viet Nam;Asia-Pacific;01/01/2016;58.5;0.51;;;
-Zambia;Sub-Saharan Africa;01/01/2016;66.06;0.48;;;
-Zimbabwe;Sub-Saharan Africa;01/01/2016;59.25;0.37;;;
-Afghanistan;Southern Asia;01/01/2014;21.57;0.34;;;
-Albania;Eastern Europe;01/01/2014;54.73;0.49;;;
-Argentina;Latin America & Caribbean;01/01/2014;49.55;0.5;;;
-Australia;Global West;01/01/2014;82.4;0.8;;;
-Austria;Global West;01/01/2014;78.32;0.82;;;
-Bangladesh;Southern Asia;01/01/2014;25.61;0.39;;;
-Belarus;Former Soviet States;01/01/2014;67.69;0.51;;;
-Belgium;Global West;01/01/2014;66.61;0.76;;;
-Bolivia;Latin America & Caribbean;01/01/2014;50.48;0.39;;;
-Bosnia and Herzegovina;Eastern Europe;01/01/2014;45.79;0.55;;;
-Botswana;Sub-Saharan Africa;01/01/2014;47.6;0.67;;;
-Brazil;Latin America & Caribbean;01/01/2014;52.97;0.54;;;
-Bulgaria;Eastern Europe;01/01/2014;64.01;0.53;;;
-Burkina Faso;Sub-Saharan Africa;01/01/2014;40.52;0.51;;;
-Cambodia;Asia-Pacific;01/01/2014;35.44;0.4;;;
-Cameroon;Sub-Saharan Africa;01/01/2014;36.68;0.39;;;
-Canada;Global West;01/01/2014;73.14;0.78;;;
-Chile;Latin America & Caribbean;01/01/2014;69.93;0.68;;;
-China;Asia-Pacific;01/01/2014;43;0.45;;;
-Colombia;Latin America & Caribbean;01/01/2014;50.77;0.49;;;
-Cote d'Ivoire;Sub-Saharan Africa;01/01/2014;39.72;0.46;;;
-Croatia;Eastern Europe;01/01/2014;62.23;0.57;;;
-Czech Republic;Eastern Europe;01/01/2014;81.47;0.67;;;
-Denmark;Global West;01/01/2014;76.92;0.88;;;
-Dominican Republic;Latin America & Caribbean;01/01/2014;53.24;0.47;;;
-Ecuador;Latin America & Caribbean;01/01/2014;58.54;0.45;;;
-Egypt;Greater Middle East;01/01/2014;61.11;0.45;;;
-El Salvador;Latin America & Caribbean;01/01/2014;43.79;0.48;;;
-Estonia;Eastern Europe;01/01/2014;74.66;0.76;;;
-Ethiopia;Sub-Saharan Africa;01/01/2014;39.43;0.42;;;
-Finland;Global West;01/01/2014;75.72;0.84;;;
-France;Global West;01/01/2014;71.05;0.74;;;
-Georgia;Former Soviet States;01/01/2014;47.23;0.6;;;
-Germany;Global West;01/01/2014;80.47;0.8;;;
-Ghana;Sub-Saharan Africa;01/01/2014;32.07;0.57;;;
-Greece;Eastern Europe;01/01/2014;73.28;0.59;;;
-Guatemala;Latin America & Caribbean;01/01/2014;48.06;0.44;;;
-Hungary;Eastern Europe;01/01/2014;70.28;0.61;;;
-India;Southern Asia;01/01/2014;31.23;0.48;;;
-Indonesia;Asia-Pacific;01/01/2014;44.36;0.52;;;
-Iran;Greater Middle East;01/01/2014;51.08;0.44;;;
-Italy;Global West;01/01/2014;74.36;0.63;;;
-Jamaica;Latin America & Caribbean;01/01/2014;58.26;0.53;;;
-Japan;Asia-Pacific;01/01/2014;72.35;0.78;;;
-Jordan;Greater Middle East;01/01/2014;55.78;0.57;;;
-Kazakhstan;Former Soviet States;01/01/2014;51.07;0.47;;;
-Kenya;Sub-Saharan Africa;01/01/2014;36.99;0.43;;;
-Kyrgyzstan;Former Soviet States;01/01/2014;40.63;0.45;;;
-Lebanon;Greater Middle East;01/01/2014;50.15;0.51;;;
-Liberia;Sub-Saharan Africa;01/01/2014;23.95;0.42;;;
-Madagascar;Sub-Saharan Africa;01/01/2014;26.7;0.45;;;
-Malawi;Sub-Saharan Africa;01/01/2014;40.06;0.51;;;
-Malaysia;Asia-Pacific;01/01/2014;59.31;0.58;;;
-Mexico;Latin America & Caribbean;01/01/2014;55.03;0.45;;;
-Moldova;Former Soviet States;01/01/2014;53.36;0.45;;;
-Mongolia;Asia-Pacific;01/01/2014;44.67;0.51;;;
-Morocco;Greater Middle East;01/01/2014;51.89;0.51;;;
-Myanmar;Asia-Pacific;01/01/2014;27.44;0.41;;;
-Nepal;Southern Asia;01/01/2014;37;0.5;;;
-Netherlands;Global West;01/01/2014;77.75;0.83;;;
-New Zealand;Global West;01/01/2014;76.41;0.83;;;
-Nicaragua;Latin America & Caribbean;01/01/2014;50.32;0.43;;;
-Nigeria;Sub-Saharan Africa;01/01/2014;39.2;0.39;;;
-North Macedonia;Eastern Europe;01/01/2014;50.41;0.58;;;
-Norway;Global West;01/01/2014;78.04;0.88;;;
-Pakistan;Southern Asia;01/01/2014;34.58;0.36;;;
-Panama;Latin America & Caribbean;01/01/2014;56.84;0.5;;;
-Peru;Latin America & Caribbean;01/01/2014;45.05;0.49;;;
-Philippines;Asia-Pacific;01/01/2014;44.02;0.5;;;
-Poland;Eastern Europe;01/01/2014;69.53;0.67;;;
-Portugal;Global West;01/01/2014;75.8;0.66;;;
-Romania;Eastern Europe;01/01/2014;50.52;0.59;;;
-Russia;Former Soviet States;01/01/2014;53.45;0.45;;;
-Senegal;Sub-Saharan Africa;01/01/2014;40.83;0.54;;;
-Serbia;Eastern Europe;01/01/2014;;0.51;;;
-Sierra Leone;Sub-Saharan Africa;01/01/2014;21.74;0.44;;;
-Singapore;Asia-Pacific;01/01/2014;81.78;0.79;;;
-Slovenia;Eastern Europe;01/01/2014;76.43;0.65;;;
-South Africa;Sub-Saharan Africa;01/01/2014;53.51;0.55;;;
-South Korea;Asia-Pacific;01/01/2014;63.79;0.77;;;
-Spain;Global West;01/01/2014;79.79;0.67;;;
-Sri Lanka;Southern Asia;01/01/2014;53.88;0.52;;;
-Sweden;Global West;01/01/2014;78.09;0.85;;;
-Tanzania;Sub-Saharan Africa;01/01/2014;36.19;0.47;;;
-Thailand;Asia-Pacific;01/01/2014;52.83;0.52;;;
-Tunisia;Greater Middle East;01/01/2014;58.99;0.55;;;
-Turkiye;Eastern Europe;01/01/2014;54.91;0.5;;;
-Uganda;Sub-Saharan Africa;01/01/2014;39.18;0.41;;;
-Ukraine;Former Soviet States;01/01/2014;49.01;0.47;;;
-United Arab Emirates;Greater Middle East;01/01/2014;72.91;0.65;;;
-United Kingdom;Global West;01/01/2014;77.35;0.78;;;
-United States of America;Global West;01/01/2014;67.52;0.71;;;
-Uruguay;Latin America & Caribbean;01/01/2014;53.61;0.69;;;
-Uzbekistan;Former Soviet States;01/01/2014;43.23;0.45;;;
-Venezuela;Latin America & Caribbean;01/01/2014;57.8;0.31;;;
-Viet Nam;Asia-Pacific;01/01/2014;38.17;0.48;;;
-Zambia;Sub-Saharan Africa;01/01/2014;41.72;0.47;;;
-Zimbabwe;Sub-Saharan Africa;01/01/2014;49.54;0.34;;;
+﻿country,iso3,region,date, gdp_pc , rol_index , pop ,epi
+Zimbabwe,ZWE,Africa,2014-01-01, 3,588.86 , 0.34 , 13,855,753 ,49.54
+Zambia,ZMB,Africa,2014-01-01, 3,621.47 , 0.47 , 15,737,793 ,41.72
+Viet Nam,VNM,Asia,2014-01-01, 8,794.48 , 0.48 , 91,235,504 ,38.17
+Uzbekistan,UZB,Asia,2014-01-01, 6,356.89 , 0.45 , 30,757,700 ,43.23
+Uruguay,URY,Americas,2014-01-01, 28,726.73 , 0.69 , 3,391,662 ,53.61
+United States,USA,Americas,2014-01-01, 63,214.90 , 0.71 , 318,386,329 ,67.52
+United Kingdom,GBR,Europe,2014-01-01, 51,054.59 , 0.78 , 64,602,298 ,77.35
+United Arab Emirates,ARE,Asia,2014-01-01, 63,309.31 , 0.65 , 8,835,951 ,72.91
+Ukraine,UKR,Europe,2014-01-01, 17,255.29 , 0.47 , 45,272,155 ,49.01
+Uganda,UGA,Africa,2014-01-01, 2,474.52 , 0.41 , 36,336,539 ,39.18
+Turkiye,TUR,Asia,2014-01-01, 24,830.58 , 0.50 , 77,181,884 ,54.91
+Tunisia,TUN,Africa,2014-01-01, 12,538.20 , 0.55 , 11,428,948 ,58.99
+Thailand,THA,Asia,2014-01-01, 18,390.86 , 0.52 , 69,960,943 ,52.83
+Tanzania,TZA,Africa,2014-01-01, 2,999.98 , 0.47 , 50,814,552 ,36.19
+Sweden,SWE,Europe,2014-01-01, 57,639.77 , 0.85 , 9,696,110 ,78.09
+Sri Lanka,LKA,Asia,2014-01-01, 12,629.48 , 0.52 , 21,239,457 ,53.88
+Spain,ESP,Europe,2014-01-01, 40,962.02 , 0.67 , 46,480,882 ,79.79
+South Africa,ZAF,Africa,2014-01-01, 14,869.05 , 0.55 , 54,729,551 ,53.51
+Slovenia,SVN,Europe,2014-01-01, 38,373.11 , 0.65 , 2,061,980 ,76.43
+Singapore,SGP,Asia,2014-01-01, 106,604.49 , 0.79 , 5,469,724 ,81.78
+Sierra Leone,SLE,Africa,2014-01-01, 1,963.99 , 0.44 , 7,140,688 ,21.74
+Senegal,SEN,Africa,2014-01-01, 3,529.35 , 0.54 , 13,970,308 ,40.83
+Russian Federation,RUS,Europe,2014-01-01, 36,217.96 , 0.45 , 144,237,223 ,53.45
+Romania,ROU,Europe,2014-01-01, 28,331.53 , 0.59 , 19,908,979 ,50.52
+Portugal,PRT,Europe,2014-01-01, 35,102.80 , 0.66 , 10,401,062 ,75.8
+Poland,POL,Europe,2014-01-01, 30,671.43 , 0.67 , 38,011,735 ,69.53
+Philippines,PHL,Asia,2014-01-01, 7,517.26 , 0.50 , 101,325,201 ,44.02
+Peru,PER,Americas,2014-01-01, 14,135.33 , 0.49 , 30,353,951 ,45.05
+Panama,PAN,Americas,2014-01-01, 28,887.86 , 0.50 , 3,888,793 ,56.84
+Pakistan,PAK,Asia,2014-01-01, 4,650.75 , 0.36 , 208,251,628 ,34.58
+Norway,NOR,Europe,2014-01-01, 85,044.75 , 0.88 , 5,137,232 ,78.04
+North Macedonia,MKD,Europe,2014-01-01, 18,641.61 , 0.58 , 1,917,557 ,50.41
+Nigeria,NGA,Africa,2014-01-01, 6,197.49 , 0.39 , 179,379,016 ,39.2
+Nicaragua,NIC,Americas,2014-01-01, 6,504.70 , 0.43 , 6,208,676 ,50.32
+New Zealand,NZL,Oceania,2014-01-01, 44,440.12 , 0.83 , 4,516,500 ,76.41
+Netherlands,NLD,Europe,2014-01-01, 61,615.59 , 0.83 , 16,865,008 ,77.75
+Nepal,NPL,Asia,2014-01-01, 3,649.46 , 0.50 , 27,462,106 ,37
+Morocco,MAR,Africa,2014-01-01, 7,938.92 , 0.51 , 34,248,603 ,51.89
+Mongolia,MNG,Asia,2014-01-01, 14,233.02 , 0.51 , 2,902,823 ,44.67
+Moldova,MDA,Europe,2014-01-01, 11,641.12 , 0.45 , 2,857,815 ,53.36
+Mexico,MEX,Americas,2014-01-01, 21,545.65 , 0.45 , 118,755,887 ,55.03
+Malaysia,MYS,Asia,2014-01-01, 26,905.05 , 0.58 , 30,606,459 ,59.31
+Malawi,MWI,Africa,2014-01-01, 1,670.22 , 0.51 , 16,477,966 ,40.06
+Madagascar,MDG,Africa,2014-01-01, 1,662.84 , 0.45 , 24,215,976 ,26.7
+Liberia,LBR,Africa,2014-01-01, 1,767.53 , 0.42 , 4,519,398 ,23.95
+Lebanon,LBN,Asia,2014-01-01, 15,381.94 , 0.51 , 6,274,342 ,50.15
+Kyrgyz Republic,KGZ,Asia,2014-01-01, 5,580.22 , 0.45 , 5,835,500 ,40.63
+Kenya,KEN,Africa,2014-01-01, 4,580.39 , 0.43 , 45,831,863 ,36.99
+Kazakhstan,KAZ,Asia,2014-01-01, 31,932.79 , 0.47 , 17,288,285 ,51.07
+Jordan,JOR,Asia,2014-01-01, 10,305.70 , 0.57 , 8,658,026 ,55.78
+Japan,JPN,Asia,2014-01-01, 42,909.01 , 0.78 , 127,276,000 ,72.35
+Jamaica,JAM,Americas,2014-01-01, 9,751.44 , 0.53 , 2,784,543 ,58.26
+Italy,ITA,Europe,2014-01-01, 46,779.75 , 0.63 , 60,789,140 ,74.36
+Indonesia,IDN,Asia,2014-01-01, 10,612.93 , 0.52 , 256,229,761 ,44.36
+India,IND,Asia,2014-01-01, 6,103.24 , 0.48 , 1,307,246,509 ,31.23
+Hungary,HUN,Europe,2014-01-01, 30,460.72 , 0.61 , 9,866,468 ,70.28
+Guatemala,GTM,Americas,2014-01-01, 10,766.68 , 0.44 , 15,306,316 ,48.06
+Greece,GRC,Europe,2014-01-01, 31,345.70 , 0.59 , 10,892,413 ,73.28
+Ghana,GHA,Africa,2014-01-01, 5,588.23 , 0.57 , 28,196,358 ,32.07
+Germany,DEU,Europe,2014-01-01, 58,981.48 , 0.80 , 80,982,500 ,80.47
+Georgia,GEO,Asia,2014-01-01, 14,475.31 , 0.60 , 3,719,414 ,47.23
+France,FRA,Europe,2014-01-01, 51,534.80 , 0.74 , 66,312,067 ,71.05
+Finland,FIN,Europe,2014-01-01, 53,464.33 , 0.84 , 5,461,512 ,75.72
+Ethiopia,ETH,Africa,2014-01-01, 1,846.39 , 0.42 , 99,746,766 ,39.43
+Estonia,EST,Europe,2014-01-01, 35,466.23 , 0.76 , 1,314,545 ,74.66
+El Salvador,SLV,Americas,2014-01-01, 9,380.86 , 0.48 , 6,209,526 ,43.79
+Ecuador,ECU,Americas,2014-01-01, 14,115.39 , 0.45 , 15,957,994 ,58.54
+Dominican Republic,DOM,Americas,2014-01-01, 16,872.30 , 0.47 , 10,282,115 ,53.24
+Denmark,DNK,Europe,2014-01-01, 61,852.02 , 0.88 , 5,643,475 ,76.92
+Czechia,CZE,Europe,2014-01-01, 40,862.97 , 0.67 , 10,525,347 ,81.47
+Croatia,HRV,Europe,2014-01-01, 28,154.11 , 0.57 , 4,238,389 ,62.23
+Cote d'Ivoire,CIV,Africa,2014-01-01, 5,234.49 , 0.46 , 22,995,555 ,39.72
+Colombia,COL,Americas,2014-01-01, 16,740.42 , 0.49 , 46,677,947 ,50.77
+China,CHN,Asia,2014-01-01, 13,696.52 , 0.45 , 1,371,860,000 ,43
+Chile,CHL,Americas,2014-01-01, 27,790.25 , 0.68 , 17,687,108 ,69.93
+Canada,CAN,Americas,2014-01-01, 54,880.86 , 0.78 , 35,434,066 ,73.14
+Cameroon,CMR,Africa,2014-01-01, 4,537.31 , 0.39 , 22,299,585 ,36.68
+Cambodia,KHM,Asia,2014-01-01, 3,621.72 , 0.40 , 15,210,817 ,35.44
+Burkina Faso,BFA,Africa,2014-01-01, 2,084.33 , 0.51 , 18,169,842 ,40.52
+Bulgaria,BGR,Europe,2014-01-01, 23,155.45 , 0.53 , 7,223,938 ,64.01
+Brazil,BRA,Americas,2014-01-01, 18,865.01 , 0.54 , 203,459,650 ,52.97
+Botswana,BWA,Africa,2014-01-01, 16,385.85 , 0.67 , 2,260,376 ,47.6
+Bosnia and Herzegovina,BIH,Europe,2014-01-01, 13,620.68 , 0.55 , 3,571,068 ,45.79
+Bolivia,BOL,Americas,2014-01-01, 8,796.50 , 0.39 , 10,916,987 ,50.48
+Belgium,BEL,Europe,2014-01-01, 58,028.55 , 0.76 , 11,209,057 ,66.61
+Belarus,BLR,Europe,2014-01-01, 26,564.43 , 0.51 , 9,448,515 ,67.69
+Bangladesh,BGD,Asia,2014-01-01, 5,133.76 , 0.39 , 155,961,299 ,25.61
+Austria,AUT,Europe,2014-01-01, 62,378.97 , 0.82 , 8,546,356 ,78.32
+Australia,AUS,Oceania,2014-01-01, 54,610.39 , 0.80 , 23,475,686 ,82.4
+Argentina,ARG,Americas,2014-01-01, 28,442.25 , 0.50 , 42,669,500 ,49.55
+Albania,ALB,Europe,2014-01-01, 12,909.24 , 0.49 , 2,889,104 ,54.73
+Zimbabwe,ZWE,Africa,2016-01-01, 3,541.88 , 0.37 , 14,452,704 ,59.25
+Zambia,ZMB,Africa,2016-01-01, 3,629.64 , 0.48 , 16,767,761 ,66.06
+Viet Nam,VNM,Asia,2016-01-01, 9,834.59 , 0.51 , 93,126,529 ,58.5
+Uzbekistan,UZB,Asia,2016-01-01, 6,972.94 , 0.46 , 31,847,900 ,63.67
+Uruguay,URY,Americas,2016-01-01, 29,130.61 , 0.73 , 3,413,766 ,73.98
+United States,USA,Americas,2016-01-01, 65,300.00 , 0.74 , 323,071,755 ,84.72
+United Kingdom,GBR,Europe,2016-01-01, 52,372.48 , 0.81 , 65,611,593 ,87.38
+United Arab Emirates,ARE,Asia,2016-01-01, 70,109.73 , 0.66 , 8,994,263 ,69.35
+Ukraine,UKR,Europe,2016-01-01, 16,071.81 , 0.49 , 45,038,236 ,79.69
+Uganda,UGA,Africa,2016-01-01, 2,557.58 , 0.39 , 38,748,299 ,57.56
+Turkiye,TUR,Asia,2016-01-01, 26,497.14 , 0.44 , 79,277,962 ,67.68
+Tunisia,TUN,Africa,2016-01-01, 12,519.78 , 0.53 , 11,685,667 ,77.28
+Thailand,THA,Asia,2016-01-01, 19,439.27 , 0.52 , 70,607,037 ,69.54
+Tanzania,TZA,Africa,2016-01-01, 3,180.11 , 0.47 , 54,401,802 ,58.34
+Sweden,SWE,Europe,2016-01-01, 60,068.31 , 0.86 , 9,923,085 ,90.43
+Sri Lanka,LKA,Asia,2016-01-01, 13,705.71 , 0.51 , 21,425,494 ,65.55
+Spain,ESP,Europe,2016-01-01, 43,823.45 , 0.70 , 46,484,062 ,88.91
+South Africa,ZAF,Africa,2016-01-01, 14,710.73 , 0.59 , 56,422,274 ,70.52
+Slovenia,SVN,Europe,2016-01-01, 40,413.05 , 0.68 , 2,065,042 ,88.98
+Singapore,SGP,Asia,2016-01-01, 110,927.69 , 0.82 , 5,607,283 ,87.04
+Sierra Leone,SLE,Africa,2016-01-01, 1,582.38 , 0.45 , 7,493,913 ,45.98
+Senegal,SEN,Africa,2016-01-01, 3,781.27 , 0.58 , 14,751,356 ,63.73
+Russian Federation,RUS,Europe,2016-01-01, 35,361.55 , 0.46 , 145,015,460 ,83.52
+Romania,ROU,Europe,2016-01-01, 30,377.53 , 0.66 , 19,702,267 ,83.24
+Portugal,PRT,Europe,2016-01-01, 36,720.39 , 0.72 , 10,325,452 ,88.63
+Poland,POL,Europe,2016-01-01, 32,997.60 , 0.72 , 37,970,087 ,81.26
+Philippines,PHL,Asia,2016-01-01, 8,276.08 , 0.51 , 104,875,266 ,73.7
+Peru,PER,Americas,2016-01-01, 14,792.49 , 0.52 , 31,132,779 ,72.95
+Panama,PAN,Americas,2016-01-01, 30,961.83 , 0.53 , 4,026,336 ,78
+Pakistan,PAK,Asia,2016-01-01, 5,037.98 , 0.39 , 213,524,840 ,51.42
+Norway,NOR,Europe,2016-01-01, 86,004.54 , 0.88 , 5,234,519 ,86.9
+North Macedonia,MKD,Europe,2016-01-01, 20,029.28 , 0.55 , 1,906,313 ,78.02
+Nigeria,NGA,Africa,2016-01-01, 5,950.90 , 0.44 , 188,666,931 ,58.27
+Nicaragua,NIC,Americas,2016-01-01, 6,926.06 , 0.42 , 6,389,235 ,64.19
+New Zealand,NZL,Oceania,2016-01-01, 45,822.71 , 0.83 , 4,714,100 ,88
+Netherlands,NLD,Europe,2016-01-01, 63,576.48 , 0.86 , 17,030,314 ,82.03
+Nepal,NPL,Asia,2016-01-01, 3,756.41 , 0.52 , 27,861,186 ,50.21
+Morocco,MAR,Africa,2016-01-01, 8,119.81 , 0.53 , 35,107,264 ,74.18
+Mongolia,MNG,Asia,2016-01-01, 14,170.19 , 0.54 , 3,029,555 ,64.39
+Moldova,MDA,Europe,2016-01-01, 12,377.37 , 0.50 , 2,803,186 ,76.69
+Mexico,MEX,Americas,2016-01-01, 22,008.00 , 0.46 , 121,519,221 ,73.59
+Malaysia,MYS,Asia,2016-01-01, 28,671.31 , 0.54 , 31,526,418 ,74.23
+Malawi,MWI,Africa,2016-01-01, 1,666.11 , 0.51 , 17,405,624 ,49.69
+Madagascar,MDG,Africa,2016-01-01, 1,693.47 , 0.46 , 25,501,941 ,37.1
+Liberia,LBR,Africa,2016-01-01, 1,670.70 , 0.45 , 4,706,097 ,43.42
+Lebanon,LBN,Asia,2016-01-01, 15,732.70 , 0.46 , 6,258,619 ,69.14
+Kyrgyz Republic,KGZ,Asia,2016-01-01, 5,805.10 , 0.47 , 6,079,500 ,73.13
+Kenya,KEN,Africa,2016-01-01, 4,794.71 , 0.43 , 47,894,670 ,62.49
+Kazakhstan,KAZ,Asia,2016-01-01, 31,742.82 , 0.51 , 17,794,055 ,73.29
+Jordan,JOR,Asia,2016-01-01, 9,360.93 , 0.59 , 9,964,656 ,72.24
+Japan,JPN,Asia,2016-01-01, 43,976.27 , 0.78 , 127,076,000 ,80.59
+Jamaica,JAM,Americas,2016-01-01, 9,912.02 , 0.58 , 2,802,695 ,77.02
+Italy,ITA,Europe,2016-01-01, 47,880.94 , 0.65 , 60,627,498 ,84.48
+Indonesia,IDN,Asia,2016-01-01, 11,439.72 , 0.52 , 261,850,182 ,65.85
+India,IND,Asia,2016-01-01, 6,968.15 , 0.52 , 1,338,636,340 ,53.58
+Hungary,HUN,Europe,2016-01-01, 32,457.83 , 0.57 , 9,814,023 ,84.6
+Guatemala,GTM,Americas,2016-01-01, 11,128.32 , 0.44 , 15,827,690 ,69.64
+Greece,GRC,Europe,2016-01-01, 31,468.23 , 0.61 , 10,775,971 ,85.81
+Ghana,GHA,Africa,2016-01-01, 5,628.20 , 0.58 , 29,554,303 ,58.89
+Germany,DEU,Europe,2016-01-01, 60,181.10 , 0.84 , 82,348,669 ,84.26
+Georgia,GEO,Asia,2016-01-01, 15,442.96 , 0.66 , 3,727,505 ,64.96
+France,FRA,Europe,2016-01-01, 52,353.86 , 0.72 , 66,724,104 ,88.2
+Finland,FIN,Europe,2016-01-01, 54,926.45 , 0.88 , 5,495,303 ,90.68
+Ethiopia,ETH,Africa,2016-01-01, 2,113.05 , 0.39 , 105,293,228 ,45.83
+Estonia,EST,Europe,2016-01-01, 37,228.06 , 0.79 , 1,315,790 ,88.59
+El Salvador,SLV,Americas,2016-01-01, 9,785.32 , 0.50 , 6,250,510 ,68.07
+Ecuador,ECU,Americas,2016-01-01, 13,623.91 , 0.46 , 16,439,585 ,66.58
+Dominican Republic,DOM,Americas,2016-01-01, 18,793.75 , 0.47 , 10,527,592 ,75.32
+Denmark,DNK,Europe,2016-01-01, 64,391.16 , 0.89 , 5,728,010 ,89.21
+Czechia,CZE,Europe,2016-01-01, 43,986.22 , 0.75 , 10,566,332 ,84.67
+Croatia,HRV,Europe,2016-01-01, 30,384.48 , 0.61 , 4,174,349 ,86.98
+Cote d'Ivoire,CIV,Africa,2016-01-01, 5,711.07 , 0.48 , 24,213,622 ,59.89
+Colombia,COL,Americas,2016-01-01, 17,244.78 , 0.51 , 47,625,955 ,75.93
+China,CHN,Asia,2016-01-01, 15,485.21 , 0.49 , 1,387,790,000 ,65.1
+Chile,CHL,Americas,2016-01-01, 28,252.16 , 0.69 , 18,083,879 ,77.67
+Canada,CAN,Americas,2016-01-01, 54,765.30 , 0.81 , 36,110,803 ,85.06
+Cameroon,CMR,Africa,2016-01-01, 4,713.44 , 0.38 , 23,711,630 ,57.13
+Cambodia,KHM,Asia,2016-01-01, 4,032.89 , 0.33 , 15,624,584 ,51.24
+Burkina Faso,BFA,Africa,2016-01-01, 2,163.47 , 0.49 , 19,275,498 ,43.71
+Bulgaria,BGR,Europe,2016-01-01, 24,999.43 , 0.55 , 7,127,822 ,83.4
+Brazil,BRA,Americas,2016-01-01, 17,310.74 , 0.56 , 206,859,578 ,78.9
+Botswana,BWA,Africa,2016-01-01, 16,060.20 , 0.58 , 2,352,416 ,70.72
+Bosnia and Herzegovina,BIH,Europe,2016-01-01, 15,048.66 , 0.56 , 3,480,986 ,63.28
+Bolivia,BOL,Americas,2016-01-01, 9,321.59 , 0.40 , 11,263,015 ,71.09
+Belgium,BEL,Europe,2016-01-01, 59,315.70 , 0.79 , 11,331,422 ,80.15
+Belarus,BLR,Europe,2016-01-01, 24,846.96 , 0.54 , 9,469,379 ,82.3
+Bangladesh,BGD,Asia,2016-01-01, 5,719.07 , 0.41 , 159,784,568 ,41.77
+Austria,AUT,Europe,2016-01-01, 62,865.49 , 0.84 , 8,736,668 ,86.64
+Australia,AUS,Oceania,2016-01-01, 55,667.92 , 0.81 , 24,190,907 ,87.22
+Argentina,ARG,Americas,2016-01-01, 28,006.77 , 0.56 , 43,590,368 ,79.84
+Albania,ALB,Europe,2016-01-01, 13,694.73 , 0.51 , 2,876,101 ,74.38
+Zimbabwe,ZWE,Africa,2020-01-01, 3,082.92 , 0.39 , 15,669,666 ,37
+Zambia,ZMB,Africa,2020-01-01, 3,415.19 , 0.45 , 18,927,715 ,34.7
+Viet Nam,VNM,Asia,2020-01-01, 12,026.81 , 0.49 , 96,648,685 ,33.4
+Uzbekistan,UZB,Asia,2020-01-01, 7,751.21 , 0.47 , 34,232,050 ,44.3
+Uruguay,URY,Americas,2020-01-01, 27,626.80 , 0.71 , 3,429,086 ,49.1
+United States,USA,Americas,2020-01-01, 67,266.19 , 0.72 , 331,526,933 ,69.3
+United Kingdom,GBR,Europe,2020-01-01, 48,583.76 , 0.79 , 67,081,234 ,81.3
+United Arab Emirates,ARE,Asia,2020-01-01, 66,590.40 , 0.65 , 9,287,289 ,55.6
+Ukraine,UKR,Europe,2020-01-01, 17,285.90 , 0.51 , 44,207,754 ,49.5
+Uganda,UGA,Africa,2020-01-01, 2,681.18 , 0.40 , 44,404,611 ,35.6
+Turkiye,TUR,Asia,2020-01-01, 28,649.56 , 0.43 , 83,384,680 ,42.6
+Tunisia,TUN,Africa,2020-01-01, 11,720.50 , 0.54 , 12,161,723 ,46.7
+Thailand,THA,Asia,2020-01-01, 20,002.85 , 0.51 , 71,475,664 ,45.4
+Tanzania,TZA,Africa,2020-01-01, 3,408.91 , 0.47 , 61,704,518 ,31.1
+Sweden,SWE,Europe,2020-01-01, 60,064.63 , 0.86 , 10,353,442 ,78.7
+Sri Lanka,LKA,Asia,2020-01-01, 13,886.65 , 0.52 , 21,919,000 ,39
+Spain,ESP,Europe,2020-01-01, 41,038.98 , 0.73 , 47,365,655 ,74.3
+South Africa,ZAF,Africa,2020-01-01, 13,671.83 , 0.59 , 58,801,927 ,43.1
+Slovenia,SVN,Europe,2020-01-01, 43,082.26 , 0.69 , 2,102,419 ,72
+Singapore,SGP,Asia,2020-01-01, 115,304.15 , 0.79 , 5,685,807 ,58.1
+Sierra Leone,SLE,Africa,2020-01-01, 1,595.31 , 0.45 , 8,233,970 ,25.7
+Senegal,SEN,Africa,2020-01-01, 4,104.36 , 0.55 , 16,436,120 ,30.7
+Russian Federation,RUS,Europe,2020-01-01, 36,746.38 , 0.47 , 145,245,148 ,50.5
+Romania,ROU,Europe,2020-01-01, 35,651.63 , 0.63 , 19,265,250 ,64.7
+Portugal,PRT,Europe,2020-01-01, 36,909.24 , 0.70 , 10,297,081 ,67
+Poland,POL,Europe,2020-01-01, 37,686.89 , 0.66 , 37,899,070 ,60.9
+Philippines,PHL,Asia,2020-01-01, 8,446.92 , 0.47 , 112,190,977 ,38.4
+Peru,PER,Americas,2020-01-01, 13,421.49 , 0.50 , 33,304,756 ,44
+Panama,PAN,Americas,2020-01-01, 27,025.32 , 0.52 , 4,294,396 ,47.3
+Pakistan,PAK,Asia,2020-01-01, 5,311.42 , 0.39 , 227,196,741 ,33.1
+Norway,NOR,Europe,2020-01-01, 86,313.75 , 0.89 , 5,379,475 ,77.7
+North Macedonia,MKD,Europe,2020-01-01, 21,186.71 , 0.53 , 1,856,124 ,55.4
+Nigeria,NGA,Africa,2020-01-01, 5,557.92 , 0.43 , 208,327,405 ,31
+Nicaragua,NIC,Americas,2020-01-01, 6,318.27 , 0.39 , 6,755,895 ,39.2
+New Zealand,NZL,Oceania,2020-01-01, 46,289.39 , 0.83 , 5,090,200 ,71.3
+Netherlands,NLD,Europe,2020-01-01, 64,080.83 , 0.84 , 17,441,500 ,75.3
+Nepal,NPL,Asia,2020-01-01, 4,355.10 , 0.53 , 29,348,627 ,32.7
+Morocco,MAR,Africa,2020-01-01, 8,028.88 , 0.50 , 36,688,772 ,42.3
+Mongolia,MNG,Asia,2020-01-01, 14,949.02 , 0.53 , 3,294,335 ,32.2
+Moldova,MDA,Europe,2020-01-01, 13,559.26 , 0.50 , 2,635,130 ,44.4
+Mexico,MEX,Americas,2020-01-01, 20,097.05 , 0.44 , 125,998,302 ,52.6
+Malaysia,MYS,Asia,2020-01-01, 29,815.85 , 0.58 , 33,199,993 ,47.9
+Malawi,MWI,Africa,2020-01-01, 1,727.05 , 0.52 , 19,377,061 ,38.3
+Madagascar,MDG,Africa,2020-01-01, 1,591.15 , 0.44 , 28,225,177 ,26.5
+Liberia,LBR,Africa,2020-01-01, 1,515.59 , 0.45 , 5,087,584 ,22.6
+Lebanon,LBN,Asia,2020-01-01, 12,594.62 , 0.45 , 5,662,923 ,45.4
+Kyrgyz Republic,KGZ,Asia,2020-01-01, 5,661.26 , 0.48 , 6,579,900 ,39.8
+Kenya,KEN,Africa,2020-01-01, 5,079.93 , 0.45 , 51,985,780 ,34.7
+Kazakhstan,KAZ,Asia,2020-01-01, 33,251.43 , 0.52 , 18,755,666 ,44.7
+Jordan,JOR,Asia,2020-01-01, 8,970.22 , 0.57 , 10,928,721 ,53.4
+Japan,JPN,Asia,2020-01-01, 43,238.30 , 0.78 , 126,261,000 ,75.1
+Jamaica,JAM,Americas,2020-01-01, 9,211.85 , 0.57 , 2,820,436 ,48.2
+Italy,ITA,Europe,2020-01-01, 45,835.91 , 0.66 , 59,438,851 ,71
+Indonesia,IDN,Asia,2020-01-01, 12,523.29 , 0.53 , 271,857,970 ,37.8
+India,IND,Asia,2020-01-01, 7,432.55 , 0.51 , 1,396,387,127 ,27.6
+Hungary,HUN,Europe,2020-01-01, 35,949.92 , 0.53 , 9,750,149 ,63.7
+Guatemala,GTM,Americas,2020-01-01, 11,376.57 , 0.45 , 16,858,333 ,31.8
+Greece,GRC,Europe,2020-01-01, 30,096.82 , 0.61 , 10,698,599 ,69.1
+Ghana,GHA,Africa,2020-01-01, 6,354.38 , 0.57 , 32,180,401 ,27.6
+Germany,DEU,Europe,2020-01-01, 60,065.51 , 0.84 , 83,160,871 ,77.2
+Georgia,GEO,Asia,2020-01-01, 17,031.14 , 0.60 , 3,722,716 ,41.3
+France,FRA,Europe,2020-01-01, 50,724.49 , 0.73 , 67,571,107 ,80
+Finland,FIN,Europe,2020-01-01, 56,310.62 , 0.87 , 5,529,543 ,78.9
+Ethiopia,ETH,Africa,2020-01-01, 2,553.63 , 0.41 , 117,190,911 ,34.4
+Estonia,EST,Europe,2020-01-01, 41,677.98 , 0.81 , 1,329,522 ,65.3
+El Salvador,SLV,Americas,2020-01-01, 9,603.02 , 0.49 , 6,292,731 ,43.1
+Ecuador,ECU,Americas,2020-01-01, 12,394.97 , 0.49 , 17,588,595 ,51
+Dominican Republic,DOM,Americas,2020-01-01, 19,736.80 , 0.48 , 10,999,664 ,46.3
+Denmark,DNK,Europe,2020-01-01, 65,686.53 , 0.90 , 5,831,404 ,82.5
+Czechia,CZE,Europe,2020-01-01, 45,917.29 , 0.73 , 10,697,858 ,71
+Croatia,HRV,Europe,2020-01-01, 31,564.45 , 0.61 , 4,047,680 ,63.1
+Cote d'Ivoire,CIV,Africa,2020-01-01, 6,241.93 , 0.46 , 26,811,790 ,25.8
+Colombia,COL,Americas,2020-01-01, 16,055.38 , 0.50 , 50,930,662 ,52.9
+China,CHN,Asia,2020-01-01, 18,833.78 , 0.48 , 1,411,100,000 ,37.3
+Chile,CHL,Americas,2020-01-01, 26,353.49 , 0.67 , 19,300,315 ,55.3
+Canada,CAN,Americas,2020-01-01, 53,274.91 , 0.81 , 38,028,638 ,71
+Cameroon,CMR,Africa,2020-01-01, 4,711.11 , 0.36 , 26,491,087 ,33.6
+Cambodia,KHM,Asia,2020-01-01, 4,584.21 , 0.33 , 16,396,860 ,33.6
+Burkina Faso,BFA,Africa,2020-01-01, 2,369.59 , 0.51 , 21,522,626 ,38.3
+Bulgaria,BGR,Europe,2020-01-01, 27,090.71 , 0.55 , 6,934,015 ,57
+Brazil,BRA,Americas,2020-01-01, 16,958.90 , 0.52 , 213,196,304 ,51.2
+Botswana,BWA,Africa,2020-01-01, 15,134.70 , 0.60 , 2,546,402 ,40.4
+Bosnia and Herzegovina,BIH,Europe,2020-01-01, 16,885.51 , 0.52 , 3,318,407 ,45.4
+Bolivia,BOL,Americas,2020-01-01, 8,910.59 , 0.38 , 11,936,162 ,44.3
+Belgium,BEL,Europe,2020-01-01, 58,337.76 , 0.79 , 11,538,604 ,73.3
+Belarus,BLR,Europe,2020-01-01, 26,731.49 , 0.51 , 9,379,952 ,53
+Bangladesh,BGD,Asia,2020-01-01, 6,968.15 , 0.41 , 167,420,951 ,29
+Austria,AUT,Europe,2020-01-01, 61,108.42 , 0.82 , 8,916,864 ,79.6
+Australia,AUS,Oceania,2020-01-01, 56,298.20 , 0.80 , 25,649,248 ,74.9
+Argentina,ARG,Americas,2020-01-01, 23,785.78 , 0.58 , 45,376,763 ,52.2
+Albania,ALB,Europe,2020-01-01, 14,793.85 , 0.50 , 2,837,849 ,49
+Zimbabwe,ZWE,Africa,2022-01-01, 3,420.03 , 0.39 , 16,320,537 ,46.2
+Zambia,ZMB,Africa,2022-01-01, 3,610.67 , 0.45 , 20,017,675 ,38.4
+Viet Nam,VNM,Asia,2022-01-01, 13,126.98 , 0.49 , 98,186,856 ,20.1
+Uzbekistan,UZB,Asia,2022-01-01, 8,447.55 , 0.50 , 35,648,100 ,38.2
+Uruguay,URY,Americas,2022-01-01, 30,592.30 , 0.71 , 3,422,794 ,37.4
+United States,USA,Americas,2022-01-01, 72,165.48 , 0.71 , 333,271,411 ,51.1
+United Kingdom,GBR,Europe,2022-01-01, 54,515.75 , 0.79 , 67,791,000 ,77.7
+United Arab Emirates,ARE,Asia,2022-01-01, 73,724.31 , 0.63 , 9,441,129 ,52.4
+Ukraine,UKR,Europe,2022-01-01, 15,022.49 , 0.50 , 38,000,000 ,49.6
+Uganda,UGA,Africa,2022-01-01, 2,728.55 , 0.39 , 47,249,585 ,35.8
+Turkiye,TUR,Asia,2022-01-01, 33,061.06 , 0.42 , 84,979,913 ,26.3
+Tunisia,TUN,Africa,2022-01-01, 12,381.60 , 0.52 , 12,356,117 ,40.7
+Thailand,THA,Asia,2022-01-01, 20,752.60 , 0.50 , 71,697,030 ,38.1
+Tanzania,TZA,Africa,2022-01-01, 3,504.42 , 0.46 , 65,497,748 ,34.2
+Sweden,SWE,Europe,2022-01-01, 64,621.55 , 0.86 , 10,486,941 ,72.7
+Sri Lanka,LKA,Asia,2022-01-01, 13,249.41 , 0.50 , 22,181,000 ,34.7
+Spain,ESP,Europe,2022-01-01, 45,787.70 , 0.73 , 47,778,340 ,56.6
+South Africa,ZAF,Africa,2022-01-01, 14,322.33 , 0.58 , 59,893,885 ,37.2
+Slovenia,SVN,Europe,2022-01-01, 47,558.27 , 0.68 , 2,111,986 ,67.3
+Singapore,SGP,Asia,2022-01-01, 132,468.93 , 0.78 , 5,637,022 ,50.9
+Sierra Leone,SLE,Africa,2022-01-01, 1,643.99 , 0.45 , 8,605,718 ,32.7
+Senegal,SEN,Africa,2022-01-01, 4,309.27 , 0.56 , 17,316,449 ,33.9
+Russian Federation,RUS,Europe,2022-01-01, 38,263.62 , 0.45 , 144,236,933 ,37.5
+Romania,ROU,Europe,2022-01-01, 39,684.31 , 0.63 , 19,047,009 ,56
+Portugal,PRT,Europe,2022-01-01, 41,240.39 , 0.69 , 10,409,704 ,50.4
+Poland,POL,Europe,2022-01-01, 43,818.00 , 0.64 , 36,821,749 ,50.6
+Philippines,PHL,Asia,2022-01-01, 9,326.60 , 0.47 , 115,559,009 ,28.9
+Peru,PER,Americas,2022-01-01, 15,286.74 , 0.49 , 34,049,588 ,39.8
+Panama,PAN,Americas,2022-01-01, 33,790.40 , 0.52 , 4,408,581 ,50.5
+Pakistan,PAK,Asia,2022-01-01, 5,710.26 , 0.39 , 235,824,862 ,24.6
+Norway,NOR,Europe,2022-01-01, 91,068.60 , 0.89 , 5,457,127 ,59.3
+North Macedonia,MKD,Europe,2022-01-01, 22,935.97 , 0.53 , 1,831,712 ,54.3
+Nigeria,NGA,Africa,2022-01-01, 5,669.96 , 0.41 , 218,541,212 ,28.3
+Nicaragua,NIC,Americas,2022-01-01, 7,031.22 , 0.36 , 6,948,392 ,37.7
+New Zealand,NZL,Oceania,2022-01-01, 49,474.24 , 0.83 , 5,117,200 ,56.7
+Netherlands,NLD,Europe,2022-01-01, 69,953.67 , 0.83 , 17,700,982 ,62.6
+Nepal,NPL,Asia,2022-01-01, 4,633.63 , 0.52 , 30,547,580 ,28.3
+Morocco,MAR,Africa,2022-01-01, 8,599.82 , 0.48 , 37,457,971 ,28.4
+Mongolia,MNG,Asia,2022-01-01, 15,469.84 , 0.54 , 3,398,366 ,29.6
+Moldova,MDA,Europe,2022-01-01, 15,229.46 , 0.52 , 2,538,894 ,42.7
+Mexico,MEX,Americas,2022-01-01, 21,828.77 , 0.42 , 127,504,125 ,45.5
+Malaysia,MYS,Asia,2022-01-01, 32,735.40 , 0.57 , 33,938,221 ,35
+Malawi,MWI,Africa,2022-01-01, 1,700.71 , 0.52 , 20,405,317 ,40.6
+Madagascar,MDG,Africa,2022-01-01, 1,664.58 , 0.44 , 29,611,714 ,28
+Liberia,LBR,Africa,2022-01-01, 1,600.03 , 0.43 , 5,302,681 ,24.9
+Lebanon,LBN,Asia,2022-01-01, 12,007.23 , 0.45 , 5,489,739 ,32.2
+Kyrgyz Republic,KGZ,Asia,2022-01-01, 6,140.06 , 0.46 , 6,974,900 ,35.7
+Kenya,KEN,Africa,2022-01-01, 5,513.86 , 0.45 , 54,027,487 ,30.8
+Kazakhstan,KAZ,Asia,2022-01-01, 34,188.21 , 0.53 , 19,634,983 ,40.9
+Jordan,JOR,Asia,2022-01-01, 9,222.52 , 0.54 , 11,285,869 ,43.6
+Japan,JPN,Asia,2022-01-01, 45,174.73 , 0.79 , 125,124,989 ,57.2
+Jamaica,JAM,Americas,2022-01-01, 10,113.97 , 0.58 , 2,827,377 ,45.6
+Italy,ITA,Europe,2022-01-01, 52,060.33 , 0.67 , 58,940,425 ,57.7
+Indonesia,IDN,Asia,2022-01-01, 13,495.43 , 0.53 , 275,501,339 ,28.2
+India,IND,Asia,2022-01-01, 8,594.43 , 0.50 , 1,417,173,173 ,18.9
+Hungary,HUN,Europe,2022-01-01, 40,699.57 , 0.52 , 9,643,048 ,55.1
+Guatemala,GTM,Americas,2022-01-01, 12,424.77 , 0.44 , 17,357,886 ,28
+Greece,GRC,Europe,2022-01-01, 35,328.79 , 0.61 , 10,426,919 ,56.2
+Ghana,GHA,Africa,2022-01-01, 6,663.60 , 0.55 , 33,475,870 ,27.7
+Germany,DEU,Europe,2022-01-01, 62,605.47 , 0.83 , 83,797,985 ,62.4
+Georgia,GEO,Asia,2022-01-01, 20,966.53 , 0.60 , 3,712,502 ,39.1
+France,FRA,Europe,2022-01-01, 54,988.33 , 0.73 , 67,971,311 ,62.5
+Finland,FIN,Europe,2022-01-01, 58,401.62 , 0.87 , 5,556,106 ,76.5
+Ethiopia,ETH,Africa,2022-01-01, 2,698.72 , 0.39 , 123,379,924 ,31.8
+Estonia,EST,Europe,2022-01-01, 43,856.06 , 0.82 , 1,348,840 ,61.4
+El Salvador,SLV,Americas,2022-01-01, 10,970.97 , 0.46 , 6,336,392 ,40.8
+Ecuador,ECU,Americas,2022-01-01, 14,122.88 , 0.48 , 18,001,000 ,46.5
+Dominican Republic,DOM,Americas,2022-01-01, 22,761.27 , 0.48 , 11,228,821 ,42.2
+Denmark,DNK,Europe,2022-01-01, 71,224.34 , 0.90 , 5,903,037 ,77.9
+Czechia,CZE,Europe,2022-01-01, 48,783.99 , 0.73 , 10,672,118 ,59.9
+Croatia,HRV,Europe,2022-01-01, 40,090.24 , 0.61 , 3,855,641 ,60.2
+Cote d'Ivoire,CIV,Africa,2022-01-01, 6,758.37 , 0.45 , 28,160,542 ,32.8
+Colombia,COL,Americas,2022-01-01, 18,739.12 , 0.48 , 51,874,024 ,42.4
+China,CHN,Asia,2022-01-01, 21,019.46 , 0.47 , 1,412,175,000 ,28.4
+Chile,CHL,Americas,2022-01-01, 29,480.96 , 0.66 , 19,603,733 ,46.7
+Canada,CAN,Americas,2022-01-01, 56,872.61 , 0.80 , 38,939,056 ,50
+Cameroon,CMR,Africa,2022-01-01, 4,785.68 , 0.36 , 27,914,536 ,30.2
+Cambodia,KHM,Asia,2022-01-01, 4,860.45 , 0.31 , 16,767,842 ,30.1
+Burkina Faso,BFA,Africa,2022-01-01, 2,448.13 , 0.49 , 22,673,762 ,35.5
+Bulgaria,BGR,Europe,2022-01-01, 32,510.04 , 0.55 , 6,465,097 ,51.9
+Brazil,BRA,Americas,2022-01-01, 18,122.57 , 0.49 , 215,313,498 ,43.6
+Botswana,BWA,Africa,2022-01-01, 17,298.22 , 0.59 , 2,630,296 ,54
+Bosnia and Herzegovina,BIH,Europe,2022-01-01, 19,395.93 , 0.52 , 3,233,526 ,39.4
+Bolivia,BOL,Americas,2022-01-01, 9,565.32 , 0.38 , 12,224,110 ,40.1
+Belgium,BEL,Europe,2022-01-01, 63,450.45 , 0.79 , 11,685,814 ,58.2
+Belarus,BLR,Europe,2022-01-01, 26,537.55 , 0.46 , 9,228,071 ,48.5
+Bangladesh,BGD,Asia,2022-01-01, 7,805.15 , 0.39 , 171,186,372 ,23.1
+Austria,AUT,Europe,2022-01-01, 65,836.89 , 0.80 , 9,041,851 ,66.5
+Australia,AUS,Oceania,2022-01-01, 59,099.85 , 0.79 , 26,014,399 ,60.1
+Argentina,ARG,Americas,2022-01-01, 27,127.44 , 0.55 , 46,234,830 ,41.1
+Albania,ALB,Europe,2022-01-01, 17,260.12 , 0.49 , 2,777,689 ,47.1
+Rep. Korea,KOR,Asia,2014-01-01, 41,648.25 , 0.77 , 50,746,659 ,63.79
+Islamic Rep. Iran,IRN,Asia,2014-01-01, 14,575.04 , 0.44 , 79,961,672 ,51.08
+Arab Rep. Egypt,EGY,Africa,2014-01-01, 13,402.46 , 0.45 , 95,592,324 ,61.11
+Rep. Korea,KOR,Asia,2016-01-01, 43,674.51 , 0.73 , 51,217,803 ,70.61
+Islamic Rep. Iran,IRN,Asia,2016-01-01, 15,006.19 , 0.47 , 83,306,231 ,66.32
+Arab Rep. Egypt,EGY,Africa,2016-01-01, 13,983.28 , 0.36 , 99,784,030 ,66.45
+Rep. Korea,KOR,Asia,2020-01-01, 46,506.93 , 0.73 , 51,836,239 ,66.5
+Islamic Rep. Iran,IRN,Asia,2020-01-01, 14,468.61 , 0.43 , 87,290,193 ,48
+Arab Rep. Egypt,EGY,Africa,2020-01-01, 15,572.78 , 0.36 , 107,465,134 ,43.3
+Rep. Korea,KOR,Asia,2022-01-01, 49,933.98 , 0.73 , 51,672,569 ,46.9
+Islamic Rep. Iran,IRN,Asia,2022-01-01, 15,499.91 , 0.41 , 88,550,570 ,34.5
+Arab Rep. Egypt,EGY,Africa,2022-01-01, 16,600.39 , 0.35 , 110,990,103 ,35.5
+Zimbabwe,ZWE,Africa,2018-01-01, 3,717.00 , 0.37 , 15,052,184 ,43.41
+Zambia,ZMB,Africa,2018-01-01, 3,675.00 , 0.47 , 17,835,893 ,50.97
+Viet Nam,VNM,Asia,2018-01-01, 11,089.00 , 0.50 , 94,914,330 ,46.96
+Uzbekistan,UZB,Asia,2018-01-01, 7,448.00 , 0.46 , 32,956,100 ,45.88
+Uruguay,URY,Americas,2018-01-01, 29,571.00 , 0.71 , 3,427,042 ,64.65
+United States,USA,Americas,2018-01-01, 68,096.00 , 0.73 , 326,838,199 ,71.19
+United Kingdom,GBR,Europe,2018-01-01, 53,821.00 , 0.81 , 66,460,344 ,79.89
+United Arab Emirates,ARE,Asia,2018-01-01, 70,411.00 , 0.65 , 9,140,169 ,58.9
+Ukraine,UKR,Europe,2018-01-01, 17,187.00 , 0.50 , 44,690,584 ,52.87
+Uganda,UGA,Africa,2018-01-01, 2,617.00 , 0.40 , 41,515,395 ,44.28
+Turkiye,TUR,Asia,2018-01-01, 28,576.00 , 0.42 , 81,407,204 ,52.96
+Tunisia,TUN,Africa,2018-01-01, 12,864.00 , 0.53 , 11,933,041 ,62.35
+Trinidad and Tobago,TTO,Americas,2018-01-01, 31,025.00 , 0.56 , 1,504,709 ,67.36
+Thailand,THA,Asia,2018-01-01, 20,952.00 , 0.51 , 71,127,802 ,49.88
+Tanzania,TZA,Africa,2018-01-01, 3,355.00 , 0.47 , 58,090,443 ,50.83
+Sweden,SWE,Europe,2018-01-01, 61,256.00 , 0.86 , 10,175,214 ,80.51
+Suriname,SUR,Americas,2018-01-01, 22,965.00 , 0.51 , 593,715 ,54.2
+St. Vincent and the Grenadines,VCT,Americas,2018-01-01, 15,910.00 , 0.61 , 105,281 ,66.48
+St. Lucia,LCA,Americas,2018-01-01, 22,378.00 , 0.63 , 177,888 ,56.18
+Sri Lanka,LKA,Asia,2018-01-01, 14,760.00 , 0.53 , 21,670,000 ,60.61
+Spain,ESP,Europe,2018-01-01, 45,849.00 , 0.70 , 46,797,754 ,78.39
+South Africa,ZAF,Africa,2018-01-01, 14,871.00 , 0.59 , 57,339,635 ,44.73
+Slovenia,SVN,Europe,2018-01-01, 44,057.00 , 0.67 , 2,073,894 ,67.57
+Singapore,SGP,Asia,2018-01-01, 119,343.00 , 0.80 , 5,638,676 ,64.23
+Sierra Leone,SLE,Africa,2018-01-01, 1,619.00 , 0.45 , 7,861,281 ,42.54
+Senegal,SEN,Africa,2018-01-01, 4,085.00 , 0.55 , 15,574,909 ,49.52
+Russian Federation,RUS,Europe,2018-01-01, 36,908.00 , 0.47 , 145,398,106 ,63.79
+Romania,ROU,Europe,2018-01-01, 35,258.00 , 0.66 , 19,473,970 ,64.78
+Portugal,PRT,Europe,2018-01-01, 39,249.00 , 0.72 , 10,283,822 ,71.91
+Poland,POL,Europe,2018-01-01, 36,752.00 , 0.68 , 37,974,750 ,64.11
+Philippines,PHL,Asia,2018-01-01, 9,091.00 , 0.47 , 108,568,836 ,57.65
+Peru,PER,Americas,2018-01-01, 15,243.00 , 0.52 , 32,203,944 ,61.92
+Panama,PAN,Americas,2018-01-01, 32,767.00 , 0.52 , 4,165,255 ,62.71
+Pakistan,PAK,Asia,2018-01-01, 5,427.00 , 0.39 , 219,731,479 ,37.5
+Norway,NOR,Europe,2018-01-01, 87,559.00 , 0.89 , 5,311,916 ,77.49
+North Macedonia,MKD,Europe,2018-01-01, 21,019.00 , 0.53 , 1,889,051 ,61.06
+Nigeria,NGA,Africa,2018-01-01, 5,815.00 , 0.44 , 198,387,623 ,54.76
+Nicaragua,NIC,Americas,2018-01-01, 6,808.00 , 0.44 , 6,572,233 ,55.04
+New Zealand,NZL,Oceania,2018-01-01, 47,171.00 , 0.83 , 4,900,600 ,75.96
+Netherlands,NLD,Europe,2018-01-01, 66,189.00 , 0.85 , 17,231,624 ,75.46
+Nepal,NPL,Asia,2018-01-01, 4,306.00 , 0.53 , 28,506,712 ,31.44
+Myanmar,MMR,Asia,2018-01-01, 6,155.00 , 0.42 , 52,666,014 ,45.32
+Morocco,MAR,Africa,2018-01-01, 8,588.00 , 0.51 , 35,927,511 ,63.47
+Mongolia,MNG,Asia,2018-01-01, 15,443.00 , 0.54 , 3,163,991 ,57.51
+Moldova,MDA,Europe,2018-01-01, 13,896.00 , 0.49 , 2,707,203 ,51.97
+Mexico,MEX,Americas,2018-01-01, 22,402.00 , 0.46 , 124,013,861 ,59.69
+Malaysia,MYS,Asia,2018-01-01, 30,950.00 , 0.54 , 32,399,271 ,59.22
+Malawi,MWI,Africa,2018-01-01, 1,714.00 , 0.51 , 18,367,883 ,49.21
+Madagascar,MDG,Africa,2018-01-01, 1,725.00 , 0.44 , 26,846,541 ,33.73
+Liberia,LBR,Africa,2018-01-01, 1,667.00 , 0.45 , 4,889,391 ,41.62
+Lebanon,LBN,Asia,2018-01-01, 16,381.00 , 0.47 , 5,950,839 ,61.08
+Kyrgyz Republic,KGZ,Asia,2018-01-01, 6,066.00 , 0.48 , 6,322,800 ,54.86
+Kenya,KEN,Africa,2018-01-01, 5,043.00 , 0.45 , 49,953,304 ,47.25
+Kazakhstan,KAZ,Asia,2018-01-01, 33,491.00 , 0.52 , 18,276,452 ,54.56
+Jordan,JOR,Asia,2018-01-01, 9,314.00 , 0.60 , 10,459,865 ,62.2
+Japan,JPN,Asia,2018-01-01, 45,095.00 , 0.79 , 126,811,000 ,74.69
+Jamaica,JAM,Americas,2018-01-01, 10,167.00 , 0.58 , 2,811,835 ,58.58
+Italy,ITA,Europe,2018-01-01, 49,297.00 , 0.65 , 60,421,760 ,76.96
+Indonesia,IDN,Asia,2018-01-01, 12,395.00 , 0.52 , 267,066,843 ,46.92
+India,IND,Asia,2018-01-01, 7,746.00 , 0.52 , 1,369,003,306 ,30.57
+Hungary,HUN,Europe,2018-01-01, 35,800.00 , 0.55 , 9,775,564 ,65.01
+Honduras,HND,Americas,2018-01-01, 6,202.00 , 0.41 , 9,792,850 ,51.51
+Guyana,GUY,Americas,2018-01-01, 13,086.00 , 0.50 , 785,514 ,47.93
+Guatemala,GTM,Americas,2018-01-01, 11,485.00 , 0.44 , 16,346,950 ,52.33
+Grenada,GRD,Americas,2018-01-01, 16,119.00 , 0.61 , 121,838 ,50.93
+Greece,GRC,Europe,2018-01-01, 32,473.00 , 0.61 , 10,732,882 ,73.6
+Ghana,GHA,Africa,2018-01-01, 6,187.00 , 0.59 , 30,870,641 ,49.66
+Germany,DEU,Europe,2018-01-01, 61,981.00 , 0.84 , 82,905,782 ,78.37
+Georgia,GEO,Asia,2018-01-01, 17,229.00 , 0.61 , 3,726,549 ,55.69
+France,FRA,Europe,2018-01-01, 54,200.00 , 0.74 , 67,158,348 ,83.95
+Finland,FIN,Europe,2018-01-01, 57,116.00 , 0.87 , 5,515,525 ,78.64
+Ethiopia,ETH,Africa,2018-01-01, 2,343.00 , 0.38 , 111,129,438 ,44.78
+Estonia,EST,Europe,2018-01-01, 40,683.00 , 0.80 , 1,321,977 ,64.31
+El Salvador,SLV,Americas,2018-01-01, 10,204.00 , 0.48 , 6,276,342 ,53.91
+Ecuador,ECU,Americas,2018-01-01, 14,094.00 , 0.47 , 17,015,672 ,57.42
+Dominican Republic,DOM,Americas,2018-01-01, 20,579.00 , 0.47 , 10,765,531 ,64.71
+Dominica,DMA,Americas,2018-01-01, 15,734.00 , 0.60 , 70,823 ,59.38
+Denmark,DNK,Europe,2018-01-01, 66,760.00 , 0.89 , 5,793,636 ,81.6
+Czechia,CZE,Europe,2018-01-01, 47,464.00 , 0.74 , 10,629,928 ,67.68
+Croatia,HRV,Europe,2018-01-01, 33,028.00 , 0.61 , 4,087,843 ,65.45
+Cote d'Ivoire,CIV,Africa,2018-01-01, 6,108.00 , 0.47 , 25,493,988 ,45.25
+Costa Rica,CRI,Americas,2018-01-01, 22,900.00 , 0.69 , 5,040,734 ,67.85
+Colombia,COL,Americas,2018-01-01, 17,327.00 , 0.51 , 49,276,961 ,65.22
+China,CHN,Asia,2018-01-01, 17,490.00 , 0.50 , 1,402,760,000 ,50.74
+Chile,CHL,Americas,2018-01-01, 28,795.00 , 0.67 , 18,701,450 ,57.49
+Canada,CAN,Americas,2018-01-01, 56,470.00 , 0.81 , 37,072,620 ,72.18
+Cameroon,CMR,Africa,2018-01-01, 4,797.00 , 0.37 , 25,076,747 ,40.81
+Cambodia,KHM,Asia,2018-01-01, 4,521.00 , 0.32 , 16,025,238 ,43.23
+Burkina Faso,BFA,Africa,2018-01-01, 2,315.00 , 0.51 , 20,392,723 ,42.83
+Bulgaria,BGR,Europe,2018-01-01, 26,764.00 , 0.54 , 7,025,037 ,67.85
+Brazil,BRA,Americas,2018-01-01, 17,572.00 , 0.54 , 210,166,592 ,60.7
+Botswana,BWA,Africa,2018-01-01, 16,718.00 , 0.59 , 2,451,409 ,51.7
+Bosnia and Herzegovina,BIH,Europe,2018-01-01, 16,515.00 , 0.53 , 3,400,129 ,41.84
+Bolivia,BOL,Americas,2018-01-01, 9,823.00 , 0.38 , 11,606,905 ,55.98
+Belize,BLZ,Americas,2018-01-01, 11,420.00 , 0.48 , 382,066 ,57.79
+Belgium,BEL,Europe,2018-01-01, 60,844.00 , 0.77 , 11,427,054 ,77.38
+Belarus,BLR,Europe,2018-01-01, 26,364.00 , 0.51 , 9,438,785 ,64.98
+Barbados,BRB,Americas,2018-01-01, 17,097.00 , 0.65 , 279,688 ,55.76
+Bangladesh,BGD,Asia,2018-01-01, 6,386.00 , 0.41 , 163,683,958 ,29.56
+Austria,AUT,Europe,2018-01-01, 65,071.00 , 0.82 , 8,840,521 ,78.97
+Australia,AUS,Oceania,2018-01-01, 56,801.00 , 0.81 , 24,963,258 ,74.12
+Argentina,ARG,Americas,2018-01-01, 27,473.00 , 0.58 , 44,494,502 ,59.3
+Antigua and Barbuda,ATG,Americas,2018-01-01, 28,663.00 , 0.63 , 91,626 ,59.18
+Albania,ALB,Europe,2018-01-01, 14,837.00 , 0.51 , 2,866,376 ,65.46
+Afghanistan,AFG,Asia,2018-01-01, 2,907.00 , 0.35 , 36,686,784 ,37.74
+Rep. Korea,KOR,Asia,2018-01-01, 46,034.00 , 0.72 , 51,585,058 ,62.3
+Islamic Rep. Iran,IRN,Asia,2018-01-01, 14,728.00 , 0.48 , 85,617,562 ,58.16
+Arab Rep. Egypt,EGY,Africa,2018-01-01, 14,759.00 , 0.36 , 103,740,765 ,61.21
+The Bahamas,BHS,Americas,2018-01-01, 32,350.00 , 0.60 , 401,906 ,54.99
+Senegal,Sub-Saharan Africa,01/01/2018,49.52,0.55,,,
+Serbia,Eastern Europe,01/01/2018,57.49,0.5,,,
+Sierra Leone,Sub-Saharan Africa,01/01/2018,42.54,0.45,,,
+Singapore,Asia-Pacific,01/01/2018,64.23,0.8,,,
+Slovenia,Eastern Europe,01/01/2018,67.57,0.67,,,
+South Africa,Sub-Saharan Africa,01/01/2018,44.73,0.59,,,
+South Korea,Asia-Pacific,01/01/2018,62.3,0.72,,,
+Spain,Global West,01/01/2018,78.39,0.7,,,
+Sri Lanka,Southern Asia,01/01/2018,60.61,0.53,,,
+Suriname,Latin America & Caribbean,01/01/2018,54.2,0.51,,,
+Sweden,Global West,01/01/2018,80.51,0.86,,,
+Tanzania,Sub-Saharan Africa,01/01/2018,50.83,0.47,,,
+Thailand,Asia-Pacific,01/01/2018,49.88,0.51,,,
+Trinidad and Tobago,Latin America & Caribbean,01/01/2018,67.36,0.56,,,
+Tunisia,Greater Middle East,01/01/2018,62.35,0.53,,,
+Turkiye,Eastern Europe,01/01/2018,52.96,0.42,,,
+Uganda,Sub-Saharan Africa,01/01/2018,44.28,0.4,,,
+Ukraine,Former Soviet States,01/01/2018,52.87,0.5,,,
+United Arab Emirates,Greater Middle East,01/01/2018,58.9,0.65,,,
+United Kingdom,Global West,01/01/2018,79.89,0.81,,,
+United States of America,Global West,01/01/2018,71.19,0.73,,,
+Uruguay,Latin America & Caribbean,01/01/2018,64.65,0.71,,,
+Uzbekistan,Former Soviet States,01/01/2018,45.88,0.46,,,
+Venezuela,Latin America & Caribbean,01/01/2018,63.89,0.29,,,
+Viet Nam,Asia-Pacific,01/01/2018,46.96,0.5,,,
+Zambia,Sub-Saharan Africa,01/01/2018,50.97,0.47,,,
+Zimbabwe,Sub-Saharan Africa,01/01/2018,43.41,0.37,,,
+Afghanistan,Southern Asia,01/01/2016,37.5,0.35,,,
+Albania,Eastern Europe,01/01/2016,74.38,0.51,,,
+Antigua and Barbuda,Latin America & Caribbean,01/01/2016,62.55,0.67,,,
+Argentina,Latin America & Caribbean,01/01/2016,79.84,0.56,,,
+Australia,Global West,01/01/2016,87.22,0.81,,,
+Austria,Global West,01/01/2016,86.64,0.84,,,
+Bahamas,Latin America & Caribbean,01/01/2016,69.34,0.61,,,
+Bangladesh,Southern Asia,01/01/2016,41.77,0.41,,,
+Barbados,Latin America & Caribbean,01/01/2016,54.96,0.67,,,
+Belarus,Former Soviet States,01/01/2016,82.3,0.54,,,
+Belgium,Global West,01/01/2016,80.15,0.79,,,
+Belize,Latin America & Caribbean,01/01/2016,73.55,0.48,,,
+Bolivia,Latin America & Caribbean,01/01/2016,71.09,0.4,,,
+Bosnia and Herzegovina,Eastern Europe,01/01/2016,63.28,0.56,,,
+Botswana,Sub-Saharan Africa,01/01/2016,70.72,0.58,,,
+Brazil,Latin America & Caribbean,01/01/2016,78.9,0.56,,,
+Bulgaria,Eastern Europe,01/01/2016,83.4,0.55,,,
+Burkina Faso,Sub-Saharan Africa,01/01/2016,43.71,0.49,,,
+Cambodia,Asia-Pacific,01/01/2016,51.24,0.33,,,
+Cameroon,Sub-Saharan Africa,01/01/2016,57.13,0.38,,,
+Canada,Global West,01/01/2016,85.06,0.81,,,
+Chile,Latin America & Caribbean,01/01/2016,77.67,0.69,,,
+China,Asia-Pacific,01/01/2016,65.1,0.49,,,
+Colombia,Latin America & Caribbean,01/01/2016,75.93,0.51,,,
+Costa Rica,Latin America & Caribbean,01/01/2016,80.03,0.69,,,
+Cote d'Ivoire,Sub-Saharan Africa,01/01/2016,59.89,0.48,,,
+Croatia,Eastern Europe,01/01/2016,86.98,0.61,,,
+Czech Republic,Eastern Europe,01/01/2016,84.67,0.75,,,
+Denmark,Global West,01/01/2016,89.21,0.89,,,
+Dominica,Latin America & Caribbean,01/01/2016,73.25,0.6,,,
+Dominican Republic,Latin America & Caribbean,01/01/2016,75.32,0.47,,,
+Ecuador,Latin America & Caribbean,01/01/2016,66.58,0.46,,,
+Egypt,Greater Middle East,01/01/2016,66.45,0.36,,,
+El Salvador,Latin America & Caribbean,01/01/2016,68.07,0.5,,,
+Estonia,Eastern Europe,01/01/2016,88.59,0.79,,,
+Ethiopia,Sub-Saharan Africa,01/01/2016,45.83,0.39,,,
+Finland,Global West,01/01/2016,90.68,0.88,,,
+France,Global West,01/01/2016,88.2,0.72,,,
+Georgia,Former Soviet States,01/01/2016,64.96,0.66,,,
+Germany,Global West,01/01/2016,84.26,0.84,,,
+Ghana,Sub-Saharan Africa,01/01/2016,58.89,0.58,,,
+Greece,Eastern Europe,01/01/2016,85.81,0.61,,,
+Grenada,Latin America & Caribbean,01/01/2016,63.28,0.66,,,
+Guatemala,Latin America & Caribbean,01/01/2016,69.64,0.44,,,
+Guyana,Latin America & Caribbean,01/01/2016,71.14,0.5,,,
+Honduras,Latin America & Caribbean,01/01/2016,69.64,0.42,,,
+Hungary,Eastern Europe,01/01/2016,84.6,0.57,,,
+India,Southern Asia,01/01/2016,53.58,0.52,,,
+Indonesia,Asia-Pacific,01/01/2016,65.85,0.52,,,
+Iran,Greater Middle East,01/01/2016,66.32,0.47,,,
+Italy,Global West,01/01/2016,84.48,0.65,,,
+Jamaica,Latin America & Caribbean,01/01/2016,77.02,0.58,,,
+Japan,Asia-Pacific,01/01/2016,80.59,0.78,,,
+Jordan,Greater Middle East,01/01/2016,72.24,0.59,,,
+Kazakhstan,Former Soviet States,01/01/2016,73.29,0.51,,,
+Kenya,Sub-Saharan Africa,01/01/2016,62.49,0.43,,,
+Kyrgyzstan,Former Soviet States,01/01/2016,73.13,0.47,,,
+Lebanon,Greater Middle East,01/01/2016,69.14,0.46,,,
+Liberia,Sub-Saharan Africa,01/01/2016,43.42,0.45,,,
+Madagascar,Sub-Saharan Africa,01/01/2016,37.1,0.46,,,
+Malawi,Sub-Saharan Africa,01/01/2016,49.69,0.51,,,
+Malaysia,Asia-Pacific,01/01/2016,74.23,0.54,,,
+Mexico,Latin America & Caribbean,01/01/2016,73.59,0.46,,,
+Moldova,Former Soviet States,01/01/2016,76.69,0.5,,,
+Mongolia,Asia-Pacific,01/01/2016,64.39,0.54,,,
+Morocco,Greater Middle East,01/01/2016,74.18,0.53,,,
+Myanmar,Asia-Pacific,01/01/2016,48.98,0.44,,,
+Nepal,Southern Asia,01/01/2016,50.21,0.52,,,
+Netherlands,Global West,01/01/2016,82.03,0.86,,,
+New Zealand,Global West,01/01/2016,88,0.83,,,
+Nicaragua,Latin America & Caribbean,01/01/2016,64.19,0.42,,,
+Nigeria,Sub-Saharan Africa,01/01/2016,58.27,0.44,,,
+North Macedonia,Eastern Europe,01/01/2016,78.02,0.55,,,
+Norway,Global West,01/01/2016,86.9,0.88,,,
+Pakistan,Southern Asia,01/01/2016,51.42,0.39,,,
+Panama,Latin America & Caribbean,01/01/2016,78,0.53,,,
+Peru,Latin America & Caribbean,01/01/2016,72.95,0.52,,,
+Philippines,Asia-Pacific,01/01/2016,73.7,0.51,,,
+Poland,Eastern Europe,01/01/2016,81.26,0.72,,,
+Portugal,Global West,01/01/2016,88.63,0.72,,,
+Romania,Eastern Europe,01/01/2016,83.24,0.66,,,
+Russia,Former Soviet States,01/01/2016,83.52,0.46,,,
+Saint Lucia,Latin America & Caribbean,01/01/2016,,0.65,,,
+Saint Vincent and the Grenadines,Latin America & Caribbean,01/01/2016,,0.61,,,
+Senegal,Sub-Saharan Africa,01/01/2016,63.73,0.58,,,
+Serbia,Eastern Europe,01/01/2016,78.67,0.5,,,
+Sierra Leone,Sub-Saharan Africa,01/01/2016,45.98,0.45,,,
+Singapore,Asia-Pacific,01/01/2016,87.04,0.82,,,
+Slovenia,Eastern Europe,01/01/2016,88.98,0.68,,,
+South Africa,Sub-Saharan Africa,01/01/2016,70.52,0.59,,,
+South Korea,Asia-Pacific,01/01/2016,70.61,0.73,,,
+Spain,Global West,01/01/2016,88.91,0.7,,,
+Sri Lanka,Southern Asia,01/01/2016,65.55,0.51,,,
+Suriname,Latin America & Caribbean,01/01/2016,68.58,0.53,,,
+Sweden,Global West,01/01/2016,90.43,0.86,,,
+Tanzania,Sub-Saharan Africa,01/01/2016,58.34,0.47,,,
+Thailand,Asia-Pacific,01/01/2016,69.54,0.52,,,
+Trinidad and Tobago,Latin America & Caribbean,01/01/2016,74.34,0.57,,,
+Tunisia,Greater Middle East,01/01/2016,77.28,0.53,,,
+Turkiye,Eastern Europe,01/01/2016,67.68,0.44,,,
+Uganda,Sub-Saharan Africa,01/01/2016,57.56,0.39,,,
+Ukraine,Former Soviet States,01/01/2016,79.69,0.49,,,
+United Arab Emirates,Greater Middle East,01/01/2016,69.35,0.66,,,
+United Kingdom,Global West,01/01/2016,87.38,0.81,,,
+United States of America,Global West,01/01/2016,84.72,0.74,,,
+Uruguay,Latin America & Caribbean,01/01/2016,73.98,0.73,,,
+Uzbekistan,Former Soviet States,01/01/2016,63.67,0.46,,,
+Venezuela,Latin America & Caribbean,01/01/2016,76.23,0.28,,,
+Viet Nam,Asia-Pacific,01/01/2016,58.5,0.51,,,
+Zambia,Sub-Saharan Africa,01/01/2016,66.06,0.48,,,
+Zimbabwe,Sub-Saharan Africa,01/01/2016,59.25,0.37,,,
+Afghanistan,Southern Asia,01/01/2014,21.57,0.34,,,
+Albania,Eastern Europe,01/01/2014,54.73,0.49,,,
+Argentina,Latin America & Caribbean,01/01/2014,49.55,0.5,,,
+Australia,Global West,01/01/2014,82.4,0.8,,,
+Austria,Global West,01/01/2014,78.32,0.82,,,
+Bangladesh,Southern Asia,01/01/2014,25.61,0.39,,,
+Belarus,Former Soviet States,01/01/2014,67.69,0.51,,,
+Belgium,Global West,01/01/2014,66.61,0.76,,,
+Bolivia,Latin America & Caribbean,01/01/2014,50.48,0.39,,,
+Bosnia and Herzegovina,Eastern Europe,01/01/2014,45.79,0.55,,,
+Botswana,Sub-Saharan Africa,01/01/2014,47.6,0.67,,,
+Brazil,Latin America & Caribbean,01/01/2014,52.97,0.54,,,
+Bulgaria,Eastern Europe,01/01/2014,64.01,0.53,,,
+Burkina Faso,Sub-Saharan Africa,01/01/2014,40.52,0.51,,,
+Cambodia,Asia-Pacific,01/01/2014,35.44,0.4,,,
+Cameroon,Sub-Saharan Africa,01/01/2014,36.68,0.39,,,
+Canada,Global West,01/01/2014,73.14,0.78,,,
+Chile,Latin America & Caribbean,01/01/2014,69.93,0.68,,,
+China,Asia-Pacific,01/01/2014,43,0.45,,,
+Colombia,Latin America & Caribbean,01/01/2014,50.77,0.49,,,
+Cote d'Ivoire,Sub-Saharan Africa,01/01/2014,39.72,0.46,,,
+Croatia,Eastern Europe,01/01/2014,62.23,0.57,,,
+Czech Republic,Eastern Europe,01/01/2014,81.47,0.67,,,
+Denmark,Global West,01/01/2014,76.92,0.88,,,
+Dominican Republic,Latin America & Caribbean,01/01/2014,53.24,0.47,,,
+Ecuador,Latin America & Caribbean,01/01/2014,58.54,0.45,,,
+Egypt,Greater Middle East,01/01/2014,61.11,0.45,,,
+El Salvador,Latin America & Caribbean,01/01/2014,43.79,0.48,,,
+Estonia,Eastern Europe,01/01/2014,74.66,0.76,,,
+Ethiopia,Sub-Saharan Africa,01/01/2014,39.43,0.42,,,
+Finland,Global West,01/01/2014,75.72,0.84,,,
+France,Global West,01/01/2014,71.05,0.74,,,
+Georgia,Former Soviet States,01/01/2014,47.23,0.6,,,
+Germany,Global West,01/01/2014,80.47,0.8,,,
+Ghana,Sub-Saharan Africa,01/01/2014,32.07,0.57,,,
+Greece,Eastern Europe,01/01/2014,73.28,0.59,,,
+Guatemala,Latin America & Caribbean,01/01/2014,48.06,0.44,,,
+Hungary,Eastern Europe,01/01/2014,70.28,0.61,,,
+India,Southern Asia,01/01/2014,31.23,0.48,,,
+Indonesia,Asia-Pacific,01/01/2014,44.36,0.52,,,
+Iran,Greater Middle East,01/01/2014,51.08,0.44,,,
+Italy,Global West,01/01/2014,74.36,0.63,,,
+Jamaica,Latin America & Caribbean,01/01/2014,58.26,0.53,,,
+Japan,Asia-Pacific,01/01/2014,72.35,0.78,,,
+Jordan,Greater Middle East,01/01/2014,55.78,0.57,,,
+Kazakhstan,Former Soviet States,01/01/2014,51.07,0.47,,,
+Kenya,Sub-Saharan Africa,01/01/2014,36.99,0.43,,,
+Kyrgyzstan,Former Soviet States,01/01/2014,40.63,0.45,,,
+Lebanon,Greater Middle East,01/01/2014,50.15,0.51,,,
+Liberia,Sub-Saharan Africa,01/01/2014,23.95,0.42,,,
+Madagascar,Sub-Saharan Africa,01/01/2014,26.7,0.45,,,
+Malawi,Sub-Saharan Africa,01/01/2014,40.06,0.51,,,
+Malaysia,Asia-Pacific,01/01/2014,59.31,0.58,,,
+Mexico,Latin America & Caribbean,01/01/2014,55.03,0.45,,,
+Moldova,Former Soviet States,01/01/2014,53.36,0.45,,,
+Mongolia,Asia-Pacific,01/01/2014,44.67,0.51,,,
+Morocco,Greater Middle East,01/01/2014,51.89,0.51,,,
+Myanmar,Asia-Pacific,01/01/2014,27.44,0.41,,,
+Nepal,Southern Asia,01/01/2014,37,0.5,,,
+Netherlands,Global West,01/01/2014,77.75,0.83,,,
+New Zealand,Global West,01/01/2014,76.41,0.83,,,
+Nicaragua,Latin America & Caribbean,01/01/2014,50.32,0.43,,,
+Nigeria,Sub-Saharan Africa,01/01/2014,39.2,0.39,,,
+North Macedonia,Eastern Europe,01/01/2014,50.41,0.58,,,
+Norway,Global West,01/01/2014,78.04,0.88,,,
+Pakistan,Southern Asia,01/01/2014,34.58,0.36,,,
+Panama,Latin America & Caribbean,01/01/2014,56.84,0.5,,,
+Peru,Latin America & Caribbean,01/01/2014,45.05,0.49,,,
+Philippines,Asia-Pacific,01/01/2014,44.02,0.5,,,
+Poland,Eastern Europe,01/01/2014,69.53,0.67,,,
+Portugal,Global West,01/01/2014,75.8,0.66,,,
+Romania,Eastern Europe,01/01/2014,50.52,0.59,,,
+Russia,Former Soviet States,01/01/2014,53.45,0.45,,,
+Senegal,Sub-Saharan Africa,01/01/2014,40.83,0.54,,,
+Serbia,Eastern Europe,01/01/2014,,0.51,,,
+Sierra Leone,Sub-Saharan Africa,01/01/2014,21.74,0.44,,,
+Singapore,Asia-Pacific,01/01/2014,81.78,0.79,,,
+Slovenia,Eastern Europe,01/01/2014,76.43,0.65,,,
+South Africa,Sub-Saharan Africa,01/01/2014,53.51,0.55,,,
+South Korea,Asia-Pacific,01/01/2014,63.79,0.77,,,
+Spain,Global West,01/01/2014,79.79,0.67,,,
+Sri Lanka,Southern Asia,01/01/2014,53.88,0.52,,,
+Sweden,Global West,01/01/2014,78.09,0.85,,,
+Tanzania,Sub-Saharan Africa,01/01/2014,36.19,0.47,,,
+Thailand,Asia-Pacific,01/01/2014,52.83,0.52,,,
+Tunisia,Greater Middle East,01/01/2014,58.99,0.55,,,
+Turkiye,Eastern Europe,01/01/2014,54.91,0.5,,,
+Uganda,Sub-Saharan Africa,01/01/2014,39.18,0.41,,,
+Ukraine,Former Soviet States,01/01/2014,49.01,0.47,,,
+United Arab Emirates,Greater Middle East,01/01/2014,72.91,0.65,,,
+United Kingdom,Global West,01/01/2014,77.35,0.78,,,
+United States of America,Global West,01/01/2014,67.52,0.71,,,
+Uruguay,Latin America & Caribbean,01/01/2014,53.61,0.69,,,
+Uzbekistan,Former Soviet States,01/01/2014,43.23,0.45,,,
+Venezuela,Latin America & Caribbean,01/01/2014,57.8,0.31,,,
+Viet Nam,Asia-Pacific,01/01/2014,38.17,0.48,,,
+Zambia,Sub-Saharan Africa,01/01/2014,41.72,0.47,,,
+Zimbabwe,Sub-Saharan Africa,01/01/2014,49.54,0.34,,,
