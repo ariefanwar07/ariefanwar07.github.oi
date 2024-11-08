@@ -1,4 +1,4 @@
-﻿country,iso3,region,date, gdp_pc , rol_index , pop ,epi
+﻿country,iso3,region,date,gdp_pc,rol_index,pop,epi
 Zimbabwe,ZWE,Africa,2014-01-01,3588.86,0.34,13855753,49.54
 Zambia,ZMB,Africa,2014-01-01,3621.47,0.47,15737793,41.72
 Viet Nam,VNM,Asia,2014-01-01,8794.48,0.48,91235504,38.17
