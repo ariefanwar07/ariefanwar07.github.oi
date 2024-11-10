@@ -1,4 +1,4 @@
-Country Name,Country Code,Year,Gini Ratio,GDP Growth
+country_name,country_code,year,gini_ratio,gdp_growth
 Australia,AUS,01/01/2002,..,4.003022284
 Australia,AUS,01/01/2003,33.5,2.985744905
 Australia,AUS,01/01/2004,..,4.00110552
