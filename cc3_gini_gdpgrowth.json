@@ -1,0 +1,50 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "GDP Growth vs. Income Inequality (Gini Coefficient) in OECD Countries for 2015",
+    "data": {
+      "url": "https://raw.githubusercontent.com/ariefanwar07/ariefanwar07.github.oi/refs/heads/main/gini_gdpgrowth_2015.csv",
+      "format": {
+        "type": "csv"
+      }
+    },
+    "mark": "circle",
+    "encoding": {
+      "x": {
+        "field": "GDP Growth",
+        "type": "quantitative",
+        "axis": {
+          "title": "GDP Growth (%)",
+          "grid": false
+        }
+      },
+      "y": {
+        "field": "Gini Ratio",
+        "type": "quantitative",
+        "axis": {
+          "title": "Gini Coefficient",
+          "grid": false
+        }
+      },
+      "color": {
+        "field": "Country Name",
+        "type": "nominal",
+        "legend": {"title": "Country"}
+      },
+      "tooltip": [
+        {"field": "Country Name", "type": "nominal", "title": "Country"},
+        {"field": "GDP Growth", "type": "quantitative", "title": "GDP Growth (%)"},
+        {"field": "Gini Ratio", "type": "quantitative", "title": "Gini Coefficient"}
+      ]
+    },
+    "config": {
+      "background": "#FFFFFF",
+      "title": {
+        "text": "GDP Growth vs. Income Inequality (Gini Coefficient) in OECD Countries (2015)",
+        "fontSize": 16,
+        "fontWeight": "bold",
+        "anchor": "start",
+        "color": "#333"
+      }
+    }
+  }
+  

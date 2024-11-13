@@ -1,0 +1,50 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "Income Inequality Trends Over Time in High-Growth Economies",
+    "data": {
+      "url": "https://raw.githubusercontent.com/ariefanwar07/ariefanwar07.github.oi/refs/heads/main/ginihighincome.csv",
+      "format": {
+        "type": "csv"
+      }
+    },
+    "mark": "line",
+    "encoding": {
+      "x": {
+        "field": "Year",
+        "type": "temporal",
+        "axis": {
+          "title": "Year",
+          "grid": false
+        }
+      },
+      "y": {
+        "field": "Gini Ratio",
+        "type": "quantitative",
+        "axis": {
+          "title": "Gini Coefficient",
+          "grid": false
+        }
+      },
+      "color": {
+        "field": "Country Name",
+        "type": "nominal",
+        "legend": {"title": "Country"}
+      },
+      "tooltip": [
+        {"field": "Country Name", "type": "nominal", "title": "Country"},
+        {"field": "Year", "type": "temporal", "title": "Year"},
+        {"field": "Gini Ratio", "type": "quantitative", "title": "Gini Coefficient"}
+      ]
+    },
+    "config": {
+      "background": "#FFFFFF",
+      "title": {
+        "text": "Income Inequality Trends Over Time in High-Growth Economies",
+        "fontSize": 16,
+        "fontWeight": "bold",
+        "anchor": "start",
+        "color": "#333"
+      }
+    }
+  }
+  
