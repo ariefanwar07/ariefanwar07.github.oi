@@ -1,0 +1,78 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Improved chart on viewer concerns about the Zika virus.",
+  "title": {
+    "text": "Concern Levels About Zika Virus",
+    "fontSize": 20,
+    "fontWeight": "bold",
+    "anchor": "start"
+  },
+  "width": 400,
+  "height": 250,
+  "data": {
+    "values": [
+      {"concern_level": "Very", "display_percentage": 34, "actual_percentage": 0.34},
+      {"concern_level": "Somewhat", "display_percentage": 28, "actual_percentage": 0.28},
+      {"concern_level": "Not Very", "display_percentage": 25, "actual_percentage": 0.25},
+      {"concern_level": "Not at All", "display_percentage": 13, "actual_percentage": 0.13}
+    ]
+  },
+  "mark": {
+    "type": "bar",
+    "cornerRadiusEnd": 3,
+    "tooltip": true
+  },
+  "encoding": {
+    "x": {
+      "field": "concern_level",
+      "type": "ordinal",
+      "title": "Level of Concern",
+      "axis": {
+        "labelFontSize": 14,
+        "titleFontSize": 16,
+        "labelAngle": 0
+      },
+      "sort": ["Very", "Somewhat", "Not Very", "Not at All"]
+    },
+    "y": {
+      "field": "display_percentage",
+      "type": "quantitative",
+      "title": "Display Percentage",
+      "axis": {
+        "labelFontSize": 14,
+        "titleFontSize": 16,
+        "format": "d"
+      }
+    },
+    "color": {
+      "value": "#4a90e2"
+    }
+  },
+  "layer": [
+    {
+      "mark": "bar",
+      "encoding": {
+        "color": {"value": "#4a90e2"}
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "dy": -10,
+        "fontSize": 14,
+        "fontWeight": "bold",
+        "color": "black"
+      },
+      "encoding": {
+        "text": {"field": "actual_percentage", "type": "quantitative", "format": ".0%"}
+      }
+    }
+  ],
+ "config": {
+    "background": null,
+    "axis": {
+      "labelColor": "black",
+      "titleColor": "black"
+    }
+  }
+}

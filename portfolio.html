@@ -109,9 +109,17 @@
     <section>
         <div class="chart-description">
             <h2>CC4 - Replication: Find a chart from a journalist or similar source, replicate it, and improve upon it using Vega-Lite.</h2>
-            <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
-                Text
-            </p>
+            <p>This section displays both the replicated "bad" chart and the improved version using Vega-Lite.</p>
+        
+            <h3>Original Chart</h3>
+            <img src="cc4_bad_chart.jpg" alt="Original Chart" width="400" />
+        
+            <h3>Replicated "Bad" Chart</h3>
+            <figure id="cc4_replication_bad_chart"></figure>
+        
+            <h3>Improved Chart</h3>
+            <figure id="cc4_improved_chart"></figure>
+        
         </div>
           
     </section>
@@ -213,6 +221,8 @@
         vegaEmbed("#world_gdpc_ruleoflaw", "cc5_world_gdpc_ruleoflaw.json")
         vegaEmbed("#cc3_gini_gdpgrowth", "cc3_gini_gdpgrowth.json")
         vegaEmbed("#cc3_ginihighincome", "cc3_ginihighincome.json")
+        vegaEmbed("#cc4_replication_bad_chart", "cc4_replication_bad_chart.json")
+        vegaEmbed("#cc4_improved_chart", "cc4_improved_chart.json")
 
 
     </script>
