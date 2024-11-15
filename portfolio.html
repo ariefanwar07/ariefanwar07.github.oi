@@ -112,8 +112,8 @@
             <p>This section displays both the replicated "bad" chart and the improved version using Vega-Lite.</p>
         
             <h3>Original Chart</h3>
-            <img src="cc4_bad_chart.jpg" alt="Original Chart" width="400" />
-            <p>This is the original chart, sourced from a news report, showing viewer concern levels about the Zika virus. Although it conveys the data, it is misleading because the actual values do not match the visual representation. Additionally, the dark background and low color contrast reduce readability.</p>        
+            <img src="cc4_bad_chart.jpg" alt="Original Chart" width="500" />
+            <p>This is the original chart, sourced from NBC2, showing viewer concern levels about the Zika virus. Although it conveys the data, it is misleading because the actual values do not match the visual representation. Additionally, the dark background and low color contrast reduce readability.</p>        
             
             <h3>Replicated "Bad" Chart</h3>
             <figure id="cc4_replication_bad_chart"></figure>
@@ -130,14 +130,15 @@
 
     <section>
         <div class="chart-description">
-            <h2>CC5 - Scraper: Scrape data from a website, clean it, and use it to create a chart in Vega-Lite. A link to a Google Colab notebook where the analysis was conducted is required.</h2>
-            <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
-                Text
-            </p>
+            <h2>CC5 - Scraper: Scrape data from a website, clean it, and use it to create a chart in Vega-Lite.</h2>
+            <h3>Section 1: Python Notebook</h3>
+            <p><a href="https://colab.research.google.com/drive/1Af5n8-L6Vsi6KV6_5h7rURYsjKFAPd8a#scrollTo=b-dUPT9W-hw-">Link to my work in Google Collab python notebook </a></p>
+        
+            <h3>Section 2: Graph from my phyton notebook</h3>
+            <figure id="cc5_urbanazition_rol"></figure>
+            <p>I have created a scatter plot that visualizes the relationship between urbanization and the Rule of Law index for various countries. The x-axis represents the urbanization percentage, showing the proportion of the population living in urban areas. The y-axis represents the Rule of Law index, which is a measure of the extent to which individuals and institutions trust and adhere to laws, as provided by the World Bank and World Justice Project.<p></p>
         </div>
         
-        <figure id="world_gdpc_ruleoflaw"></figure> 
-
     </section>
 
     <section>
@@ -222,12 +223,11 @@
         vegaEmbed("#indonesia_mexico_electricity", "cc2_indonesia_mexico_electricity.json")
         vegaEmbed("#vices_spending", "cc2_vices_spending.json") 
         vegaEmbed("#anscombesquartet", "cc2_anscombesquartet.json")
-        vegaEmbed("#world_gdpc_ruleoflaw", "cc5_world_gdpc_ruleoflaw.json")
         vegaEmbed("#cc3_gini_gdpgrowth", "cc3_gini_gdpgrowth.json")
         vegaEmbed("#cc3_ginihighincome", "cc3_ginihighincome.json")
         vegaEmbed("#cc4_replication_bad_chart", "cc4_replication_bad_chart.json")
         vegaEmbed("#cc4_improved_chart", "cc4_improved_chart.json")
-
+        vegaEmbed("#cc5_urbanazition_rol", "cc5_urbanazition_rol.json")
 
     </script>
 
