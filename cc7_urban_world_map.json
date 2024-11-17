@@ -1,0 +1,52 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 500,
+    "height": 250,
+    "title": {
+      "text": "Urban Population (% of Total Population)",
+      "subtitle": ["Source: World Bank"]
+    },
+    "data": {
+      "url": "https://raw.githubusercontent.com/ariefanwar07/ariefanwar07.github.oi/main/map_world.geojson",
+      "format": {"property": "features"}
+    },
+    "projection": {"type": "naturalEarth1"},
+    "layer": [
+      {
+        "mark": {"type": "geoshape", "fill": "lightgray", "stroke": "white"},
+        "transform": [{"filter": "datum.properties.ISO3 != 'ATA'"}],
+        "encoding": {
+          "tooltip": [{"field": "properties.COUNTRY", "title": "Country Name"}]
+        }
+      },
+      {
+        "mark": {"type": "geoshape"},
+        "encoding": {
+          "color": {
+            "field": "value",
+            "type": "quantitative",
+            "scale": {"type": "linear", "domain": [0, 100], "scheme": "blues"},
+            "legend": {"title": "Urban Population (%)"}
+          },
+          "tooltip": [
+            {"field": "Country Name", "title": "Country"},
+            {"field": "value", "title": "Urban Population (%)", "format": ".1f"}
+          ]
+        }
+      }
+    ],
+    "transform": [
+      {
+        "lookup": "properties.ISO3",
+        "from": {
+          "data": {
+            "url": "https://raw.githubusercontent.com/ariefanwar07/ariefanwar07.github.oi/refs/heads/main/urban_population_2023.csv",
+            "format": {"type": "csv"}
+          },
+          "key": "ISO3",
+          "fields": ["value", "Country Name"]
+        }
+      }
+    ]
+  }
+  
