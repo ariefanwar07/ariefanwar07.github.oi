@@ -25,7 +25,7 @@
           "color": {
             "field": "value",
             "type": "quantitative",
-            "scale": {"type": "linear", "domain": [0, 100], "scheme": "blues"},
+            "scale": {"type": "linear", "domain": [0, 100], "scheme": "viridis"},
             "legend": {"title": "Urban Population (%)"}
           },
           "tooltip": [
