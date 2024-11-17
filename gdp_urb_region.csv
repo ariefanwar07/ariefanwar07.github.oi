@@ -1,4 +1,4 @@
-﻿country_x,iso3,date,gdp_pc,country_y,urb,region
+﻿country_x,iso3,date,gdp_pc,country,urb,region
 Zimbabwe,ZWE,1990-01-01 00:00:00,4189.552481,Zimbabwe,28.988,Africa
 Zambia,ZMB,1990-01-01 00:00:00,2456.588763,Zambia,39.407,Africa
 Viet Nam,VNM,1990-01-01 00:00:00,2416.030525,Viet Nam,20.257,Asia
