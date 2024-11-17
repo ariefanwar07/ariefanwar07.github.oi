@@ -1,31 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-       <!-- The head tag links to resources our page needs and defines information about it. Tags in the <head> aren't displayed on the page. -->
-
-    <!-- This is a link to a stylesheet which contains rules about how each element on the page should be defined-->
-    <!-- Try swapping example1.css to another, and take a look at example1.css to see if you understand it-->
-    <link rel="stylesheet" type="text/css" href="portfolio_style.css">
-    <title>rsaputri</title> <!-- The title displayed in the browser tab, not on the page itself -->
-
-    <!-- This is a link to the vega-lite which we're using to make graphs -->
-    <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
-    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
-    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
-
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project</title>
-
-    <style>
-        #chartGrid {
-            display: flex;
-        }
-        
-    </style>
-</head>
+    <head>
+        <!-- The head tag links to resources our page needs and defines information about it -->
+        <link rel="stylesheet" type="text/css" href="portfolio_style.css">
+        <title>Arief Anwar Project</title> <!-- Title displayed in the browser tab -->
+    
+        <!-- Links to Vega, Vega-Lite, and Vega-Embed for graphs -->
+        <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+        <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+        <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+    
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+        <!-- Inline CSS for basic styling -->
+        <style>
+            /* General body styles */
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                background-color: #f9f9f9;
+                color: #333;
+            }
+    
+            /* Header section */
+            h3.small {
+                font-size: 1.5rem;
+                color: #444;
+                text-align: center;
+                margin: 20px;
+            }
+    
+            /* Chart description styles */
+            .chart-description {
+                max-width: 800px;
+                margin: 0 auto;
+                background: #ffffff;
+                padding: 20px;
+                border-radius: 8px;
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            }
+    
+            .chart-description h2 {
+                font-size: 1.8rem;
+                color: #222;
+                margin-bottom: 10px;
+                text-align: center;
+            }
+    
+            .chart-description p {
+                font-size: 1rem;
+                line-height: 1.6;
+                color: #555;
+                margin: 10px 0;
+            }
+    
+            /* Chart figure styling */
+            figure {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 20px 0;
+                height: 500px; /* Adjust height as necessary */
+            }
+    
+            /* Grid layout for multiple charts (optional for future projects) */
+            #chartGrid {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-around;
+                gap: 20px;
+            }
+        </style>
+    </head>
 <body>
-    <p>My project page</p>
+    <p></p>
     <h3 class="small"> <!-- We have added a class to the header called "small" which we can use to style it in the CSS -->
         Exploring Economic and Urbanization Patterns Across the World
     </h3>
