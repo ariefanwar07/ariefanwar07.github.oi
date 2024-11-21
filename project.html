@@ -1,106 +1,99 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <!-- The head tag links to resources our page needs and defines information about it -->
-        <link rel="stylesheet" type="text/css" href="portfolio_style.css">
-        <title>Arief Anwar Project</title> <!-- Title displayed in the browser tab -->
-    
-        <!-- Links to Vega, Vega-Lite, and Vega-Embed for graphs -->
-        <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
-        <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
-        <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
-    
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-        <!-- Inline CSS for basic styling -->
-        <style>
-            /* General body styles */
-            body {
-                font-family: Arial, sans-serif;
-                margin: 0;
-                padding: 0;
-                background-color: #f9f9f9;
-                color: #333;
-            }
-    
-            /* Header section */
-            h3.small {
-                font-size: 1.5rem;
-                color: #444;
-                text-align: center;
-                margin: 20px;
-            }
-    
-            /* Chart description styles */
-            .chart-description {
-                max-width: 800px;
-                margin: 0 auto;
-                background: #ffffff;
-                padding: 20px;
-                border-radius: 8px;
-                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            }
-    
-            .chart-description h2 {
-                font-size: 1.8rem;
-                color: #222;
-                margin-bottom: 10px;
-                text-align: center;
-            }
-    
-            .chart-description p {
-                font-size: 1rem;
-                line-height: 1.6;
-                color: #555;
-                margin: 10px 0;
-            }
-    
-            /* Chart figure styling */
-            figure {
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                margin: 20px 0;
-                height: 500px; /* Adjust height as necessary */
-            }
-    
-            /* Grid layout for multiple charts (optional for future projects) */
-            #chartGrid {
-                display: flex;
-                flex-wrap: wrap;
-                justify-content: space-around;
-                gap: 20px;
-            }
-        </style>
-    </head>
-<body>
-    <p></p>
-    <h3 class="small"> <!-- We have added a class to the header called "small" which we can use to style it in the CSS -->
-        Exploring Economic and Urbanization Patterns Across the World
-    </h3>
+<!-- This HTML file provides a simple example of a portfolio page. It contains a header, a few sections, and a few charts. -->
+<!-- It works with the three css files in this folder: example1.css, example2.css and example3.css. -->
+<!-- The HTML file defines the structure of the page, and the CSS files define how it looks. -->
+<!-- The CSS examples are all designed to work with this page. Try swapping them out on line 29 and see what happens. -->
 
-    <section>
-        <div class="chart-description">
-            <h2> Economic and Urban Population Patterns </h2>
-            <p>
-                This chart visualizes the relationship between GDP per capita (PPP) and urban population percentages for countries around the world. 
-                It highlights disparities in economic development and urbanization across regions such as Africa, Asia, Europe, the Americas, and Oceania.
-            </p>
-            <p>
-                Using a log scale for GDP per capita, the chart makes it easier to compare countries with vast economic differences.
-            </p>
-            <figure id="project1_urban_gdp"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
-            <p>
-                By adjusting the year slider, users can explore how these patterns have evolved over time, revealing trends in economic growth and 
-                urbanization.
-        </div>
-        <figure id="project1_urban_gdp"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
-           
+<!-- Take a look around and make your own copy to adapt for your own use. -->
+
+<!-- This is a comment -->
+<!-- Comments are not displayed in the browser -->
+<!-- They can be used to leave notes in the code -->
+
+<!DOCTYPE html>
+<html> 
+    <!-- HTML is heirarchial: tags like this define elements on the page. 
+    Each tag does something different. For example:
+        - The <html> tag defines the whole document.
+        - The <h1> tag defines a large heading
+        - The <p> tag defines a paragraph
+        - Tags appear as an opening <div> and closing </div> pair
+    -->
+
+<head>    
+    <!-- The head tag links to resources our page needs and defines information about it. Tags in the <head> aren't displayed on the page. -->
+
+    <!-- This is a link to a stylesheet which contains rules about how each element on the page should be defined-->
+    <!-- Try swapping example1.css to another, and take a look at example1.css to see if you understand it-->
+    <link rel="stylesheet" type="text/css" href="portofolio_styles.css">
+    <title>My Portfolio</title> <!-- The title displayed in the browser tab, not on the page itself -->
+
+    <!-- This is a link to the vega-lite which we're using to make graphs -->
+    <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+
+    <style>
+        #chartGrid {
+            display: flex;
+        }
         
+    </style>
     
-    <script>
-        vegaEmbed("#project1_urban_gdp", "project1_urban_gdp.json")
-    </script>
-</body>
+    </head>
+    <body>
+        <h1 class="big">Arief Anwar<br>Project</h1>
+       
+        <section>
+            <div class="chart-description">
+                <h2>Introduction</h2>
+                <p>
+                    Urban population refers to people living in urban areas as defined by national statistical offices. Explosive growth of cities globally signifies the demographic transition from rural to urban, and is associated with shifts from an agriculture-based economy to mass industry, technology, and service. 
+                    In principle, cities offer a more favorable setting for the resolution of social and environmental problems than rural areas. Cities generate jobs and income, and deliver education, health care, and other services. 
+                    Cities also present opportunities for social mobilization and women's empowerment.
+                </p>
+            </div>
+
+        </section>
+
+        <section>
+            <div class="chart-description">
+                <h2>Economic and Urban Population Patterns</h2>
+                <p>
+                    This chart visualizes the relationship between GDP per capita (PPP) and urban population percentages for countries around the world. 
+                    It highlights disparities in economic development and urbanization across regions such as Africa, Asia, Europe, the Americas, and Oceania.
+                </p>
+                <p>
+                    Using a log scale for GDP per capita, the chart makes it easier to compare countries with vast economic differences.
+                </p>
+                <figure id="project1_urban_gdp"></figure>
+                <p>
+                    By adjusting the year slider, users can explore how these patterns have evolved over time, revealing trends in economic growth and 
+                    urbanization.
+                </p>
+            </div>
+        </section>
+
+        <section>
+            <div class="chart-description">
+                <h2>Global Urbanization Map</h2>
+                <p>
+                    This map provides a geographic overview of urbanization trends. It visualizes the percentage of urban population by country, offering insights 
+                    into regional urbanization patterns and their impact on economic development.
+                </p>
+                <figure id="project2_urban_map"></figure>
+            </div>
+        </section>
+
+        <footer>
+            &copy; 2024 Arief Anwar Project | Designed with data-driven insights
+        </footer>
+
+        <script>
+            // Embed the first Vega-Lite visualization
+            vegaEmbed("#project1_urban_gdp", "project1_urban_gdp.json").catch(console.error);
+
+            // Embed the second Vega-Lite visualization
+            vegaEmbed("#project2_urban_map", "project2_urban_map.json").catch(console.error);
+        </script>
+    </body>
 </html>
