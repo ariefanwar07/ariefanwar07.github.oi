@@ -58,13 +58,12 @@
         <div class="chart-description">
             <h2>CC1 - Hosting: Set up a GitHub account and display charts.</h2>
             <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
-                We've organised the page into sections, with each section containing a chart, title and a description. Here, we can describe the chart and give some context.
+                I've organised the page into sections, with each section containing a chart, title and a description. Here, we can describe the chart and give some context.
                 As a first example, we're using a basic chart from our repo.
             </p>
         </div>
         <figure id="Location1"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
             <figure id="Location2"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
-            <figure id="Location3"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
         
     </section>
 
@@ -72,15 +71,24 @@
     <section>
         <div class="chart-description">
             <h2>CC2 - Building: Create two visualizations using the Economics Observatory Data Hub. </h2>
-            <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
-                Text
-            </p>
+
+            <h3>Chart 1: Electricity Output in Indonesia</h3>
+            <p>This chart illustrates the growth of electricity output in Indonesia over time. The data highlights a consistent upward trend in power generation, reflecting the country's focus on expanding energy production to meet growing demand.</p>
+            <figure id="indonesia_electricity"></figure> 
+
+            <h3>Chart 2: Electricity Output in Mexico</h3>
+            <p>This chart shows the historical electricity output in Mexico. Similar to Indonesia, it depicts a steady rise, but with fluctuations in certain periods, potentially linked to policy changes or economic conditions.</p>
+            <figure id="mexico_electricity"></figure> 
+
+            <h3>Chart 3: Comparative Electricity Output in Indonesia and Mexico</h3>
+            <p>This comparative chart overlays the trends in electricity output for Indonesia and Mexico, emphasizing differences in growth patterns and output levels over time.</p>
+            <figure id="indonesia_mexico_electricity"></figure>
+
         </div>
-        <figure id="indonesia_electricity"></figure> 
-        <figure id="mexico_electricity"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
-        <figure id="indonesia_mexico_electricity"></figure>
-        <figure id="vices_spending"></figure>
-        <figure id="anscombesquartet"></figure>
+       
+        
+        
+
     
 
     </section>
@@ -144,9 +152,54 @@
     <section>
         <div class="chart-description">
             <h2>CC6 - Loops: Build a dashboard with nine charts using data from the ONS API.</h2>
-            <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
-                Text
+            <p>
+                I used the World Bank’s API to batch download Indonesia Urbanization and Economic data. 
+                I also used Google Colab Python notebook to create these charts. You can see my Colab notebook 
+                <a href="https://colab.research.google.com/drive/1Y_MH37w_TZS0I5B4mv5hA8akDvgwf7ya?usp=sharing" target="_blank">here</a>.
             </p>
+            <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
+                Indonesia Urbanization and Economic Dashboard
+            </p>
+            <!-- Urban Population -->
+            <p>This chart shows the percentage of Indonesia's total population living in urban areas. The steady upward trend reflects the rapid urbanization in Indonesia over the decades as people move to cities for better opportunities.</p>
+            <figure id="urban_population_chart"></figure>
+    
+            <!-- Urban Growth -->
+            <p>This chart illustrates the annual growth rate of Indonesia's urban population. It highlights the periods of accelerated urbanization and possible effects of population policies.</p>
+            <figure id="urban_growth_chart"></figure>
+    
+            <!-- Rural Population -->
+            <p>This chart depicts the percentage of Indonesia's population living in rural areas. The declining trend indicates the migration from rural areas to urban centers.</p>
+            <figure id="rural_population_chart"></figure>
+                 
+            <!-- Urban Density -->
+            <p>This chart displays the population density in urban areas, reflecting how crowded Indonesia’s cities have become over time.</p>
+            <figure id="urban_density_chart"></figure>
+    
+            <!-- Population Growth -->
+            <p>This chart shows the annual growth rate of Indonesia’s total population. It provides insights into population trends and the effectiveness of policies on population control.</p>
+            <figure id="population_growth_chart"></figure>
+    
+            <!-- Total Population -->
+            <p>This chart tracks Indonesia’s total population over time. It showcases steady growth as Indonesia becomes one of the most populous nations in the world.</p>
+            <figure id="population_total_chart"></figure>
+    
+            <!-- GDP Growth -->
+            <p>This chart highlights Indonesia's annual GDP growth rate. It reflects economic resilience and the impacts of global and domestic economic trends.</p>
+            <figure id="gdp_growth_chart"></figure>
+    
+            <!-- GDP Per Capita -->
+            <p>This chart illustrates Indonesia’s GDP per capita in current USD. It measures economic prosperity on an individual basis and reflects improvements in living standards.</p>
+            <figure id="gdp_per_capita_chart"></figure>
+    
+            <!-- Life Expectancy -->
+            <p>This chart shows life expectancy at birth in Indonesia. It reflects progress in healthcare, nutrition, and overall living conditions.</p>
+            <figure id="life_expectancy_chart"></figure>
+    
+            <!-- Poverty Rate -->
+            <p>This chart tracks the percentage of Indonesia’s population living in poverty. It measures the success of economic and social policies in reducing extreme poverty.</p>
+            <figure id="poverty_rate_chart"></figure>
+                    
         </div>
           
     </section>
@@ -154,20 +207,41 @@
     <section>
         <div class="chart-description">
             <h2>CC7 - Maps: Create a base map and a choropleth map.</h2>
-            <p> This choropleth map shows global urban population percentages. It combines geographic boundaries with color shading to represent urbanization data from reliable sources. </p>
-            <p> The map highlights global urbanization trends, helping policymakers and researchers identify regions requiring attention for infrastructure, sustainability, and economic development initiatives. </p>
+            <p> Section 1: Base Map - Indonesia</p>
+
+            <figure id="cc7_indonesia_map_province"></figure>
+
+            <p> Section 2: Chlorophyte Map - Gross Regional Domestic Bruto Across Provinces in Indonesia. </p>
+
+            <figure id="cc7_grdp_indo_map_province"></figure>
+
         </div>
 
-        <figure id="cc7_urban_world_map"></figure>
+       
 
     </section>
 
     <section>
         <div class="chart-description">
-            <h2>CC8 - Analytics charts: Create two charts using advanced analytics techniques.</h2>
-            <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
-                Text
+            <h2>CC8 - Big Data: Extracting a Story from Millions of Prices</h2>
+            <p>This section visualizes insights derived from the UK Price Data.</p>
+        
+            <h3>Chart 1: Average Monthly Price of Bread Over Time</h3>
+            <p><strong>Description:</strong> This chart shows the trend of average monthly bread prices over time using the `db_prices` dataset.</p>
+            <figure id="cc8_average_rice_prices"></figure>
+        
+            <h3>Chart 2: Regional Price Comparison for Bread (January 2022)</h3>
+            <p><strong>Description:</strong> This chart compares the average price of bread across regions for January 2022.</p>
+            <figure id="cc8_regional_basmati_rice_prices"></figure>
+        
+            <p>
+                I used Google Colab Python notebook to create these charts. 
+                You can see my Colab notebook 
+                <a href="https://colab.research.google.com/drive/1aYr6ipHBAWzscxoBHQm29EDGekn-u4UO?usp=sharing" target="_blank">here</a>.
             </p>
+            
+            
+            
         </div>
           
     </section>
@@ -229,7 +303,21 @@
         vegaEmbed("#cc4_replication_bad_chart", "cc4_replication_bad_chart.json")
         vegaEmbed("#cc4_improved_chart", "cc4_improved_chart.json")
         vegaEmbed("#cc5_urbanazition_rol", "cc5_urbanazition_rol.json")
-        vegaEmbed("#cc7_urban_world_map", "cc7_urban_world_map.json")
+        vegaEmbed("#urban_population_chart", "cc6_urban_population_chart.json")
+        vegaEmbed("#urban_growth_chart", "cc6_urban_growth_chart.json")
+        vegaEmbed("#rural_population_chart", "cc6_rural_population_chart.json")
+        vegaEmbed("#urban_land_area_chart", "cc6_urban_land_area_chart.json")
+        vegaEmbed("#urban_density_chart", "cc6_urban_density_chart.json")
+        vegaEmbed("#population_growth_chart", "cc6_population_growth_chart.json")
+        vegaEmbed("#population_total_chart", "cc6_population_total_chart.json")
+        vegaEmbed("#gdp_growth_chart","cc6_gdp_growth_chart.json")
+        vegaEmbed("#gdp_per_capita_chart", "cc6_gdp_per_capita_chart.json")
+        vegaEmbed("#life_expectancy_chart", "cc6_life_expectancy_chart.json")
+        vegaEmbed("#poverty_rate_chart", "cc6_poverty_rate_chart.json")
+        vegaEmbed("#cc7_indonesia_map_province", "cc7_indonesia_map_province.json")
+        vegaEmbed("#cc7_grdp_indo_map_province", "cc7_grdp_indo_map_province.json")  
+        vegaEmbed("#cc8_average_rice_prices", "acc8_average_rice_prices.json")
+        vegaEmbed("#cc8_regional_basmati_rice_prices", "cc8_regional_basmati_rice_prices.json")
 
     </script>
 

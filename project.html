@@ -35,8 +35,13 @@
     <style>
         #chartGrid {
             display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
         }
-        
+        .chart-container {
+            margin: 20px;
+            width: 45%; /* Adjust width for two charts per row */
+        }
     </style>
     
     </head>
@@ -46,41 +51,41 @@
         <section>
             <div class="chart-description">
                 <h2>Introduction</h2>
-                <p>
-                    Urban population refers to people living in urban areas as defined by national statistical offices. Explosive growth of cities globally signifies the demographic transition from rural to urban, and is associated with shifts from an agriculture-based economy to mass industry, technology, and service. 
-                    In principle, cities offer a more favorable setting for the resolution of social and environmental problems than rural areas. Cities generate jobs and income, and deliver education, health care, and other services. 
-                    Cities also present opportunities for social mobilization and women's empowerment.
-                </p>
-            </div>
+            <p><strong>Exploring the Impact of Trade on Indonesia’s Economic Stability</strong></p>
+            <p><strong>Project Overview:</strong></p>
+            <p>
+                The objective is to analyze the relationship between Indonesia’s trade and key economic indicators such as GDP, inflation, and foreign reserves. The study aims to uncover trends, identify key drivers of trade, and assess their influence on economic stability.
+            </p>
+            <p><strong>Data Sources:</strong></p>
+            <ul>
+                <li><a href="https://comtrade.un.org/">UN Comtrade</a></li>
+                <li><a href="https://data.worldbank.org/">World Bank</a></li>
+                <li><a href="https://www.imf.org/">IMF</a></li>
+            </ul>
+        </div>
 
         </section>
 
         <section>
             <div class="chart-description">
-                <h2>Economic and Urban Population Patterns</h2>
+                <h2>Chart 1: Indonesia Trade Data Visualization</h2>
                 <p>
-                    This chart visualizes the relationship between GDP per capita (PPP) and urban population percentages for countries around the world. 
-                    It highlights disparities in economic development and urbanization across regions such as Africa, Asia, Europe, the Americas, and Oceania.
+                    This project visualizes Indonesia's trade indicators from 1990 to 2020, including exports, imports, and trade balance, using World Bank data. The chart highlights trends over time, offering insights into economic stability.
                 </p>
+                <figure id="project1_indonesia_trade_data"></figure>
                 <p>
-                    Using a log scale for GDP per capita, the chart makes it easier to compare countries with vast economic differences.
-                </p>
-                <figure id="project1_urban_gdp"></figure>
-                <p>
-                    By adjusting the year slider, users can explore how these patterns have evolved over time, revealing trends in economic growth and 
-                    urbanization.
+                    <strong>Data Source:</strong> <a href="https://data.worldbank.org/">World Bank API</a>
                 </p>
             </div>
         </section>
 
         <section>
             <div class="chart-description">
-                <h2>Global Urbanization Map</h2>
+                <h2></h2>
                 <p>
-                    This map provides a geographic overview of urbanization trends. It visualizes the percentage of urban population by country, offering insights 
-                    into regional urbanization patterns and their impact on economic development.
+                    
                 </p>
-                <figure id="project2_urban_map"></figure>
+                <figure id=""></figure>
             </div>
         </section>
 
@@ -90,10 +95,10 @@
 
         <script>
             // Embed the first Vega-Lite visualization
-            vegaEmbed("#project1_urban_gdp", "project1_urban_gdp.json").catch(console.error);
+            vegaEmbed("#project1_indonesia_trade_data", "project1_indonesia_trade_data.json").catch(console.error);
 
             // Embed the second Vega-Lite visualization
-            vegaEmbed("#project2_urban_map", "project2_urban_map.json").catch(console.error);
+            vegaEmbed("").catch(console.error);
         </script>
     </body>
 </html>

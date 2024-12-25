@@ -1,13 +1,13 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "data": {"url":"https://raw.githubusercontent.com/ariefanwar07/ariefanwar07.github.oi/refs/heads/main/gdp_rol_pop_region.csv"},
+    "data": {"url":"https://raw.githubusercontent.com/ariefanwar07/ariefanwar07.github.oi/refs/heads/main/rol_epi.csv"},
     "transform": [
-      {"filter":"year(datum.date)==Year & datum.rol_index>0"}
+      {"filter":"year(datum.date)==Year & datum.rol_index>0 "}
     ],
     "title": {
-        "text": "The Economy and Rule of Law",
+        "text": "The Rule of Law and The Environmental Performance Index",
         "anchor": "start",
-        "subtitle": ["GDP per Capita (PPP USD constant), Source: World Bank","",""],
+        "subtitle": ["Environmental Performance Index, Source: Yale","",""],
         "fontSize": 16,
         "subtitleFontSize": 12,
         "font": "Afacad Flux",
@@ -20,21 +20,22 @@
     "params": [
       {
         "name": "Year",
-        "value": 2019,
-        "bind":{"input": "range", "min": 2013, "max": 2022, "step": 1}
+        "value": 2014,
+        "bind":{"input": "range", "min": 2014, "max": 2022, "step": 2}
       }
+      
     ],
   
       "encoding": {
       "x": {
-        "field": "gdp_pc",
+        "field": "epi",
         "axis":{
           "gridOpacity":0,
-          "format":"$,d",
-          "title":"GDP per capita",
+          "format":"d",
+          "title":"Environmental Performance Index",
           "font": "Afacad Flux"},
         "scale":{
-          "domain":[0, 100000],
+          "domain":[0, 100],
           "type":"linear"},
         "type":"quantitative"
         },

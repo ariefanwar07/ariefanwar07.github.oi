@@ -1,0 +1,71 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 600,
+    "height": 300,
+    "title": {
+      "text": "Urban Population (% of Total Population)",
+      "subtitle": ["Source: World Bank"]
+    },
+    "data": {
+      "url": "https://raw.githubusercontent.com/ariefanwar07/ariefanwar07.github.oi/main/map_world.geojson",
+      "format": {"property": "features"}
+    },
+    "projection": {"type": "naturalEarth1"},
+    "params": [
+      {
+        "name": "SelectedYear",
+        "value": 1983,
+        "bind": {
+          "input": "range",
+          "min": 1983,
+          "max": 2023,
+          "step": 1
+        }
+      }
+    ],
+    "transform": [
+      {
+        "lookup": "properties.ISO3",
+        "from": {
+          "data": {
+            "url": "https://raw.githubusercontent.com/ariefanwar07/ariefanwar07.github.oi/refs/heads/main/urb_df_1983-2023.csv",
+            "format": {"type": "csv"}
+          },
+          "key": "ISO3",
+          "fields": ["date", "urb"]
+        }
+      },
+      {
+        "calculate": "year(datum.date)",
+        "as": "year"
+      },
+      {
+        "filter": "datum.year == SelectedYear"
+      }
+    ],
+    "layer": [
+      {
+        "mark": {"type": "geoshape", "fill": "lightgray", "stroke": "white"},
+        "encoding": {
+          "tooltip": [{"field": "properties.COUNTRY", "title": "Country Name"}]
+        }
+      },
+      {
+        "mark": {"type": "geoshape"},
+        "encoding": {
+          "color": {
+            "field": "urb",
+            "type": "quantitative",
+            "scale": {"type": "linear", "domain": [0, 100], "scheme": "viridis"},
+            "legend": {"title": "Urban Population (%)"}
+          },
+          "tooltip": [
+            {"field": "properties.COUNTRY", "title": "Country"},
+            {"field": "urb", "title": "Urban Population (%)", "format": ".2f"},
+            {"field": "year", "title": "Year"}
+          ]
+        }
+      }
+    ]
+  }
+  

@@ -1,0 +1,64 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 500,
+    "height": 300,
+    "title": {
+      "text": "Gross Regional Domestik Brotu Across Provinces in Indonesia",
+      "subtitle": [
+        "in thousand USD",
+        "Source: BPS",
+        ""
+      ]
+    },
+    "params": [
+      {
+        "name": "selectedYear",
+        "value": 2010,
+        "bind": {
+          "input": "range",
+          "min": 2010,
+          "max": 2022,
+          "step": 1,
+          "name": "Year"
+        }
+      }
+    ],
+    "layer": [
+      {
+        "data": {
+          "url": "https://raw.githubusercontent.com/ariefanwar07/ariefanwar07.github.oi/refs/heads/main/data7_indo_province_grdp.csv",
+          "format": {"type": "csv"}
+        },
+        "transform": [
+          {"filter": "datum.year == selectedYear"},
+          {
+            "lookup": "province",
+            "from": {
+              "data": {
+                "url": "https://raw.githubusercontent.com/ariefanwar07/ariefanwar07.github.oi/refs/heads/main/cc7_indo_map.json",
+                "format": {"type": "topojson", "feature": "provinces"}
+              },
+              "key": "properties.provinsi",
+              "fields": ["type", "geometry"]
+            }
+          },
+          {"calculate": "datum.grdp + '$'", "as": "Rp_thousand_USD"}
+        ],
+        "projection": {"type": "mercator"},
+        "mark": {"type": "geoshape"},
+        "encoding": {
+          "color": {
+            "field": "grdp",
+            "type": "quantitative",
+            "scale": {"scheme": "lightmulti", "domain": [0, 500000000]},
+            "legend": {"title": "FDI Inflow"}
+          },
+          "tooltip": [
+            {"field": "province", "title": "province"},
+            {"field": "GRDP", "title": "GRDP"},
+            {"field": "Year", "title": "Year"}
+          ]
+        }
+      }
+    ]
+  }
