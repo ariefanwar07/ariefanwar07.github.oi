@@ -226,25 +226,53 @@
             <h2>CC8 - Big Data: Extracting a Story from Millions of Prices</h2>
             <p>This section visualizes insights derived from the UK Price Data.</p>
         
-            <h3>Chart 1: Average Monthly Price of Bread Over Time</h3>
-            <p><strong>Description:</strong> This chart shows the trend of average monthly bread prices over time using the `db_prices` dataset.</p>
+            <h3>Chart 1: Average Monthly Price of Basmati Rice Over Time</h3>
+            <p><strong>Description:</strong> This chart shows the trend of average monthly basmati rice prices over time using the `db_prices` dataset.</p>
             <figure id="cc8_average_rice_prices"></figure>
+            <p>
+                <strong>What I Did:</strong>
+                <ul>
+                    <li><strong>Dataset Source:</strong> I obtained the UK price dataset (`db_prices.csv`) based on monthly data from the Long Run Price Database (Davies, 2021) in 
+                        <a href="https://eco-prices-scrapes.s3.eu-west-2.amazonaws.com/teaching/davies_price_data/db_prices.csv" target="_blank">this link</a>.
+                    </li>
+                    <li><strong>Data Extraction:</strong> I filtered the dataset for rows corresponding to basmati rice (item_id = 210203).</li>
+                    <li><strong>Data Cleaning:</strong> I converted the `quote_date` column to a datetime format and handled missing values by dropping incomplete rows.</li>
+                    <li><strong>Data Aggregation:</strong> I calculated the average monthly price of basmati rice using a group-by operation.</li>
+                    <li><strong>Visualization:</strong> Using Altair, I created a line chart to visualize the average monthly price trend.</li>
+                </ul>
+            </p>
         
-            <h3>Chart 2: Regional Price Comparison for Bread (January 2022)</h3>
-            <p><strong>Description:</strong> This chart compares the average price of bread across regions for January 2022.</p>
+            <h3>Chart 2: Regional Price Comparison for Basmati Rice (January 2022)</h3>
+            <p><strong>Description:</strong> This chart compares the average price of basmati rice across regions for January 2022.</p>
             <figure id="cc8_regional_basmati_rice_prices"></figure>
+            <p>
+                <strong>What I Did:</strong>
+                <ul>
+                    <li><strong>Dataset Sources:</strong> 
+                        <ul>
+                            <li>Price Data: I obtained the UK price dataset (`db_prices.csv`) based on monthly data from the Long Run Price Database (Davies, 2021) in 
+                                <a href="https://eco-prices-scrapes.s3.eu-west-2.amazonaws.com/teaching/davies_price_data/db_prices.csv" target="_blank">this link</a>.
+                            </li>
+                            <li>Region Metadata: I obtained the region mapping dataset (`db_region.csv`) based on monthly data from the Long Run Price Database (Davies, 2021) in 
+                                <a href="https://eco-prices-scrapes.s3.eu-west-2.amazonaws.com/teaching/davies_price_data/db_region.csv" target="_blank">this link</a>.
+                            </li>
+                        </ul>
+                    </li>
+                    <li><strong>Data Filtering:</strong> I selected data for January 2022 and filtered rows corresponding to basmati rice (item_id = 210203).</li>
+                    <li><strong>Region Mapping:</strong> I merged the dataset with `db_region.csv` to map region codes to their corresponding names.</li>
+                    <li><strong>Data Aggregation:</strong> I calculated the average price of basmati rice for each region in January 2022 using a group-by operation.</li>
+                    <li><strong>Visualization:</strong> Using Altair, I created a bar chart to compare the average basmati rice prices across regions.</li>
+                </ul>
+            </p>
         
             <p>
                 I used Google Colab Python notebook to create these charts. 
                 You can see my Colab notebook 
                 <a href="https://colab.research.google.com/drive/1aYr6ipHBAWzscxoBHQm29EDGekn-u4UO?usp=sharing" target="_blank">here</a>.
             </p>
-            
-            
-            
         </div>
-          
     </section>
+    
 
     <section>
         <div class="chart-description">
@@ -316,7 +344,7 @@
         vegaEmbed("#poverty_rate_chart", "cc6_poverty_rate_chart.json")
         vegaEmbed("#cc7_indonesia_map_province", "cc7_indonesia_map_province.json")
         vegaEmbed("#cc7_grdp_indo_map_province", "cc7_grdp_indo_map_province.json")  
-        vegaEmbed("#cc8_average_rice_prices", "acc8_average_rice_prices.json")
+        vegaEmbed("#cc8_average_rice_prices", "cc8_average_rice_prices.json")
         vegaEmbed("#cc8_regional_basmati_rice_prices", "cc8_regional_basmati_rice_prices.json")
 
     </script>
