@@ -1,0 +1,99 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    
+    "title": {
+      "text": "Commodity Import Scatter Plot",
+      "subtitle": ["Commodity prices vs Total import values for selected commodities"],
+      "subtitleFontStyle": "italic",
+      "subtitleFontSize": 10,
+      "subtitlePadding": 5,
+      "anchor": "start",
+      "color": "black"
+    },
+    
+    "width": 400,
+    "height": 300,
+    
+    "data": {
+      "url": "https://raw.githubusercontent.com/ariefanwar07/ariefanwar07.github.oi/refs/heads/main/project_data_merged_commodity_data_imports_unit.csv",
+      "format": {"type": "csv"}
+    },
+    
+    "params": [
+      {
+        "name": "chooseCommodity",
+        "value": "Crude oil ($/bbl)",
+        "bind": {
+          "input": "select",
+          "options": [
+            "Crude oil ($/bbl)",
+            "Natural gas ($/0.1mmbtu)",
+            "Wheat ($/10mt)"
+          ],
+          "name": "Select Commodity:"
+        }
+      }
+    ],
+    
+    "layer": [
+      {
+        "transform": [
+          {"filter": "datum.commodity == chooseCommodity"}
+        ],
+        "mark": {
+          "type": "circle",
+          "opacity": 0.7,
+          "tooltip": true
+        },
+        "encoding": {
+          "x": {
+            "field": "commodity_price",
+            "type": "quantitative",
+            "title": "Commodity Price"
+          },
+          "y": {
+            "field": "total_imports",
+            "type": "quantitative",
+            "title": "Total Import Value"
+          },
+          "color": {
+            "field": "commodity",
+            "type": "nominal",
+            "title": "Commodity"
+          },
+          "tooltip": [
+            {"field": "commodity", "type": "nominal", "title": "Commodity"},
+            {"field": "commodity_price", "type": "quantitative", "title": "Price ($)"},
+            {"field": "total_imports", "type": "quantitative", "title": "Total Import Value ($)"},
+            {"field": "year", "type": "temporal", "title": "Year"}
+          ]
+        }
+      },
+      {
+        "transform": [
+          {"filter": "datum.commodity == chooseCommodity"},
+          {
+            "regression": "total_imports",
+            "on": "commodity_price",
+            "extent": [0, 100]
+          }
+        ],
+        "mark": {
+          "type": "line",
+          "color": "black",
+          "opacity": 0.7
+        },
+        "encoding": {
+          "x": {
+            "field": "commodity_price",
+            "type": "quantitative"
+          },
+          "y": {
+            "field": "total_imports",
+            "type": "quantitative"
+          }
+        }
+      }
+    ]
+  }
+  

@@ -1,0 +1,106 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "Interactive line chart for import percentages of commodities over time with tooltips.",
+    "title": {
+        "text": "Top Import Commodities Percentage Over Time",
+        "subtitle": "Interactive line chart with year filter and tooltips",
+        "subtitleFontStyle": "italic",
+        "subtitleFontSize": 10,
+        "anchor": "start",
+        "color": "black"
+    },
+    "width": 600,
+    "height": 400,
+    "mark": {
+        "type": "line",
+        "point": true,
+        "strokeWidth": 2,
+        "opacity": 1,
+        "tooltip": true
+    },
+    "data": {
+        "url": "https://raw.githubusercontent.com/ariefanwar07/ariefanwar07.github.oi/refs/heads/main/project_data_top_6_import_commodities_percentage.csv",
+        "format": {
+            "type": "csv"
+        }
+    },
+    "transform": [
+        {
+            "calculate": "substring(datum.Year, 0, 4)",
+            "as": "year"
+        },
+        {
+            "calculate": "replace(datum['Import Percentage'], '%', '')",
+            "as": "importPercentage"
+        },
+        {
+            "calculate": "toNumber(datum.importPercentage) / 100",
+            "as": "percentage"
+        },
+        {
+            "filter": "datum.year >= minYear && datum.year <= maxYear"
+        }
+    ],
+    "params": [
+        {
+            "name": "minYear",
+            "value": 2011,
+            "bind": {
+                "input": "range",
+                "min": 2011,
+                "max": 2022,
+                "step": 1,
+                "name": "Start year:"
+            }
+        },
+        {
+            "name": "maxYear",
+            "value": 2022,
+            "bind": {
+                "input": "range",
+                "min": 2011,
+                "max": 2022,
+                "step": 1,
+                "name": "End year:"
+            }
+        }
+    ],
+    "encoding": {
+        "x": {
+            "field": "year",
+            "type": "ordinal",
+            "title": "Year"
+        },
+        "y": {
+            "field": "percentage",
+            "type": "quantitative",
+            "title": "Import Percentage",
+            "axis": {
+                "format": ".0%"
+            }
+        },
+        "color": {
+            "field": "HS Description",
+            "type": "nominal",
+            "title": "Commodity"
+        },
+        "tooltip": [
+            {
+                "field": "year",
+                "type": "ordinal",
+                "title": "Year"
+            },
+            {
+                "field": "HS Description",
+                "type": "nominal",
+                "title": "Commodity"
+            },
+            {
+                "field": "percentage",
+                "type": "quantitative",
+                "title": "Import Percentage",
+                "format": ".2%"
+            }
+        ]
+    }
+}

@@ -1,0 +1,162 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "width": 800,
+  "height": 400,
+  "padding": 5,
+
+  "title": "Trade Volume with Japan: Indonesia vs. India (2000-2022)",
+
+  "data": [
+    {
+      "name": "trade_data",
+      "url": "https://raw.githubusercontent.com/ariefanwar07/ariefanwar07.github.oi/refs/heads/main/project_japan_indonesia_india_trade_data.csv",
+      "format": {"type": "csv"}
+    },
+    {
+      "name": "filtered_data",
+      "source": "trade_data",
+      "transform": [
+        {"type": "filter", "expr": "datum.year == 2008"}
+      ]
+    }
+  ],
+
+  "scales": [
+    {
+      "name": "x",
+      "type": "point",
+      "domain": {"data": "trade_data", "field": "year"},
+      "range": "width"
+    },
+    {
+      "name": "y",
+      "type": "linear",
+      "domain": {"data": "trade_data", "field": "Indonesia"},
+      "range": "height",
+      "nice": true
+    },
+    {
+      "name": "color",
+      "type": "ordinal",
+      "domain": ["Indonesia (Treatment)", "India (Control)", "IJEPA Implementation (2008)"],
+      "range": ["steelblue", "orange", "red"]
+    }
+  ],
+
+  "axes": [
+    {"orient": "bottom", "scale": "x", "title": "Year"},
+    {"orient": "left", "scale": "y", "title": "Trade Volume (USD)"}
+  ],
+
+  "legends": [
+    {
+      "fill": "color",
+      "title": "Legend",
+      "orient": "right",
+      "values": [
+        "Indonesia (Treatment)",
+        "India (Control)",
+        "IJEPA Implementation (2008)"
+      ]
+    }
+  ],
+
+  "marks": [
+    {
+      "type": "line",
+      "from": {"data": "trade_data"},
+      "encode": {
+        "enter": {
+          "x": {"scale": "x", "field": "year"},
+          "y": {"scale": "y", "field": "Indonesia"},
+          "stroke": {"value": "steelblue"},
+          "strokeWidth": {"value": 2}
+        },
+        "update": {
+          "tooltip": {
+            "signal": "{'Country': 'Indonesia (Treatment)', 'Year': datum.year, 'Trade Volume': datum.Indonesia}"
+          }
+        }
+      }
+    },
+    {
+      "type": "symbol",
+      "from": {"data": "trade_data"},
+      "encode": {
+        "enter": {
+          "x": {"scale": "x", "field": "year"},
+          "y": {"scale": "y", "field": "Indonesia"},
+          "size": {"value": 50},
+          "fill": {"value": "steelblue"},
+          "shape": {"value": "circle"},
+          "opacity": {"value": 0.7}
+        },
+        "update": {
+          "opacity": {"value": 0.7},
+          "tooltip": {
+            "signal": "{'Country': 'Indonesia (Treatment)', 'Year': datum.year, 'Trade Volume': datum.Indonesia}"
+          }
+        },
+        "hover": {
+          "opacity": {"value": 1.0}
+        }
+      }
+    },
+    {
+      "type": "line",
+      "from": {"data": "trade_data"},
+      "encode": {
+        "enter": {
+          "x": {"scale": "x", "field": "year"},
+          "y": {"scale": "y", "field": "India"},
+          "stroke": {"value": "orange"},
+          "strokeWidth": {"value": 2}
+        },
+        "update": {
+          "tooltip": {
+            "signal": "{'Country': 'India (Control)', 'Year': datum.year, 'Trade Volume': datum.India}"
+          }
+        }
+      }
+    },
+    {
+      "type": "symbol",
+      "from": {"data": "trade_data"},
+      "encode": {
+        "enter": {
+          "x": {"scale": "x", "field": "year"},
+          "y": {"scale": "y", "field": "India"},
+          "size": {"value": 50},
+          "fill": {"value": "orange"},
+          "shape": {"value": "circle"},
+          "opacity": {"value": 0.7}
+        },
+        "update": {
+          "opacity": {"value": 0.7},
+          "tooltip": {
+            "signal": "{'Country': 'India (Control)', 'Year': datum.year, 'Trade Volume': datum.India}"
+          }
+        },
+        "hover": {
+          "opacity": {"value": 1.0}
+        }
+      }
+    },
+    {
+      "type": "rule",
+      "from": {"data": "filtered_data"},
+      "encode": {
+        "enter": {
+          "x": {"scale": "x", "field": "year"},
+          "y": {"value": 0},
+          "y2": {"signal": "height"},
+          "stroke": {"value": "red"},
+          "strokeDash": {"value": [4, 2]}
+        },
+        "update": {
+          "tooltip": {"value": "IJEPA Implementation (2008)"}
+        }
+      }
+    }
+  ]
+}

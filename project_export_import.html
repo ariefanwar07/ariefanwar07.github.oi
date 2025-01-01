@@ -1,0 +1,342 @@
+<!-- This HTML file provides a simple example of a portfolio page. It contains a header, a few sections, and a few charts. -->
+<!-- It works with the three css files in this folder: example1.css, example2.css and example3.css. -->
+<!-- The HTML file defines the structure of the page, and the CSS files define how it looks. -->
+<!-- The CSS examples are all designed to work with this page. Try swapping them out on line 29 and see what happens. -->
+
+<!-- Take a look around and make your own copy to adapt for your own use. -->
+
+<!-- This is a comment -->
+<!-- Comments are not displayed in the browser -->
+<!-- They can be used to leave notes in the code -->
+
+<!DOCTYPE html>
+<html> 
+    <!-- HTML is heirarchial: tags like this define elements on the page. 
+    Each tag does something different. For example:
+        - The <html> tag defines the whole document.
+        - The <h1> tag defines a large heading
+        - The <p> tag defines a paragraph
+        - Tags appear as an opening <div> and closing </div> pair
+    -->
+
+<head>    
+    <!-- The head tag links to resources our page needs and defines information about it. Tags in the <head> aren't displayed on the page. -->
+
+    <!-- This is a link to a stylesheet which contains rules about how each element on the page should be defined-->
+    <!-- Try swapping example1.css to another, and take a look at example1.css to see if you understand it-->
+    <link rel="stylesheet" type="text/css" href="portofolio_styles.css">
+    <title>Arief Anwar Project</title> <!-- The title displayed in the browser tab, not on the page itself -->
+
+    <!-- This is a link to the vega-lite which we're using to make graphs -->
+    <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+
+    <style>
+        #chartGrid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .chart-container {
+            margin: 20px;
+            width: 90%; /* Adjust width for two charts per row */
+        }
+    </style>
+    
+    </head>
+    <body>
+        <h1 class="big">Arief Anwar<br>Project</h1>
+       
+        <section>
+            <div class="chart-description">
+                <h2>Introduction</h2>
+            <p><strong>Exploring the Impact of Trade on Indonesia’s Economic Stability</strong></p>
+            <p><strong>Project Overview:</strong></p>
+            <p>
+                The objective is to analyze the relationship between Indonesia’s trade and key economic indicators such as GDP, inflation, and foreign reserves. The study aims to uncover trends, identify key drivers of trade, and assess their influence on economic stability.
+            </p>
+            <p><strong>Data Sources:</strong></p>
+            <ul>
+                <li><a href="https://comtrade.un.org/">UN Comtrade</a></li>
+                <li><a href="https://data.worldbank.org/">World Bank</a></li>
+                <li><a href="https://www.imf.org/">IMF</a></li>
+            </ul>
+        </div>
+
+        </section>
+
+        <section>
+            <div class="chart-description">
+                <h2>Chart 1: Indonesia Trade Data Visualization</h2>
+                <p>
+                    This project visualizes Indonesia's trade indicators from 1990 to 2022, including exports, imports, and trade balance, using World Bank data. The chart highlights trends over time, offering insights into economic stability and trade dynamics.
+                </p>
+                <figure id="project1_indonesia_trade_data"></figure>
+                <p>
+                    <strong>Data Source:</strong> <a href="https://data.worldbank.org/">World Bank API</a>
+                </p>
+                <ul>
+                    <li><strong>Purpose:</strong> To analyze Indonesia's trade performance over time, providing insights into economic stability and the influence of trade dynamics.</li>
+                    <li><strong>Key Insights:</strong>
+                        <ul>
+                            <li><strong>Steady Growth in Exports:</strong> 
+                                Exports have grown consistently, rising from approximately $29 billion in 1990 to over $323 billion in 2022, showcasing Indonesia's increasing integration into global trade markets.
+                            </li>
+                            <li><strong>Growth in Imports:</strong> 
+                                Imports have also risen significantly, from around $27 billion in 1990 to nearly $277 billion in 2022, reflecting Indonesia's growing domestic demand and industrialization.
+                            </li>
+                            <li><strong>Fluctuating Trade Balance:</strong> 
+                                <ul>
+                                    <li>Surpluses are more frequent before 2012, with the largest surplus of approximately $47 billion in 2022.</li>
+                                    <li>Deficits are seen from 2012 to 2019, with the largest deficit of around $11 billion in 2018.</li>
+                                </ul>
+                            </li>
+                            <li><strong>Impact of Global Events:</strong> 
+                                <ul>
+                                    <li>Sharp declines in exports and imports in 1998 and 2009 align with the Asian Financial Crisis and the Global Financial Crisis, respectively.</li>
+                                    <li>A rebound in 2021 and 2022 indicates recovery from the COVID-19 pandemic and increased global commodity demand.</li>
+                                </ul>
+                            </li>
+                            <li><strong>Trade Balance Shift:</strong> 
+                                A return to a strong surplus in 2020–2022 highlights the influence of rising export revenues, particularly in commodities, outpacing import growth.
+                            </li>
+                        </ul>
+                    </li>
+                    <li><strong>Methodology:</strong>
+                        <ul>
+                            <li><strong>Data Collection:</strong> Retrieved data from the <a href="https://data.worldbank.org/">World Bank API</a> for three indicators: 
+                                <strong>Exports (US$)</strong>, <strong>Imports (US$)</strong>, and <strong>Trade Balance (US$)</strong>, covering 1990–2022.
+                            </li>
+                            <li><strong>Data Transformation:</strong> Processed the data into a tabular format, reshaped it for visualization, and ensured compatibility with Altair.</li>
+                            <li><strong>Data Visualization:</strong> Created an interactive Altair line chart with tooltips to display trends for exports, imports, and trade balance. Saved the chart as a JSON file for web integration.</li>
+                            <li><strong>Notebook:</strong> Detailed steps and code are available in my <a href="https://github.com/ariefanwar07/ariefanwar07.github.oi/blob/main/project1_indonesia_trade_indicators(1990%E2%80%932020).ipynb" target="_blank">Project 1 Notebook</a>.</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <div class="chart-description">
+                <h2>Chart 2: Top Export and Import Commodities</h2>
+                <p>
+                    This section provides a comparative analysis of Indonesia’s top 6 export and import commodities, highlighting their contribution to the nation’s trade dynamics.
+                </p>
+                                                
+                <div id="chartGrid">
+                    <div class="chart-container">
+                        <h3>Top Export Commodities</h3>
+                        <p>This bar chart displays Indonesia's top 6 export commodities, showcasing key drivers of export revenue like palm oil, coal, and rubber.</p>
+                        <figure id="project2_top_export_comodity"></figure>
+                        <p>
+                            <strong>Data Source:</strong> <a href="https://comtrade.un.org/">UN Comtrade</a>
+                        </p>
+                    </div>
+                                 
+                    <div class="chart-container">
+                        <h3>Top Import Commodities</h3>
+                        <p>This bar chart highlights Indonesia’s top 6 import commodities, emphasizing major import categories such as machinery, electronics, and chemicals.</p>
+                        <figure id="project2_top_import_comodity"></figure>  
+                        <p>
+                            <strong>Data Source:</strong> <a href="https://comtrade.un.org/">UN Comtrade</a>
+                        </p>
+                    </div>
+                </div>
+                <ul>
+                    <li><strong>Purpose:</strong> To explore Indonesia's top export and import commodities, identifying their role in driving trade performance and understanding the country's dependency on specific commodities.</li>
+                    <li><strong>Key Insights:</strong>
+                        <ul>
+                            <li><strong>Top Exports:</strong> Palm oil, coal, and rubber are the leading contributors to Indonesia's export revenue, underscoring the country's reliance on natural resources and agriculture.</li>
+                            <li><strong>Top Imports:</strong> Machinery, electronics, and chemicals dominate imports, reflecting Indonesia's growing industrialization and reliance on foreign technology.</li>
+                            <li><strong>Trade Balance:</strong> The trade balance is significantly influenced by commodity exports, with natural resource exports helping maintain surpluses.</li>
+                            <li><strong>Economic Trends:</strong> Shifts in export and import commodities highlight the evolving needs of Indonesia's economy, such as increased demand for industrial and consumer goods.</li>
+                        </ul>
+                    </li>
+                    <li><strong>Methodology:</strong>
+                        <ul>
+                            <li><strong>Data Collection:</strong> Retrieved trade data from the <a href="https://comtrade.un.org/">UN Comtrade database</a>, focusing on Indonesia's exports and imports by commodity, including HS Codes, trade values, and yearly trends.</li>
+                            <li><strong>Data Analysis:</strong>
+                                <ul>
+                                    <li>Calculated total trade values (US$) by HS Code.</li>
+                                    <li>Identified top 6 export and import commodities.</li>
+                                    <li>Analyzed yearly trends and percentage contributions to total trade.</li>
+                                </ul>
+                            </li>
+                            <li><strong>Data Transformation:</strong> Reshaped data into a long format for visualization.</li>
+                            <li><strong>Data Visualization:</strong> Created Vega-Lite bar charts to:
+                                <ul>
+                                    <li>Show top export commodities: Coal, copper, palm oil, petroleum gas, crude oil, and rubber.</li>
+                                    <li>Highlight top import commodities: Motor vehicles, petroleum products, telephone sets, and wheat.</li>
+                                </ul>
+                            </li>
+                            <li><strong>Notebooks:</strong> Explore detailed analyses in the <a href="https://github.com/ariefanwar07/ariefanwar07.github.oi/blob/main/project2_top_6_export_commodities.ipynb" target="_blank">Export Notebook</a> and <a href="https://github.com/ariefanwar07/ariefanwar07.github.oi/blob/main/project2_top_6_import_commodities.ipynb" target="_blank">Import Notebook</a>.</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        
+    
+        <section>
+            <div class="chart-description">
+                <h2>Chart 3: Indonesia's Export and Import Partner Countries</h2>
+                <p>
+                    This section visualizes Indonesia's trade relationships with its partner countries, highlighting total export and import values for the years 2012–2022. The interactive maps provide insights into trade distribution across the globe.
+                </p>
+                
+                <div id="chartGrid">
+                    <div class="chart-container">
+                        <h3>Export Partner Countries</h3>
+                        <p>
+                            This interactive map shows the total exports (US$) from Indonesia to its partner countries for selected years. The darker shades represent higher export values.
+                        </p>
+                        <figure id="project3_indonesia_export_partner"></figure>
+                        <p>
+                            <strong>Data Source:</strong> <a href="https://comtrade.un.org/">UN Comtrade</a>
+                        </p>
+                    </div>
+                
+                    <div class="chart-container">
+                        <h3>Import Partner Countries</h3>
+                        <p>
+                            This interactive map illustrates the total imports (US$) to Indonesia from its partner countries for selected years. The darker shades indicate higher import values.
+                        </p>
+                        <figure id="project3_indonesia_import_partner"></figure>
+                        <p>
+                            <strong>Data Source:</strong> <a href="https://comtrade.un.org/">UN Comtrade</a>
+                        </p>
+                    </div>
+                </div>
+                
+                <ul>
+                    <li><strong>Purpose:</strong> To analyze Indonesia's trade relationships with partner countries, understanding the global distribution of trade flows and identifying key export and import partners.</li>
+                    <li><strong>Key Insights:</strong>
+                        <ul>
+                            <li><strong>Top Export Partners:</strong> 
+                                China is Indonesia’s largest export destination in 2022, with $65.9 billion in exports, followed by the United States ($28.2 billion) and Japan ($24.8 billion). Other key export partners include India, Malaysia, and Singapore, highlighting a mix of global and regional trade connections. Commodities like palm oil and coal play a significant role in driving these export values.
+                            </li>
+                            <li><strong>Top Import Partners:</strong> 
+                                China also leads Indonesia’s imports at $67.7 billion in 2022, followed by Singapore ($19.4 billion), Japan ($17.1 billion), and Malaysia ($12.4 billion). The United States, Republic of Korea, and Thailand are other significant contributors, reflecting reliance on foreign machinery, electronics, and raw materials.
+                            </li>
+                            <li><strong>Trade Distribution:</strong> 
+                                Indonesia’s trade network shows strong regional ties with ASEAN countries like Singapore, Malaysia, and Thailand, while also maintaining critical relationships with major global economies such as China, the United States, and Japan.
+                            </li>
+                            <li><strong>Economic Trends:</strong> 
+                                The prominence of China in both exports and imports reflects Indonesia's deep integration into the global economy. Regional trade partnerships, especially within ASEAN, continue to play a crucial role in sustaining trade flows.
+                            </li>
+                        </ul>
+                    </li>
+                    <li><strong>Methodology:</strong>
+                        <ul>
+                            <li><strong>Data Collection:</strong> Retrieved global trade data from the <a href="https://comtrade.un.org/">UN Comtrade database</a>, focusing on Indonesia's trade with partner countries, including trade flows, partner names, and values (US$).</li>
+                            <li><strong>Data Analysis:</strong>
+                                <ul>
+                                    <li>Filtered data for exports and imports by partner countries for the years 2012–2022.</li>
+                                    <li>Calculated the total trade values (US$) for each country per year.</li>
+                                </ul>
+                            </li>
+                            <li><strong>Data Transformation:</strong> Integrated partner data with a world map using country ISO3 codes and reshaped data for visualization compatibility.</li>
+                            <li><strong>Data Visualization:</strong> Developed interactive maps using Vega-Lite to:
+                                <ul>
+                                    <li>Highlight export partners and their total trade values (US$).</li>
+                                    <li>Showcase import partners and their total trade values (US$).</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        
+
+        <section>
+            <div class="chart-description">
+                <h2>Chart 4: Commodity Price vs Total Trade Values</h2>
+                <p>
+                    These scatter plots explore the relationship between commodity prices and total trade values (import and export) for selected commodities. By analyzing these trends, we can gain valuable insights into how price fluctuations impact Indonesia's trade dynamics.
+                </p>
+                <p>
+                    The first scatter plot examines the relationship between commodity prices and total export values. This visualization provides insights into the export performance of Indonesia's six leading commodities: Crude oil, Coal, Natural gas, Rubber, Copper, and Palm oil. It highlights how fluctuations in commodity prices are linked to total export values.
+                </p>
+                <figure id="project4_commodity_price_total_export_unit"></figure>
+                <p>
+                    <strong>Data Source:</strong> <a href="https://data.worldbank.org/">World Bank</a>
+                </p>
+                <p>
+                    The second scatter plot highlights the relationship between commodity prices and total import values. This visualization sheds light on how price changes for three key imports—Crude oil, Natural gas, and Wheat—correlate with the total import values. It reveals the economic significance of these essential commodities in Indonesia's trade landscape.
+                </p>
+                <figure id="project4_commodity_price_total_import_unit"></figure>
+                <p>
+                    <strong>Data Source:</strong> <a href="https://data.worldbank.org/">World Bank</a>
+                </p>
+                <ul>
+                    <li><strong>Purpose:</strong> To understand how commodity prices influence the total value of imports and exports.</li>
+                    <li><strong>Key Insights:</strong> 
+                        <ul>
+                            <li>Price trends can indicate demand sensitivity, global market dependencies, and potential economic risks tied to specific commodities.</li>
+                            <li>Commodity price fluctuations often have a cascading effect on trade balances, impacting foreign reserves and economic stability.</li>
+                            <li>Identifying key price thresholds can help policymakers and businesses optimize trade agreements and supply chain strategies.</li>
+                            <li>Understanding price-to-value relationships provides actionable insights for diversifying export portfolios and reducing import vulnerabilities.</li>
+                        </ul>
+                    </li>
+                    <li><strong>Methodology:</strong>
+                        <ul>
+                            <li><strong>Data Collection:</strong> 
+                                Data sourced from the <a href="https://data.worldbank.org/">World Bank</a> API and curated commodity price datasets:
+                                <ul>
+                                    <li><strong>Exports:</strong> Total exports of goods and services (<code>NE.EXP.GNFS.CD</code>, 1990–2022) and commodity prices for Crude Oil, Rubber, Coal, Natural Gas, Copper, and Palm Oil.</li>
+                                    <li><strong>Imports:</strong> Total imports of goods and services (<code>NE.IMP.GNFS.CD</code>, 1990–2022) and commodity prices for Crude Oil, Natural Gas, and Wheat.</li>
+                                </ul>
+                            </li>
+                            <li><strong>Data Transformation:</strong> 
+                                <ul>
+                                    <li>Structured trade data and commodity prices into time series formats.</li>
+                                    <li>Merged datasets on the <code>year</code> column for unified analysis.</li>
+                                </ul>
+                            </li>
+                            <li><strong>Data Visualization:</strong> 
+                                Scatter plots illustrating the relationship between commodity prices and trade values:
+                                <ul>
+                                    <li>Exports: Highlighted trends for six key commodities driving export revenues.</li>
+                                    <li>Imports: Showed correlations for three major imported commodities impacting trade balance.</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                
+            </div>
+        </section>
+        
+
+        <section>
+            <div class="chart-description">
+                <h2></h2>
+                <p>
+                    
+                </p>
+                <figure id=""></figure>
+            </div>
+        </section>
+
+        <footer>
+            &copy; 2024 Arief Anwar Project | Designed with data-driven insights
+        </footer>
+
+        <script>
+            
+            vegaEmbed("#project1_indonesia_trade_data", "project1_indonesia_trade_data.json").catch(console.error);
+            vegaEmbed("#project2_top_export_comodity", "project2_top_export_comodity.json").catch(console.error);
+            vegaEmbed("#project2_top_import_comodity", "project2_top_import_comodity.json").catch(console.error);
+            vegaEmbed("#project3_indonesia_export_partner", "project3_indonesia_export_partner.json").catch(console.error);
+            vegaEmbed("#project3_indonesia_import_partner", "project3_indonesia_import_partner.json").catch(console.error);
+            vegaEmbed("#project4_commodity_price_total_import_unit", "project4_commodity_price_total_import_unit.json").catch(console.error);
+            vegaEmbed("#project4_commodity_price_total_export_unit", "project4_commodity_price_total_export_unit.json").catch(console.error);
+
+            // Embed the second Vega-Lite visualization
+            vegaEmbed("").catch(console.error);
+            
+        </script>
+    </body>
+</html>
