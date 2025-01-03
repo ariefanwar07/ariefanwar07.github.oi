@@ -50,65 +50,21 @@
        
         <section>
             <div class="chart-description">
-                <h2>How Have Indonesia's Trade Dynamics Evolved Over the Past Three Decades?</h2>
-                <p>
-                    This project investigates how Indonesia's trade dynamics have evolved over the past three decades and identifies the key factors influencing its trade balance. By analyzing historical trends, key commodities, global trade partners, price-to-value relationships, and the impact of trade agreements, it provides a comprehensive understanding of Indonesia’s trade performance. Special attention is given to the effectiveness of economic policies like the Indonesia-Japan Economic Partnership Agreement (IJEPA).
-                </p>
-                <figure id="project_overview"></figure>
-                <p><strong>Data Sources:</strong> <a href="https://data.worldbank.org/">World Bank API</a>, <a href="https://comtrade.un.org/">UN Comtrade</a></p>
-                <ul>
-                    <li><strong>Aims:</strong>
-                        <ul>
-                            <li>To analyze Indonesia's trade performance and its driving factors over the past three decades.</li>
-                            <li>To identify key trade partners, commodities, and external factors influencing Indonesia’s trade balance.</li>
-                            <li>To evaluate the effectiveness of economic policies and agreements like IJEPA.</li>
-                        </ul>
-                    </li>
-                    <li><strong>Data:</strong>
-                        <ul>
-                            <li>World Bank data on exports, imports, trade balance, and commodity prices (1990–2022).</li>
-                            <li>UN Comtrade data on key commodities, trade partners, and bilateral trade agreements (2000–2022).</li>
-                        </ul>
-                    </li>
-                    <li><strong>Analytical Challenges:</strong>
-                        <ul>
-                            <li><strong>Data Collection:</strong>
-                                <ul>
-                                    <li>Inconsistent reporting formats across data sources (e.g., World Bank vs. UN Comtrade).</li>
-                                    <li>Difficulty in accessing up-to-date trade data due to time lags in reporting.</li>
-                                </ul>
-                            </li>
-                            <li><strong>Data Transformation:</strong>
-                                <ul>
-                                    <li>Standardizing trade data into a consistent tabular format suitable for analysis.</li>
-                                    <li>Integrating diverse datasets, such as country codes (ISO3) and HS codes for commodities.</li>
-                                    <li>Dealing with outliers and anomalous values in historical trade figures.</li>
-                                </ul>
-                            </li>
-                            <li><strong>Data Visualization:</strong>
-                                <ul>
-                                    <li>Balancing detail and clarity in visualizations, particularly for complex datasets (e.g., interactive maps).</li>
-                                    <li>Ensuring compatibility across platforms (e.g., JSON exports for web integration).</li>
-                                    <li>Addressing challenges in visualizing multi-dimensional data, such as trade value trends over time.</li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </li>
-                    <li><strong>Conclusions:</strong>
-                        <ul>
-                            <li>Indonesia's trade balance has improved significantly since 2020, driven by increased exports and economic recovery post-COVID-19.</li>
-                            <li>Key export commodities like palm oil and coal dominate revenue, while imports emphasize industrial reliance on foreign technology.</li>
-                            <li>China, Japan, and ASEAN countries are vital trade partners, underscoring Indonesia's regional and global integration.</li>
-                            <li>Price fluctuations in commodities like coal and palm oil significantly influence export revenues, highlighting Indonesia’s vulnerability to global markets.</li>
-                            <li>The IJEPA agreement has positively impacted Indonesia's exports to Japan, particularly in industrial goods.</li>
-                          
-                        </ul>
-                    </li>
-                </ul>
-            </div>
+                <h2>Introduction</h2>
+            <p><strong>Exploring the Impact of Trade on Indonesia’s Economic Stability</strong></p>
+            <p><strong>Project Overview:</strong></p>
+            <p>
+                The objective is to analyze the relationship between Indonesia’s trade and key economic indicators such as GDP, inflation, and foreign reserves. The study aims to uncover trends, identify key drivers of trade, and assess their influence on economic stability.
+            </p>
+            <p><strong>Data Sources:</strong></p>
+            <ul>
+                <li><a href="https://comtrade.un.org/">UN Comtrade</a></li>
+                <li><a href="https://data.worldbank.org/">World Bank</a></li>
+                <li><a href="https://www.imf.org/">IMF</a></li>
+            </ul>
+        </div>
+
         </section>
-        
-        
 
         <section>
             <div class="chart-description">
@@ -121,9 +77,23 @@
                     <strong>Data Source:</strong> <a href="https://data.worldbank.org/">World Bank API</a>
                 </p>
                 <ul>
-                    <ul>
-                        <li>Notebook for the chart is available in the <a href="https://colab.research.google.com/drive/1ASVYhr5V7ixNqz5JvehMevnTux_KViZg?usp=sharing" target="_blank">Colab Chart 1</a>.</li>
-                    </ul>
+                    <li><strong>Purpose:</strong> To evaluate Indonesia's trade performance from 1990 to 2022, focusing on the interplay between exports, imports, and trade balance.</li>
+                    <li><strong>Key Insights:</strong>
+                        <ul>
+                            <li><strong>Exports:</strong> Rose from $29B (1990) to $323B (2022), showcasing global trade integration.</li>
+                            <li><strong>Imports:</strong> Climbed from $27B (1990) to $277B (2022), fueled by domestic demand and industrial growth.</li>
+                            <li><strong>Trade Balance:</strong> Surpluses peaked at $47B (2022); deficits occurred from 2012–2019, largest at $11B (2018).</li>
+                            <li><strong>Global Events:</strong> Major dips during the Asian Financial Crisis (1998) and Global Financial Crisis (2009); strong rebounds post-COVID-19 (2021–2022).</li>
+                        </ul>
+                    </li>
+                    <li><strong>Methodology:</strong>
+                        <ul>
+                            <li><strong>Data Collection:</strong> Retrieved data from the <a href="https://data.worldbank.org/">World Bank API</a> for exports, imports, and trade balance (1990–2022).</li>
+                            <li><strong>Data Transformation:</strong> Cleaned and structured data into a tabular format, reshaped for visualization, ensuring Altair compatibility.</li>
+                            <li><strong>Data Visualization:</strong> Created an interactive Altair line chart with tooltips for trend exploration. Saved as JSON for web integration.</li>
+                            <li><strong>Notebook:</strong> Detailed steps and code are available in the <a href="https://github.com/ariefanwar07/ariefanwar07.github.oi/blob/main/project1_indonesia_trade_indicators(1990%E2%80%932020).ipynb" target="_blank">Project 1 Notebook</a>.</li>
+                        </ul>
+                    </li>
                 </ul>
             </div>
         </section>
@@ -153,9 +123,22 @@
                     </div>
                 </div>
                 <ul>
-                    <ul>
-                        <li>Notebook for the chart is available in the <a href="https://colab.research.google.com/drive/1zh0abw0tYsXdYgpECk4vnc6sV2a5bHEN?usp=sharing" target="_blank">Colab Chart 2 Export</a> and <a href="https://colab.research.google.com/drive/1ruddH7esXQdSsg7K8yMSq6WaZjlTBUGi?usp=sharing" target="_blank">Colab Chart 2 Import</a>.</li>
-                    </ul>
+                    <li><strong>Purpose:</strong> To examine Indonesia's top export and import commodities, analyzing their roles in trade performance and dependency.
+                    </li>
+                    <li><strong>Key Insights:</strong>
+                        <ul>
+                            <li><strong>Exports:</strong> Palm oil, coal, and rubber drive revenue, highlighting reliance on natural resources.</li>
+                            <li><strong>Imports:</strong> Machinery, electronics, and chemicals reflect industrialization and reliance on foreign technology.</li>
+                            <li><strong>Economic Trends:</strong> Commodity trade patterns reveal shifts toward industrial and consumer goods demand.</li>
+                        </ul>
+                    </li>
+                    <li><strong>Methodology:</strong>
+                        <ul>
+                            <li><strong>Data Collection:</strong> Retrieved commodity trade data from the <a href="https://comtrade.un.org/">UN Comtrade</a> database.</li>
+                            <li><strong>Data Analysis:</strong> Identified top 6 commodities by trade value using HS codes and calculated percentage contributions.</li>
+                            <li><strong>Data Visualization:</strong> Created bar charts with Vega-Lite for export and import analysis.</li>
+                        </ul>
+                    </li>
                 </ul>
             </div>
         </section>
@@ -185,9 +168,21 @@
                     </div>
                 </div>
                 <ul>
-                    <ul>
-                        <li>Notebook for the chart is available in the <a href="https://colab.research.google.com/drive/1ndDMaVhRtfMj6nOBGa_Yr4fUEwVgfHg0?usp=sharing" target="_blank">Colab Chart 3 Export</a> and <a href="https://colab.research.google.com/drive/1kBIS75YHtSV-wkccTEEERv3UsmsRC9Ms?usp=sharing">Colab Chart 3 Import</a>.</li>
-                    </ul>
+                    <li><strong>Purpose:</strong> To analyze global trade distribution and identify Indonesia's key trade partners.</li>
+                    <li><strong>Key Insights:</strong>
+                        <ul>
+                            <li><strong>Export Partners:</strong> China, the US, and Japan lead as top export destinations, driven by commodities like palm oil and coal.</li>
+                            <li><strong>Import Partners:</strong> China, Singapore, and Japan dominate imports, reflecting industrial reliance.</li>
+                            <li><strong>Regional Influence:</strong> Strong ASEAN trade ties emphasize regional importance.</li>
+                        </ul>
+                    </li>
+                    <li><strong>Methodology:</strong>
+                        <ul>
+                            <li><strong>Data Collection:</strong> Trade data from <a href="https://comtrade.un.org/">UN Comtrade</a>, filtered by partner countries (2012–2022).</li>
+                            <li><strong>Data Transformation:</strong> Integrated country ISO3 codes with trade data for map visualization.</li>
+                            <li><strong>Data Visualization:</strong> Interactive maps using Vega-Lite to showcase partner trade values.</li>
+                        </ul>
+                    </li>
                 </ul>
             </div>
         </section>
@@ -203,10 +198,20 @@
                     <strong>Data Source:</strong> <a href="https://data.worldbank.org/">World Bank</a>
                 </p>
                 <ul>
-                    <ul>
-                        <li>Notebook for the chart is available in the <a href="https://colab.research.google.com/drive/1a0EeHE8gYzzwekTTojIhSARg37JvcUVE?usp=sharing" target="_blank">Colab Chart 4 Export</a>.</li>
-                    </ul>
-                        
+                    <li><strong>Purpose:</strong> To understand the impact of commodity prices on Indonesia’s export performance.</li>
+                    <li><strong>Key Insights:</strong>
+                        <ul>
+                            <li>Price fluctuations significantly influence export revenues, with critical thresholds for optimal trade agreements.</li>
+                            <li>Market dependencies are evident in commodities like palm oil and coal.</li>
+                        </ul>
+                    </li>
+                    <li><strong>Methodology:</strong>
+                        <ul>
+                            <li><strong>Data Collection:</strong> Commodity price and export data from the <a href="https://data.worldbank.org/">World Bank</a>.</li>
+                            <li><strong>Data Analysis:</strong> Merged price and export datasets for time series analysis.</li>
+                            <li><strong>Data Visualization:</strong> Scatter plots highlighting price-to-value relationships for key commodities.</li>
+                        </ul>
+                    </li>
                 </ul>
             </div>
         </section>
@@ -222,14 +227,23 @@
                     <strong>Data Source:</strong> <a href="https://comtrade.un.org/">UN Comtrade</a>
                 </p>
                 <ul>
-                    
-                    <ul>
-                        <li>Notebook for the chart is available in the <a href="https://colab.research.google.com/drive/12NZzZFJSXGO-kgB7nS2X69neSVr9Gh2G?usp=sharing" target="_blank">Colab Chart 5</a>.</li>
-                    </ul>
+                    <li><strong>Purpose:</strong> To estimate IJEPA's causal effect on Indonesia's trade performance with Japan.</li>
+                    <li><strong>Key Insights:</strong>
+                        <ul>
+                            <li>IJEPA led to a significant increase in Indonesia’s exports to Japan compared to India, the control group.</li>
+                            <li>The agreement positively influenced trade, particularly in exports.</li>
+                        </ul>
+                    </li>
+                    <li><strong>Methodology:</strong>
+                        <ul>
+                            <li><strong>Data Collection:</strong> Bilateral trade data between Indonesia, Japan, and India from <a href="https://comtrade.un.org/">UN Comtrade</a>.</li>
+                            <li><strong>DiD Analysis:</strong> Compared pre- and post-IJEPA trade volumes (2000–2007 and 2008–2022).</li>
+                            <li><strong>Data Visualization:</strong> Line charts with vertical markers for the 2008 IJEPA implementation.</li>
+                        </ul>
+                    </li>
                 </ul>
             </div>
         </section>
-        
         
         
 
