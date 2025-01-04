@@ -1,12 +1,13 @@
-/* Base Styles (Mobile-First) */
+/* Base Styles (Mobile-First Approach) */
 body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-size: 14px; /* Smaller font size for mobile */
+    font-size: 16px; /* Standard font size */
     color: #333;
     line-height: 1.8;
     background-color: #f9f9f9;
     margin: 0 auto;
-    padding: 20px;
+    max-width: 900px; /* Constrain width for larger screens */
+    padding-top: 60px;
 }
 
 /* Headings */
@@ -20,18 +21,18 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .big {
-    font-size: 2.5em; /* Reduced size for mobile */
+    font-size: 3em;
     color: #065f46;
     text-transform: uppercase;
 }
 
 h2 {
-    font-size: 1.8em; /* Slightly smaller for mobile */
+    font-size: 2em;
     margin-bottom: 10px;
 }
 
 .small {
-    font-size: 1.2em;
+    font-size: 1.25em;
     text-align: center;
     line-height: 1.8;
     margin-top: 10px;
@@ -48,11 +49,11 @@ p {
 
 /* Section Spacing */
 section {
-    margin-bottom: 1.5em; /* Reduced spacing for mobile */
-    padding: 15px;
+    margin-bottom: 2.5em;
+    padding: 20px;
     background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 /* Links */
@@ -75,15 +76,18 @@ img {
     border-radius: 5px;
 }
 
-/* Chart Grid Layout (Mobile Default) */
+/* Chart Grid Layout */
 #chartGrid {
-    display: block; /* Stacked charts for mobile */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-evenly;
     margin-top: 20px;
 }
 
 .chart {
-    width: 100%; /* Full width for mobile */
-    margin-bottom: 20px;
+    flex: 1 1 calc(45% - 20px); /* Adjust width to allow for two charts per row */
+    max-width: calc(45% - 20px);
     border: 1px solid #ddd;
     border-radius: 8px;
     padding: 10px;
@@ -156,44 +160,15 @@ body.dark-mode button {
     border: 1px solid #444;
 }
 
-/* Responsive Styles for Larger Screens */
-@media (min-width: 768px) {
-    body {
-        font-size: 16px;
-        max-width: 700px;
-    }
-
+/* Mobile-Specific Styling */
+@media (max-width: 768px) {
     section {
-        margin-bottom: 2.5em;
-        padding: 20px;
-    }
-
-    #chartGrid {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 20px;
-        justify-content: space-between;
+        width: 95%; /* Increase width for mobile */
+        margin: 0 auto; /* Center the section */
+        padding: 15px; /* Adjust padding for smaller screens */
     }
 
     .chart {
-        flex: 1 1 calc(50% - 20px); /* Two charts per row on tablets */
-        max-width: calc(50% - 20px);
-    }
-}
-
-@media (min-width: 1024px) {
-    body {
-        font-size: 18px;
-        max-width: 900px;
-        padding-top: 60px;
-    }
-
-    section {
-        padding: 25px;
-    }
-
-    .chart {
-        flex: 1 1 calc(33.33% - 20px); /* Three charts per row on larger screens */
-        max-width: calc(33.33% - 20px);
+        width: 100%; /* Full-width charts for mobile */
     }
 }
