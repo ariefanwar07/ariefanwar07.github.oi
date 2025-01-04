@@ -1,101 +1,98 @@
+/* Base Styles (Mobile-First Approach) */
 body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-size: 16px;
+    font-size: 14px; /* Smaller font size for mobile */
     color: #333;
     line-height: 1.8;
     background-color: #f9f9f9;
     margin: 0 auto;
-    max-width: 900px;
-    padding-top: 60px;
-  }
-  
-  /* Headings */
-  h1, h2, h3, h4, h5, h6 {
+    padding: 20px;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
     color: #222;
     margin-top: 16px;
     margin-bottom: 12px;
     font-weight: 200;
     text-align: left;
     line-height: 1.2;
-  }
-  
-  .big {
-    font-size: 3em;
+}
+
+.big {
+    font-size: 2.5em; /* Adjusted for mobile */
     color: #065f46;
     text-transform: uppercase;
-  }
-  
-  h2 {
-    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.8em; /* Slightly smaller for mobile */
     margin-bottom: 10px;
-  }
-  
-  .small {
-    font-size: 1.25em;
+}
+
+.small {
+    font-size: 1.2em;
     text-align: center;
     line-height: 1.8;
     margin-top: 10px;
     color: #444;
-  }
-  
-  /* Paragraphs */
-  p {
+}
+
+/* Paragraphs */
+p {
     margin-bottom: 1.2em;
     font-weight: 300;
     text-align: left;
     color: #555;
-  }
-  
-  /* Section Spacing */
-  section {
-    margin-bottom: 2.5em;
-    padding: 20px;
+}
+
+/* Section Styling */
+section {
+    margin-bottom: 1.5em; /* Reduced spacing for mobile */
+    padding: 15px;
     background-color: #fff;
     border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  }
-  
-  /* Links */
-  a {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+/* Links */
+a {
     color: #065f46;
     text-decoration: none;
     font-weight: 500;
     transition: color 0.3s;
-  }
-  
-  a:hover {
+}
+
+a:hover {
     color: #033d2d;
     text-decoration: underline;
-  }
-  
-  /* Images */
-  img {
+}
+
+/* Images */
+img {
     max-width: 100%;
     height: auto;
     border-radius: 5px;
-  }
-  
-  /* Chart Grid Layout */
-  #chartGrid {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: space-evenly;
+}
+
+/* Chart Grid Layout */
+#chartGrid {
+    display: block; /* Stacked charts for mobile */
     margin-top: 20px;
-  }
-  
-  .chart {
-    flex: 1 1 calc(45% - 20px); /* Adjust width to allow for two charts per row */
-    max-width: calc(45% - 20px);
+}
+
+.chart {
+    width: 100%; /* Full width for mobile */
+    margin-bottom: 20px;
     border: 1px solid #ddd;
     border-radius: 8px;
     padding: 10px;
     background-color: #fafafa;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
-  }
-  
-  /* Button Styling */
-  button {
+}
+
+/* Button Styling */
+button {
     background-color: #065f46;
     color: white;
     border: none;
@@ -105,57 +102,98 @@ body {
     font-size: 1em;
     font-weight: 500;
     transition: background-color 0.3s ease;
-  }
-  
-  button:hover {
+}
+
+button:hover {
     background-color: #033d2d;
-  }
-  
-  /* Header Styling */
-  header {
+}
+
+/* Header Styling */
+header {
     text-align: center;
     padding-bottom: 20px;
-  }
-  
-  header p {
+}
+
+header p {
     color: #065f46;
     margin: 5px 0;
     font-size: 1em;
-  }
-  
-  /* Footer Styling */
-  footer {
+}
+
+/* Footer Styling */
+footer {
     text-align: center;
     padding: 20px 0;
     font-size: 0.9em;
     color: #666;
     margin-top: 40px;
     border-top: 1px solid #ddd;
-  }
-  
-  /* Optional: Dark Mode (Toggle if needed) */
-  body.dark-mode {
+}
+
+/* Optional: Dark Mode */
+body.dark-mode {
     background-color: #121212;
     color: #e0e0e0;
-  }
-  
-  body.dark-mode section {
+}
+
+body.dark-mode section {
     background-color: #1e1e1e;
     color: #e0e0e0;
     border: 1px solid #333;
-  }
-  
-  body.dark-mode a {
+}
+
+body.dark-mode a {
     color: #80cbc4;
-  }
-  
-  body.dark-mode a:hover {
+}
+
+body.dark-mode a:hover {
     color: #b2dfdb;
-  }
-  
-  body.dark-mode button {
+}
+
+body.dark-mode button {
     background-color: #1e1e1e;
     color: #e0e0e0;
     border: 1px solid #444;
-  }
-  
+}
+
+/* Responsive Design for Larger Screens */
+@media (min-width: 768px) {
+    body {
+        font-size: 16px;
+        max-width: 700px;
+    }
+
+    section {
+        margin-bottom: 2em;
+        padding: 20px;
+    }
+
+    #chartGrid {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: space-between;
+    }
+
+    .chart {
+        flex: 1 1 calc(50% - 20px); /* Two charts per row on tablets */
+        max-width: calc(50% - 20px);
+    }
+}
+
+@media (min-width: 1024px) {
+    body {
+        font-size: 18px;
+        max-width: 900px;
+        padding-top: 60px;
+    }
+
+    section {
+        padding: 25px;
+    }
+
+    .chart {
+        flex: 1 1 calc(33.33% - 20px); /* Three charts per row on larger screens */
+        max-width: calc(33.33% - 20px);
+    }
+}

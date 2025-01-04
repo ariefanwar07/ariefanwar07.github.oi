@@ -138,14 +138,13 @@
         <div class="chart-description">
             <h2>CC5 - Scraper: Scrape data from a website, clean it, and use it.</h2>
             <h3>Section 1: Python Notebook</h3>
-            <p><a href="https://colab.research.google.com/drive/1Af5n8-L6Vsi6KV6_5h7rURYsjKFAPd8a#scrollTo=b-dUPT9W-hw-">Link to my work in Google Collab python notebook </a></p>
+            <p><a href="https://colab.research.google.com/drive/1BxpbhTuSOhSrXgmBd8FkYfRC5U4JQFjg?usp=sharing">Link to my work in Google Collab Python Notebook</a></p>
         
-            <h3>Section 2: Graph from my phyton notebook</h3>
-            <figure id="cc5_urbanazition_rol"></figure>
-            <p>I have created a scatter plot that visualizes the relationship between urbanization and the Rule of Law index for various countries. The x-axis represents the urbanization percentage, showing the proportion of the population living in urban areas. The y-axis represents the Rule of Law index, which is a measure of the extent to which individuals and institutions trust and adhere to laws, as provided by the World Bank and World Justice Project.<p></p>
+            <h3>Section 2: Graph from my Python Notebook</h3>
+            <figure id="cc5_top_military_spending"></figure>
+            <p>I have created a bar chart that visualizes the military spending of the top 8 countries. The x-axis represents the countries, and the y-axis represents the military spending in billions of USD. This data highlights the global distribution of defense expenditures, showcasing the countries with the highest investments in military capabilities.</p>
         </div>
-        
-    </section>
+    </section>  
 
     <section>
         <div class="chart-description">
@@ -228,39 +227,14 @@
             <p><strong>Description:</strong> This chart shows the trend of average monthly basmati rice prices over time using the `db_prices` dataset.</p>
             <figure id="cc8_average_rice_prices"></figure>
             <p>
-                <strong>What I Did:</strong>
-                <ul>
-                    <li><strong>Dataset Source:</strong> I obtained the UK price dataset (`db_prices.csv`) based on monthly data from the Long Run Price Database (Davies, 2021) in 
-                        <a href="https://eco-prices-scrapes.s3.eu-west-2.amazonaws.com/teaching/davies_price_data/db_prices.csv" target="_blank">this link</a>.
-                    </li>
-                    <li><strong>Data Extraction:</strong> I filtered the dataset for rows corresponding to basmati rice (item_id = 210203).</li>
-                    <li><strong>Data Cleaning:</strong> I converted the `quote_date` column to a datetime format and handled missing values by dropping incomplete rows.</li>
-                    <li><strong>Data Aggregation:</strong> I calculated the average monthly price of basmati rice using a group-by operation.</li>
-                    <li><strong>Visualization:</strong> Using Altair, I created a line chart to visualize the average monthly price trend.</li>
-                </ul>
-            </p>
+                I used the UK price dataset (`db_prices.csv`) from the Long Run Price Database (Davies, 2021) (<a href="https://eco-prices-scrapes.s3.eu-west-2.amazonaws.com/teaching/davies_price_data/db_prices.csv" target="_blank">source</a>) and filtered rows for basmati rice (item_id = 210203). I cleaned the data by converting the `quote_date` column to datetime format and removing incomplete rows. Using a group-by operation, I calculated the average monthly prices and visualized the trends with a line chart in Altair.
+            </p>         
         
             <h3>Chart 2: Regional Price Comparison for Basmati Rice (January 2022)</h3>
             <p><strong>Description:</strong> This chart compares the average price of basmati rice across regions for January 2022.</p>
             <figure id="cc8_regional_basmati_rice_prices"></figure>
             <p>
-                <strong>What I Did:</strong>
-                <ul>
-                    <li><strong>Dataset Sources:</strong> 
-                        <ul>
-                            <li>Price Data: I obtained the UK price dataset (`db_prices.csv`) based on monthly data from the Long Run Price Database (Davies, 2021) in 
-                                <a href="https://eco-prices-scrapes.s3.eu-west-2.amazonaws.com/teaching/davies_price_data/db_prices.csv" target="_blank">this link</a>.
-                            </li>
-                            <li>Region Metadata: I obtained the region mapping dataset (`db_region.csv`) based on monthly data from the Long Run Price Database (Davies, 2021) in 
-                                <a href="https://eco-prices-scrapes.s3.eu-west-2.amazonaws.com/teaching/davies_price_data/db_region.csv" target="_blank">this link</a>.
-                            </li>
-                        </ul>
-                    </li>
-                    <li><strong>Data Filtering:</strong> I selected data for January 2022 and filtered rows corresponding to basmati rice (item_id = 210203).</li>
-                    <li><strong>Region Mapping:</strong> I merged the dataset with `db_region.csv` to map region codes to their corresponding names.</li>
-                    <li><strong>Data Aggregation:</strong> I calculated the average price of basmati rice for each region in January 2022 using a group-by operation.</li>
-                    <li><strong>Visualization:</strong> Using Altair, I created a bar chart to compare the average basmati rice prices across regions.</li>
-                </ul>
+                I used the UK price dataset (`db_prices.csv`) (<a href="https://eco-prices-scrapes.s3.eu-west-2.amazonaws.com/teaching/davies_price_data/db_prices.csv" target="_blank">source</a>) and region mapping dataset (`db_region.csv`) (<a href="https://eco-prices-scrapes.s3.eu-west-2.amazonaws.com/teaching/davies_price_data/db_region.csv" target="_blank">source</a>). Data was filtered for January 2022 and basmati rice (item_id = 210203), then merged with region metadata to map region codes. I calculated the average regional prices using a group-by operation and visualized the results with a bar chart in Altair.
             </p>
         
             <p>
@@ -301,14 +275,22 @@
 
     <section>
         <div class="chart-description">
-            <h2>CC10 - Option 1 (Machine Learning): Apply both supervised and unsupervised machine learning techniques to analyze data.
-
-                CC10 - Option 2 (Interactive Visualizations): Create two charts with interactive elements (beyond tooltips) to enhance user experience.</h2>
-            <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
-                Text
+            <h2>CC10 - Option 2 (Interactive Visualizations): Enhancing User Experience</h2>
+            <p>
+                <strong>Chart 1:</strong> This visualization explores commodity price trends and their relationship with total export values. Users can interact with the data to uncover deeper insights about individual commodities.
+            </p>
+            <figure id="cc10_commodity_prices_total_export"></figure>
+            <p>
+                <strong>Interactive Features:</strong>
+                <ul>
+                    <li><strong>Filters:</strong> Users can filter data by commodity type for a more focused analysis.</li>
+                    <li><strong>Data Highlights:</strong> Clicking on a data point highlights related data across the visualization.</li>
+                </ul>
+            </p>
+            <p>
+                <strong>Data Source:</strong> <a href="https://data.worldbank.org/">World Bank</a>
             </p>
         </div>
-          
     </section>
     <!-- Do you want to add more sections? -->
         <!-- Try copying pasting the section above -->
@@ -346,6 +328,7 @@
         vegaEmbed("#cc4_replication_bad_chart", "cc4_replication_bad_chart.json")
         vegaEmbed("#cc4_improved_chart", "cc4_improved_chart.json")
         vegaEmbed("#cc5_urbanazition_rol", "cc5_urbanazition_rol.json")
+        vegaEmbed("#cc5_top_military_spending", "cc5_top_military_spending.json")
         vegaEmbed("#urban_population_chart", "cc6_urban_population_chart.json")
         vegaEmbed("#urban_growth_chart", "cc6_urban_growth_chart.json")
         vegaEmbed("#rural_population_chart", "cc6_rural_population_chart.json")
@@ -363,6 +346,9 @@
         vegaEmbed("#cc8_regional_basmati_rice_prices", "cc8_regional_basmati_rice_prices.json")
         vegaEmbed("#cc9_diff_in_diff_ijepa_implementation", "cc9_diff_in_diff_ijepa_implementation.json")
         vegaEmbed("#cc9_bubble_chart_rol_epi", "cc9_bubble_chart_rol_epi.json")
+        vegaEmbed("#cc10_commodity_prices_total_export", "cc10_commodity_prices_total_export.json")
+        
+        
 
     </script>
 

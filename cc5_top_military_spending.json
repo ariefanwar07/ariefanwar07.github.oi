@@ -1,0 +1,91 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json",
+    "config": {
+        "view": {
+            "continuousWidth": 300,
+            "continuousHeight": 300
+        }
+    },
+    "data": {
+        "values": [
+            {
+                "Rank": "01",
+                "Country": "United States",
+                "Spending (US$ bn)": 916.0,
+                "% of GDP": "3.4",
+                "% of global spending": "37"
+            },
+            {
+                "Rank": "02",
+                "Country": "China[a]",
+                "Spending (US$ bn)": 330.0,
+                "% of GDP": "1.8",
+                "% of global spending": "12"
+            },
+            {
+                "Rank": "03",
+                "Country": "Russia",
+                "Spending (US$ bn)": 130.0,
+                "% of GDP": "6.3",
+                "% of global spending": "4.5"
+            },
+            {
+                "Rank": "04",
+                "Country": "India",
+                "Spending (US$ bn)": 83.6,
+                "% of GDP": "2.4",
+                "% of global spending": "3.4"
+            },
+            {
+                "Rank": "05",
+                "Country": "Saudi Arabia[a][b]",
+                "Spending (US$ bn)": 75.8,
+                "% of GDP": "7.1",
+                "% of global spending": "3.1"
+            },
+            {
+                "Rank": "06",
+                "Country": "United Kingdom",
+                "Spending (US$ bn)": 74.9,
+                "% of GDP": "2.3",
+                "% of global spending": "3.1"
+            },
+            {
+                "Rank": "07",
+                "Country": "Germany",
+                "Spending (US$ bn)": 66.8,
+                "% of GDP": "1.5",
+                "% of global spending": "2.7"
+            },
+            {
+                "Rank": "08",
+                "Country": "Ukraine",
+                "Spending (US$ bn)": 64.8,
+                "% of GDP": "37.0",
+                "% of global spending": "2.7"
+            }
+        ]
+    },
+    "mark": {
+        "type": "bar"
+    },
+    "encoding": {
+        "x": {
+            "field": "Country",
+            "type": "nominal",
+            "title": "Country"
+        },
+        "y": {
+            "field": "Spending (US$ bn)",
+            "type": "quantitative",
+            "title": "Military Spending (US$ bn)"
+        },
+        "color": {
+            "field": "Country",
+            "type": "nominal"
+        }
+    },
+    "title": "Top 8 Countries by Military Spending (US$ bn)",
+    "width": 500,
+    "height": 300
+}
