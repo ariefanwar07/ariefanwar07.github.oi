@@ -3,7 +3,7 @@
     "width": 600,
     "height": 400,
     "title": {
-      "text": "Indonesia's Export Partner Countries",
+      "text": "Chart 4: Indonesia's Export Partner Countries",
       "subtitle": [
         "Total exports to partner countries (2012–2022)",
         "Source: UN Comtrade",
@@ -11,7 +11,7 @@
       ],
       "subtitleFontStyle": "italic",
       "subtitleFontSize": 10,
-      "anchor": "start",
+      "anchor": "middle",
       "color": "black"
     },
       "data": {

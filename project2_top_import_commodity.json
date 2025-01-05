@@ -2,11 +2,11 @@
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "description": "Interactive line chart for import percentages of commodities over time with tooltips.",
     "title": {
-        "text": "Top Import Commodities Percentage Over Time",
+        "text": "Chart 3: Top Import Commodities Percentage Over Time",
         "subtitle": "Interactive line chart with year filter and tooltips",
         "subtitleFontStyle": "italic",
         "subtitleFontSize": 10,
-        "anchor": "start",
+        "anchor": "middle",
         "color": "black"
     },
     "width": 600,

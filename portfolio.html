@@ -49,7 +49,7 @@
     <p style="margin-top: 0px; color: darkblue">
       
     </p>
-    <h3 class="small"> <!-- We have added a class to the header called "small" which we can use to style it in the CSS -->
+    <h3 class="small" style="text-align: left;"> <!-- We have added a class to the header called "small" which we can use to style it in the CSS -->
         This portfolio showcases 10 coding challenges, each demonstrating diverse data science skills—ranging from data visualization and web development to analysis. Tasks include building interactive charts, mapping, implementing machine learning models, and data scrapers, all applied to real-world economic and policy issues. 
     </h3>
 
@@ -275,11 +275,17 @@
 
     <section>
         <div class="chart-description">
-            <h2>CC10 - Option 2 (Interactive Visualizations): Enhancing User Experience</h2>
+            <h2>CC10 - Create Interactive Visualizations</h2>
+            
+            <!-- Chart 1: Commodity Price Trends -->
+            <h3>Chart 1: Commodity Price Trends vs Total Export Values</h3>
             <p>
-                <strong>Chart 1:</strong> This visualization explores commodity price trends and their relationship with total export values. Users can interact with the data to uncover deeper insights about individual commodities.
+                This visualization explores the relationship between commodity price trends and total export values. Users can interact with the data to uncover deeper insights about individual commodities.
             </p>
             <figure id="cc10_commodity_prices_total_export"></figure>
+            <p>
+                <strong>Data Source:</strong> <a href="https://data.worldbank.org/" target="_blank">World Bank</a>
+            </p>
             <p>
                 <strong>Interactive Features:</strong>
                 <ul>
@@ -287,11 +293,29 @@
                     <li><strong>Data Highlights:</strong> Clicking on a data point highlights related data across the visualization.</li>
                 </ul>
             </p>
+            
+            
+            <!-- Chart 2: Indonesia Trade Analysis within ASEAN -->
+            <h3>Chart 2: Indonesia Trade Analysis within ASEAN (2013–2022)</h3>
             <p>
-                <strong>Data Source:</strong> <a href="https://data.worldbank.org/">World Bank</a>
+                This interactive grouped bar chart visualizes Indonesia's trade with ASEAN countries from 2013 to 2022, highlighting trade values (exports and imports) for individual countries in the region.
             </p>
+            <figure id="cc10_indonesia_asean_trade_analysis"></figure>
+            <p>
+                <strong>Data Source:</strong> <a href="https://comtrade.un.org/" target="_blank">UN Comtrade</a>
+            </p>
+            <p>
+                <strong>Interactive Features:</strong>
+            </p>
+            <ul>
+                <li><strong>Year Slider:</strong> Adjust the year to explore trade values for a specific time period.</li>
+                <li><strong>Country Selector:</strong> Focus on specific ASEAN countries by selecting them from the dropdown menu.</li>
+                <li><strong>Data Highlights:</strong> Hover over bars to display detailed trade value information.</li>
+            </ul>
+            
         </div>
     </section>
+    
     <!-- Do you want to add more sections? -->
         <!-- Try copying pasting the section above -->
         <!-- You'll need to change the id of the figure "<figure id="Location3"... -->
@@ -347,6 +371,8 @@
         vegaEmbed("#cc9_diff_in_diff_ijepa_implementation", "cc9_diff_in_diff_ijepa_implementation.json")
         vegaEmbed("#cc9_bubble_chart_rol_epi", "cc9_bubble_chart_rol_epi.json")
         vegaEmbed("#cc10_commodity_prices_total_export", "cc10_commodity_prices_total_export.json")
+        vegaEmbed("#cc10_indonesia_asean_trade_analysis", "cc10_indonesia_asean_trade_analysis.json")
+
         
         
 
