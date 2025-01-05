@@ -55,38 +55,19 @@
                     This project investigates how Indonesia's trade dynamics have evolved over the past three decades and identifies the key factors influencing its trade balance.
                 </p>
                 <figure id="project_overview"></figure>
+                <p><strong>Data Sources:</strong> <a href="https://data.worldbank.org/">World Bank API</a>, <a href="https://comtrade.un.org/">UN Comtrade</a></p>
                 <ul>
                     <li><strong>Aims:</strong>
                         <ul>
-                            <li>Analyze Indonesia's trade performance and its driving factors over the past three decades.</li>
-                            <li>Identify key trade partners, commodities, and external factors influencing Indonesia’s trade balance.</li>
-                            <li>Evaluate the effectiveness of economic policies and agreements like IJEPA.</li>
+                            <li>To analyze Indonesia's trade performance and its driving factors over the past three decades.</li>
+                            <li>To identify key trade partners, commodities, and external factors influencing Indonesia’s trade balance.</li>
+                            <li>To evaluate the effectiveness of economic policies and agreements like IJEPA.</li>
                         </ul>
                     </li>
                     <li><strong>Data:</strong>
                         <ul>
-                            <li>
-                                <strong>Sources:</strong>
-                                <ul>
-                                    <li>World Bank data on exports, imports, trade balance, and commodity prices.</li>
-                                    <li>UN Comtrade data on key commodities, trade partners, and bilateral trade agreements.</li>
-                                </ul>
-                            </li>
-                            <li>
-                                <strong>How Data Was Accessed:</strong>
-                                <ul>
-                                    <li>World Bank: Data was retrieved programmatically using the World Bank API. Python scripts written in Google Colab leveraged the <code>requests</code> library for API queries and <code>pandas</code> for data processing.</li>
-                                    <li>UN Comtrade: Data was accessed via their publicly available web interface, with queries filtered to focus on key commodities and trade partners. Data was manually downloaded for analysis. While UN Comtrade offers an API for more advanced data retrieval, full access requires a subscription. For instance, the Premium Individual plan costs $2,000 per year and includes individual access, up to 5,000 queries per day, and internal-use terms.</li>
-                                </ul>
-                            </li>
-                            <li>
-                                <strong>Automation and Replication:</strong>
-                                <ul>
-                                    <li>Python scripts automated data retrieval from the World Bank API, ensuring consistent data collection and processing.</li>
-                                    <li>For UN Comtrade data, manual downloads were supplemented with custom Python scripts to process and standardize the datasets for analysis.</li>
-                                    <li>All workflows and scripts have been documented in the project's Google Colab Notebooks, enabling replication with minimal manual effort.</li>
-                                </ul>
-                            </li>
+                            <li>World Bank data on exports, imports, trade balance, and commodity prices.</li>
+                            <li>UN Comtrade data on key commodities, trade partners, and bilateral trade agreements.</li>
                         </ul>
                     </li>
                 </ul>
@@ -225,17 +206,24 @@
             <div class="chart-description">
                 <h2>Analytical Challenges</h2>
                 <ul>
-                    <li><strong>Data Cleaning and Analysis:</strong>
+                    <li><strong>Data Collection:</strong>
                         <ul>
-                            <li>Standardizing trade data into a consistent tabular format suitable for analysis was challenging due to inconsistent formats and missing values across datasets. This was resolved using Python libraries like `pandas` for data wrangling and cleaning.</li>
-                            <li>Integrating diverse datasets, such as country codes (ISO3) and HS codes for commodities, required cross-referencing multiple sources. Tools like `pandas` and `merge` functions were used to ensure accurate alignment.</li>
+                            <li>Inconsistent reporting formats across data sources (e.g., World Bank vs. UN Comtrade).</li>
+                            <li>Difficulty in accessing up-to-date trade data due to time lags in reporting.</li>
+                        </ul>
+                    </li>
+                    <li><strong>Data Transformation:</strong>
+                        <ul>
+                            <li>Standardizing trade data into a consistent tabular format suitable for analysis.</li>
+                            <li>Integrating diverse datasets, such as country codes (ISO3) and HS codes for commodities.</li>
+                            <li>Dealing with outliers and anomalous values in historical trade figures.</li>
                         </ul>
                     </li>
                     <li><strong>Data Visualization:</strong>
                         <ul>
-                            <li>Balancing detail and clarity in visualizations, particularly for complex datasets, was addressed using Vega-Lite for interactive and flexible chart creation.</li>
-                            <li>Ensuring compatibility across platforms was achieved by embedding visualizations directly into web pages using Vega-Lite JSON specifications and the `vega-embed` library.</li>
-                            <li>Addressing challenges in visualizing multi-dimensional data involved breaking down datasets into simpler subsets and using interactive charts to allow users to explore specific dimensions.</li>
+                            <li>Balancing detail and clarity in visualizations, particularly for complex datasets.</li>
+                            <li>Ensuring compatibility across platforms.</li>
+                            <li>Addressing challenges in visualizing multi-dimensional data.</li>
                         </ul>
                     </li>
                 </ul>
