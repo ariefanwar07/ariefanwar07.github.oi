@@ -171,13 +171,80 @@ body.dark-mode button {
 
 /* Mobile-Specific Styling */
 @media (max-width: 768px) {
+    body {
+        font-size: 14px; /* Slightly smaller font for mobile */
+        padding-top: 20px;
+    }
+
     section {
-        width: 95%; /* Increase width for mobile */
+        width: 95%; /* Use most of the screen width */
         margin: 0 auto; /* Center the section */
         padding: 15px; /* Adjust padding for smaller screens */
     }
 
+    h1, h2, h3, h4, h5, h6 {
+        font-size: 1.2em; /* Reduce heading sizes for better fit */
+        line-height: 1.4;
+    }
+
     .chart {
-        width: 100%; /* Full-width charts for mobile */
+        flex: 1 1 100%; /* Make charts full-width on mobile */
+        max-width: 100%;
+        margin-bottom: 20px; /* Add spacing between charts */
+    }
+
+    ul, li {
+        margin-left: 1em; /* Reduce indentation for lists */
+        padding-left: 1em;
+    }
+
+    button {
+        font-size: 0.9em; /* Slightly smaller buttons */
+        padding: 10px 20px;
+    }
+
+    header, footer {
+        padding: 10px 0; /* Adjust padding for smaller screens */
+    }
+
+    header p {
+        font-size: 0.9em; /* Reduce font size for header text */
+    }
+
+    img {
+        border-radius: 3px; /* Slightly smaller border radius */
+    }
+
+    #chartGrid {
+        flex-direction: column; /* Stack charts vertically */
+        gap: 15px; /* Reduce gap between charts */
     }
 }
+/* Tablet-Specific Styling */
+@media (min-width: 769px) and (max-width: 1024px) {
+    body {
+        font-size: 18px; /* Slightly larger font for better readability on tablets */
+        padding-top: 40px;
+    }
+
+    section {
+        width: 90%; /* Adjust width for tablet screens */
+        margin: 0 auto; /* Center the section */
+        padding: 20px;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        font-size: 1.5em; /* Adjust heading sizes for tablets */
+    }
+
+    .chart {
+        flex: 1 1 calc(100% - 20px); /* Single-column layout for charts on tablets */
+        max-width: calc(100% - 20px);
+    }
+
+    button {
+        font-size: 1.1em; /* Slightly larger buttons for easier interaction */
+        padding: 14px 28px;
+    }
+}
+
