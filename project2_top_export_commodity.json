@@ -9,7 +9,7 @@
         "anchor": "middle",
         "color": "black"
     },
-    "width": 600,
+    "width": 550,
     "height": 400,
     "mark": {
         "type": "line",
