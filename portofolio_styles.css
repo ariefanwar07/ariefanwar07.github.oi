@@ -91,20 +91,31 @@ img {
 }
 
 /* Chart Grid Layout */
-#chartGrid {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: left; /* Align center for a balanced layout */
-}
-
-.chart {
-    flex: 1 1 calc(45% - 20px); /* Two charts per row */
-    max-width: calc(45% - 20px);
+#project1_indonesia_trade_data,
+#project2_top_export_commodity,
+#project2_top_import_commodity,
+#project3_indonesia_export_partner_region,
+#project3_indonesia_import_partner_region,
+#project4_commodity_price_total_import_unit,
+#project4_commodity_price_total_export_unit,
+#project5_ijepa_implementation_2016,
+#project6_indonesia_asean_trade_analysis {
+    width: 100%; /* Take full width of the container */
+    max-width: 1000px; /* Constrain width for larger screens */
+    margin: 0 auto; /* Center align */
+    overflow-x: auto; /* Prevent clipping */
     border: 1px solid #ddd;
     border-radius: 8px;
     padding: 10px;
     background-color: #fafafa;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+/* Chart Grid Container */
+#chartGrid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left; /* Align left for balanced layout */
 }
 
 /* Button Styling */
@@ -189,6 +200,19 @@ body.dark-mode button {
         font-size: 1.6em;
     }
 
+    #project1_indonesia_trade_data,
+    #project2_top_export_commodity,
+    #project2_top_import_commodity,
+    #project3_indonesia_export_partner_region,
+    #project3_indonesia_import_partner_region,
+    #project4_commodity_price_total_import_unit,
+    #project4_commodity_price_total_export_unit,
+    #project5_ijepa_implementation_2016,
+    #project6_indonesia_asean_trade_analysis {
+        width: 95vw; /* Slightly more width on tablets */
+        max-width: 1000px;
+    }
+
     .chart {
         flex: 1 1 100%; /* Make charts full width */
         max-width: 100%;
@@ -208,6 +232,21 @@ body.dark-mode button {
 
     h2 {
         font-size: 1.4em;
+    }
+
+    #project1_indonesia_trade_data,
+    #project2_top_export_commodity,
+    #project2_top_import_commodity,
+    #project3_indonesia_export_partner_region,
+    #project3_indonesia_import_partner_region,
+    #project4_commodity_price_total_import_unit,
+    #project4_commodity_price_total_export_unit,
+    #project5_ijepa_implementation_2016,
+    #project6_indonesia_asean_trade_analysis {
+        width: 100%; /* Fit the mobile screen width */
+        max-width: 90vw; /* Slight padding from screen edges */
+        margin: 0 auto; /* Center horizontally */
+        overflow-x: auto; /* Enable horizontal scrolling only if needed */
     }
 
     .chart {
@@ -232,6 +271,22 @@ body.dark-mode button {
 
     h2 {
         font-size: 1.2em;
+    }
+
+    #project1_indonesia_trade_data,
+    #project2_top_export_commodity,
+    #project2_top_import_commodity,
+    #project3_indonesia_export_partner_region,
+    #project3_indonesia_import_partner_region,
+    #project4_commodity_price_total_import_unit,
+    #project4_commodity_price_total_export_unit,
+    #project5_ijepa_implementation_2016,
+    #project6_indonesia_asean_trade_analysis {
+        width: 100%; /* Fit screen width */
+        max-width: 90vw; /* Padding from screen edges */
+        height: auto; /* Maintain aspect ratio */
+        margin: 0 auto; /* Keep centered */
+        overflow-x: auto; /* Enable horizontal scrolling only if needed */
     }
 
     .chart {
