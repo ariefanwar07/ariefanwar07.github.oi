@@ -2,8 +2,7 @@
 body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 14px; /* Smaller font size for mobile */
-    color: #222; /* Consistent font color */
-    font-weight: 300; /* Consistent font weight */
+    color: #222;
     line-height: 1.8;
     background-color: #f9f9f9;
     margin: 0 auto;
@@ -13,10 +12,10 @@ body {
 
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
-    color: #222; /* Consistent font color for headings */
+    color: #222;
     margin-top: 16px;
     margin-bottom: 12px;
-    font-weight: 400; /* Slightly bolder font for headings */
+    font-weight: 200;
     text-align: left;
     line-height: 1.2;
 }
@@ -25,13 +24,11 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 2.5em; /* Adjusted for mobile */
     color: #065f46;
     text-transform: uppercase;
-    font-weight: 600; /* Bold font for emphasis */
 }
 
 h2 {
     font-size: 1.8em; /* Slightly smaller for mobile */
     margin-bottom: 10px;
-    font-weight: 500; /* Medium font weight */
 }
 
 .small {
@@ -39,16 +36,15 @@ h2 {
     text-align: center;
     line-height: 1.8;
     margin-top: 10px;
-    color: #222; /* Consistent font color */
-    font-weight: 300; /* Lighter font weight for small text */
+    color: #444;
 }
 
 /* Paragraphs */
 p {
     margin-bottom: 1.2em;
-    font-weight: 300; /* Consistent font weight for body text */
+    font-weight: 200;
     text-align: left;
-    color: #222; /* Consistent font color */
+    color: #222;
 }
 
 /* Section Styling */
@@ -67,7 +63,7 @@ section {
 a {
     color: #065f46;
     text-decoration: none;
-    font-weight: 500; /* Medium font weight for links */
+    font-weight: 500;
     transition: color 0.3s;
 }
 
@@ -108,7 +104,7 @@ button {
     border-radius: 5px;
     cursor: pointer;
     font-size: 1em;
-    font-weight: 500; /* Medium font weight for buttons */
+    font-weight: 500;
     transition: background-color 0.3s ease;
 }
 
@@ -126,7 +122,6 @@ header p {
     color: #065f46;
     margin: 5px 0;
     font-size: 1em;
-    font-weight: 300; /* Consistent font weight */
 }
 
 /* Footer Styling */
@@ -137,7 +132,6 @@ footer {
     color: #666;
     margin-top: 40px;
     border-top: 1px solid #ddd;
-    font-weight: 300; /* Lighter font for footer text */
 }
 
 /* Optional: Dark Mode */
