@@ -44,7 +44,7 @@ h2 {
 }
 
 /* Paragraphs */
-p {
+p, ul, li {
     margin-bottom: 1.2em;
     font-weight: 300; /* Consistent font weight for body text */
     text-align: left;
@@ -177,7 +177,7 @@ body.dark-mode button {
     section {
         margin-bottom: 2em;
         padding: 20px;
-        max-width: 100%; /* Slightly reduced for tablets */
+        max-width: 90%; /* Slightly reduced for tablets */
     }
 
     #chartGrid {
@@ -190,5 +190,23 @@ body.dark-mode button {
     .chart {
         flex: 1 1 calc(50% - 20px); /* Two charts per row on tablets */
         max-width: calc(50% - 20px);
+    }
+}
+
+@media (min-width: 1024px) {
+    body {
+        font-size: 18px;
+        max-width: 900px;
+        padding-top: 60px;
+    }
+
+    section {
+        padding: 25px;
+        max-width: 100%; /* Reduced spacing for larger screens */
+    }
+
+    .chart {
+        flex: 1 1 calc(33.33% - 20px); /* Three charts per row on larger screens */
+        max-width: calc(33.33% - 20px);
     }
 }
