@@ -177,7 +177,7 @@ body.dark-mode button {
     section {
         margin-bottom: 2em;
         padding: 20px;
-        max-width: 90%; /* Slightly reduced for tablets */
+        max-width: 100%; /* Slightly reduced for tablets */
     }
 
     #chartGrid {
@@ -202,7 +202,7 @@ body.dark-mode button {
 
     section {
         padding: 25px;
-        max-width: 85%; /* Reduced spacing for larger screens */
+        max-width: 100%; /* Reduced spacing for larger screens */
     }
 
     .chart {
