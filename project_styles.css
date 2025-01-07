@@ -2,11 +2,12 @@
 body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 14px; /* Smaller font size for mobile */
-    color: #333;
+    color: #222;
     line-height: 1.8;
     background-color: #f9f9f9;
     margin: 0 auto;
     padding: 20px;
+    max-width: 95%; /* Slightly wider for mobile screens */
 }
 
 /* Headings */
@@ -41,9 +42,9 @@ h2 {
 /* Paragraphs */
 p {
     margin-bottom: 1.2em;
-    font-weight: 300;
+    font-weight: 200;
     text-align: left;
-    color: #555;
+    color: #222;
 }
 
 /* Section Styling */
@@ -53,6 +54,9 @@ section {
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    width: 100%;
+    max-width: 100%; /* Full width for mobile */
+    box-sizing: border-box; /* Ensures padding is part of width */
 }
 
 /* Links */
@@ -161,11 +165,13 @@ body.dark-mode button {
     body {
         font-size: 16px;
         max-width: 700px;
+        padding: 30px;
     }
 
     section {
         margin-bottom: 2em;
         padding: 20px;
+        max-width: 90%; /* Slightly reduced for tablets */
     }
 
     #chartGrid {
@@ -190,6 +196,7 @@ body.dark-mode button {
 
     section {
         padding: 25px;
+        max-width: 85%; /* Reduced spacing for larger screens */
     }
 
     .chart {
