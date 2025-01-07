@@ -1,73 +1,66 @@
 /* Base Styles (Mobile-First Approach) */
 body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-size: 14px; /* Smaller font size for mobile */
-    color: #222; /* Consistent font color */
-    font-weight: 300; /* Consistent font weight */
+    font-size: 16px; /* Standard font size */
+    color: #333;
     line-height: 1.8;
     background-color: #f9f9f9;
     margin: 0 auto;
-    padding: 20px;
-    max-width: 95%; /* Slightly wider for mobile screens */
+    max-width: 900px; /* Constrain width for larger screens */
+    padding-top: 60px;
 }
 
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
-    color: #222; /* Consistent font color for headings */
+    color: #222;
     margin-top: 16px;
     margin-bottom: 12px;
-    font-weight: 400; /* Slightly bolder font for headings */
+    font-weight: 200;
     text-align: left;
     line-height: 1.2;
 }
 
 .big {
-    font-size: 2.5em; /* Adjusted for mobile */
+    font-size: 3em;
     color: #065f46;
     text-transform: uppercase;
-    font-weight: 600; /* Bold font for emphasis */
 }
 
 h2 {
-    font-size: 1.8em; /* Slightly smaller for mobile */
+    font-size: 2em;
     margin-bottom: 10px;
-    font-weight: 500; /* Medium font weight */
 }
 
 .small {
-    font-size: 1.2em;
+    font-size: 1.25em;
     text-align: center;
     line-height: 1.8;
     margin-top: 10px;
-    color: #222; /* Consistent font color */
-    font-weight: 300; /* Lighter font weight for small text */
+    color: #444;
 }
 
 /* Paragraphs */
 p {
     margin-bottom: 1.2em;
-    font-weight: 300; /* Consistent font weight for body text */
+    font-weight: 300;
     text-align: left;
-    color: #222; /* Consistent font color */
+    color: #555;
 }
 
-/* Section Styling */
+/* Section Spacing */
 section {
-    margin-bottom: 1.5em; /* Reduced spacing for mobile */
-    padding: 15px;
+    margin-bottom: 2.5em;
+    padding: 20px;
     background-color: #fff;
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
-    width: 100%;
-    max-width: 100%; /* Full width for mobile */
-    box-sizing: border-box; /* Ensures padding is part of width */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 /* Links */
 a {
     color: #065f46;
     text-decoration: none;
-    font-weight: 500; /* Medium font weight for links */
+    font-weight: 500;
     transition: color 0.3s;
 }
 
@@ -85,27 +78,21 @@ img {
 
 /* Chart Grid Layout */
 #chartGrid {
-    display: block; /* Stacked charts for mobile */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-evenly;
     margin-top: 20px;
 }
 
 .chart {
-    width: 90%; /* Reduce the size of the chart to fit smaller screens */
-    max-width: 600px; /* Maintain a reasonable maximum size for larger screens */
-    margin: 0 auto 20px; /* Center the chart and add spacing below */
+    flex: 1 1 calc(45% - 20px); /* Adjust width to allow for two charts per row */
+    max-width: calc(45% - 20px);
     border: 1px solid #ddd;
     border-radius: 8px;
     padding: 10px;
     background-color: #fafafa;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
-    box-sizing: border-box; /* Include padding in width calculation */
-}
-
-/* Ensure chart content scales proportionally */
-.chart canvas,
-.chart svg {
-    width: 100%; /* Ensure content scales with the chart */
-    height: auto; /* Maintain aspect ratio */
 }
 
 /* Button Styling */
@@ -117,7 +104,7 @@ button {
     border-radius: 5px;
     cursor: pointer;
     font-size: 1em;
-    font-weight: 500; /* Medium font weight for buttons */
+    font-weight: 500;
     transition: background-color 0.3s ease;
 }
 
@@ -135,7 +122,6 @@ header p {
     color: #065f46;
     margin: 5px 0;
     font-size: 1em;
-    font-weight: 300; /* Consistent font weight */
 }
 
 /* Footer Styling */
@@ -146,10 +132,9 @@ footer {
     color: #666;
     margin-top: 40px;
     border-top: 1px solid #ddd;
-    font-weight: 300; /* Lighter font for footer text */
 }
 
-/* Optional: Dark Mode */
+/* Optional: Dark Mode (Toggle if needed) */
 body.dark-mode {
     background-color: #121212;
     color: #e0e0e0;
@@ -175,47 +160,15 @@ body.dark-mode button {
     border: 1px solid #444;
 }
 
-/* Responsive Design for Larger Screens */
-@media (min-width: 768px) {
-    body {
-        font-size: 16px;
-        max-width: 700px;
-        padding: 30px;
-    }
-
+/* Mobile-Specific Styling */
+@media (max-width: 768px) {
     section {
-        margin-bottom: 2em;
-        padding: 20px;
-        max-width: 90%; /* Slightly reduced for tablets */
-    }
-
-    #chartGrid {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 20px;
-        justify-content: space-between;
+        width: 95%; /* Increase width for mobile */
+        margin: 0 auto; /* Center the section */
+        padding: 15px; /* Adjust padding for smaller screens */
     }
 
     .chart {
-        flex: 1 1 calc(50% - 20px); /* Two charts per row on tablets */
-        max-width: calc(50% - 20px);
-    }
-}
-
-@media (min-width: 1024px) {
-    body {
-        font-size: 18px;
-        max-width: 900px;
-        padding-top: 60px;
-    }
-
-    section {
-        padding: 25px;
-        max-width: 100%; /* Reduced spacing for larger screens */
-    }
-
-    .chart {
-        flex: 1 1 calc(33.33% - 20px); /* Three charts per row on larger screens */
-        max-width: calc(33.33% - 20px);
+        width: 100%; /* Full-width charts for mobile */
     }
 }
