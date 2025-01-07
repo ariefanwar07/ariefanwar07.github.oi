@@ -1,6 +1,6 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "description": "Interactive grouped bar chart for trade analysis across ASEAN countries with zoom and panning.",
+    "description": "Interactive grouped bar chart for trade analysis across ASEAN countries.",
     "title": {
         "text": "Chart 6: Indonesia Trade Analysis within ASEAN from 2013 to 2022",
         "color": "#013220",
@@ -68,8 +68,7 @@
             "type": "quantitative",
             "axis": {"title": "Trade Value (USD Million)"},
             "scale": {
-                "domainMin": 0, 
-                "clamp": true
+                "domain": [0, 30000000000] 
             }
         },
         "color": {
@@ -98,10 +97,6 @@
             "fields": ["Country", "Trade_Type"],
             "on": "mouseover",
             "empty": "all"
-        },
-        "zoomPan": {
-            "type": "interval",
-            "bind": "scales" 
         }
     },
     "config": {
