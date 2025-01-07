@@ -1,0 +1,267 @@
+/* Base Styles (Mobile-First Approach) */
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 16px; /* Standard font size */
+    color: #333;
+    line-height: 1.8;
+    background-color: #f9f9f9;
+    margin: 0 auto;
+    max-width: 900px; /* Constrain width for larger screens */
+    padding-top: 60px;
+    height: 100vh; /* Full viewport height */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+    color: #222;
+    margin-top: 16px;
+    margin-bottom: 12px;
+    font-weight: 400; /* Bolder for better emphasis */
+    text-align: left;
+    line-height: 1.2;
+}
+
+.big {
+    font-size: 3em;
+    color: #065f46;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.small {
+    font-size: 1.25em;
+    text-align: center;
+    line-height: 1.8;
+    margin-top: 10px;
+    color: #444;
+}
+
+/* Paragraphs, Lists */
+p, ul, li {
+    font-weight: 300; /* Consistent font weight for all */
+    color: #555; /* Unified color for paragraphs and lists */
+    margin-bottom: 1em; /* Reduced margin for tighter layout */
+    line-height: 1.6; /* Slightly reduced line height */
+}
+
+ul {
+    margin-left: 1.5em; /* Add slight indentation for lists */
+    padding-left: 1.5em; /* Consistent with margin-left */
+}
+
+li {
+    margin-bottom: 0.4em; /* Smaller margin for list items */
+}
+
+/* Section Spacing */
+section {
+    margin-bottom: 2em; /* Reduced margin for compactness */
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: left; /* Keep text left-aligned */
+}
+
+/* Links */
+a {
+    color: #065f46;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #033d2d;
+    text-decoration: underline;
+}
+
+/* Images */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Chart Grid Layout */
+#chartGrid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.chart {
+    flex: 1 1 calc(45% - 20px); /* Adjust width to allow for two charts per row */
+    max-width: calc(45% - 20px);
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #fafafa;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+/* Button Styling */
+button {
+    background-color: #065f46;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #033d2d;
+}
+
+/* Header Styling */
+header {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+header p {
+    color: #065f46;
+    margin: 5px 0;
+    font-size: 1em;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 0.9em;
+    color: #666;
+    margin-top: 40px;
+    border-top: 1px solid #ddd;
+}
+
+/* Optional: Dark Mode (Toggle if needed) */
+body.dark-mode {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+body.dark-mode section {
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+    border: 1px solid #333;
+}
+
+body.dark-mode a {
+    color: #80cbc4;
+}
+
+body.dark-mode a:hover {
+    color: #b2dfdb;
+}
+
+body.dark-mode button {
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+    border: 1px solid #444;
+}
+
+/* Mobile-Specific Styling */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px; /* Slightly smaller font for mobile */
+        padding-top: 20px;
+        height: 100vh; /* Full viewport height */
+        justify-content: center; /* Center horizontally */
+        align-items: center; /* Center vertically */
+    }
+
+    section {
+        width: 100%; /* Use most of the screen width */
+        margin: 0 auto; /* Center the section */
+        padding: 15px; /* Adjust padding for smaller screens */
+        text-align: left; /* Keep text left-aligned */
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        font-size: 1.2em; /* Reduce heading sizes for better fit */
+        line-height: 1.4;
+    }
+
+    .chart {
+        flex: 1 1 100%; /* Make charts full-width on mobile */
+        max-width: 100%;
+        margin-bottom: 20px; /* Add spacing between charts */
+    }
+
+    ul, li {
+        margin-left: 1em; /* Reduce indentation for lists */
+        padding-left: 1em;
+    }
+
+    button {
+        font-size: 0.9em; /* Slightly smaller buttons */
+        padding: 10px 20px;
+    }
+
+    header, footer {
+        padding: 10px 0; /* Adjust padding for smaller screens */
+    }
+
+    header p {
+        font-size: 0.9em; /* Reduce font size for header text */
+    }
+
+    img {
+        border-radius: 3px; /* Slightly smaller border radius */
+    }
+
+    #chartGrid {
+        flex-direction: column; /* Stack charts vertically */
+        gap: 15px; /* Reduce gap between charts */
+    }
+}
+/* Tablet-Specific Styling */
+@media (min-width: 769px) and (max-width: 1024px) {
+    body {
+        font-size: 18px; /* Slightly larger font for better readability on tablets */
+        padding-top: 40px;
+        height: 100vh; /* Full viewport height */
+        justify-content: center; /* Center horizontally */
+        align-items: center; /* Center vertically */
+    }
+
+    section {
+        width: 100%; /* Adjust width for tablet screens */
+        margin: 0 auto; /* Center the section */
+        padding: 20px;
+        text-align: left; /* Keep text left-aligned */
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        font-size: 1.5em; /* Adjust heading sizes for tablets */
+    }
+
+    .chart {
+        flex: 1 1 100%; /* Make charts full-width on mobile */
+        max-width: 100%;
+        margin-bottom: 20px; /* Add spacing between charts */
+    }
+
+    button {
+        font-size: 1.1em; /* Slightly larger buttons for easier interaction */
+        padding: 14px 28px;
+    }
+
+    #chartGrid {
+        gap: 15px; /* Slightly smaller gap between charts */
+    }
+}
+
