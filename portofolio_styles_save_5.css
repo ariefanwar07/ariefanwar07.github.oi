@@ -8,10 +8,6 @@ body {
     margin: 0 auto;
     max-width: 900px; /* Constrain width for larger screens */
     padding-top: 60px;
-    height: 100vh; /* Full viewport height */
-    display: flex; /* Use Flexbox for centering */
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
 }
 
 /* Headings */
@@ -67,7 +63,6 @@ section {
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    text-align: left; /* Keep text left-aligned */
 }
 
 /* Links */
@@ -179,17 +174,12 @@ body.dark-mode button {
     body {
         font-size: 14px; /* Slightly smaller font for mobile */
         padding-top: 20px;
-        height: 100vh; /* Full viewport height */
-        display: flex; /* Use Flexbox for centering */
-        justify-content: center; /* Center horizontally */
-        align-items: center; /* Center vertically */
     }
 
     section {
         width: 100%; /* Use most of the screen width */
         margin: 0 auto; /* Center the section */
         padding: 15px; /* Adjust padding for smaller screens */
-        text-align: left; /* Keep text left-aligned */
     }
 
     h1, h2, h3, h4, h5, h6 {
@@ -235,17 +225,12 @@ body.dark-mode button {
     body {
         font-size: 18px; /* Slightly larger font for better readability on tablets */
         padding-top: 40px;
-        height: 100vh; /* Full viewport height */
-        display: flex; /* Use Flexbox for centering */
-        justify-content: center; /* Center horizontally */
-        align-items: center; /* Center vertically */
     }
 
     section {
         width: 100%; /* Adjust width for tablet screens */
         margin: 0 auto; /* Center the section */
         padding: 20px;
-        text-align: left; /* Keep text left-aligned */
     }
 
     h1, h2, h3, h4, h5, h6 {
