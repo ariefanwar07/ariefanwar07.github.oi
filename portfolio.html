@@ -57,10 +57,6 @@
     <section>
         <div class="chart-description">
             <h2>CC1 - Hosting: Set up a GitHub account and display charts.</h2>
-            <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
-                I've organised the page into sections, with each section containing a chart, title and a description. Here, we can describe the chart and give some context.
-                As a first example, we're using a basic chart from our repo.
-            </p>
         </div>
         <figure id="Location1"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
             <figure id="Location2"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
@@ -75,12 +71,8 @@
             <h3>Chart 1: Electricity Output in Indonesia</h3>
             <p>This chart illustrates the growth of electricity output in Indonesia over time. The data highlights a consistent upward trend in power generation, reflecting the country's focus on expanding energy production to meet growing demand.</p>
             <figure id="indonesia_electricity"></figure> 
-
-            <h3>Chart 2: Electricity Output in Mexico</h3>
-            <p>This chart shows the historical electricity output in Mexico. Similar to Indonesia, it depicts a steady rise, but with fluctuations in certain periods, potentially linked to policy changes or economic conditions.</p>
-            <figure id="mexico_electricity"></figure> 
-
-            <h3>Chart 3: Comparative Electricity Output in Indonesia and Mexico</h3>
+            
+            <h3>Chart 2: Comparative Electricity Output in Indonesia and Mexico</h3>
             <p>This comparative chart overlays the trends in electricity output for Indonesia and Mexico, emphasizing differences in growth patterns and output levels over time.</p>
             <figure id="indonesia_mexico_electricity"></figure>
 
@@ -100,13 +92,11 @@
     
             <!-- Chart 1: GDP Growth vs. Income Inequality -->
             <h3>Chart 1: GDP Growth vs. Income Inequality (Gini Coefficient)</h3>
-            <p>Description: This chart visualizes the relationship between GDP growth and income inequality (measured by the Gini coefficient) across OECD countries for the year 2015.</p>
             <figure id="cc3_gini_gdpgrowth"></figure>
             <p><strong>Commentary:</strong> "GDP growth does not consistently reduce income inequality, suggesting growth policies must be complemented with targeted inequality-reducing strategies." (20 words)</p>
     
             <!-- Chart 2: Income Inequality Trends Over Time in High-Growth Economies -->
             <h3>Chart 2: Income Inequality Trends in High-Growth Economies</h3>
-            <p>Description: This chart tracks changes in income inequality over time in high-growth economies, using longitudinal data from the World Bank.</p>
             <figure id="cc3_ginihighincome"></figure>
             <p><strong>Commentary:</strong> "Despite rapid growth, high-growth economies still struggle with persistent income inequality." (12 words)</p>
         </div>
@@ -119,15 +109,15 @@
         
             <h3>Original Chart</h3>
             <img src="cc4_bad_chart.jpg" alt="Original Chart" width="500" />
-            <p>This is the original chart, sourced from NBC2, showing viewer concern levels about the Zika virus. Although it conveys the data, it is misleading because the actual values do not match the visual representation. Additionally, the dark background and low color contrast reduce readability.</p>        
+            <p>This is the original chart. Although it conveys the data, it is misleading because the actual values do not match the visual representation. </p>        
             
             <h3>Replicated "Bad" Chart</h3>
             <figure id="cc4_replication_bad_chart"></figure>
-            <p>This chart is a replica of the original design, created using Vega-Lite. It retains the same misleading structure, as the visual representation does not accurately reflect the data values. This replication allows us to identify the areas needing improvement, such as adjusting the data representation and improving readability.</p>
+            <p>This chart is a replica of the original design, created using Vega-Lite. </p>
         
             <h3>Improved Chart</h3>
             <figure id="cc4_improved_chart"></figure>
-            <p>The improved chart corrects the misleading aspects by accurately representing the data with clear labels and appropriate scaling. It also uses a clean color scheme, removes unnecessary background elements, and adds clear axis titles. Data labels are positioned above each bar for easy reading, ensuring that the chart accurately reflects viewer concern levels without distortion.</p>
+            <p>The improved chart ensures accurate data representation with clear labels, proper scaling, a clean design, and easy-to-read data labels, effectively eliminating distortions.</p>
         
         
         </div>
@@ -137,12 +127,27 @@
     <section>
         <div class="chart-description">
             <h2>CC5 - Scraper: Scrape data from a website, clean it, and use it.</h2>
-            <h3>Section 1: Python Notebook</h3>
-            <p><a href="https://colab.research.google.com/drive/1BxpbhTuSOhSrXgmBd8FkYfRC5U4JQFjg?usp=sharing">Link to my work in Google Collab Python Notebook</a></p>
+
+    <h3>Section 1: Python Notebook</h3>
+    <p>
+        <a href="https://colab.research.google.com/drive/1BxpbhTuSOhSrXgmBd8FkYfRC5U4JQFjg?usp=sharing">
+            Link to my work in Google Colab Python Notebook
+        </a>
+    </p>
+
+    Data Scraping and Cleaning Process</h3>
+    <p>
+        The data was scraped from 
+        <a href="https://en.wikipedia.org/wiki/List_of_countries_with_highest_military_expenditures">
+            Wikipedia's page on military expenditures
+        </a> 
+        using Python libraries such as requests and BeautifulSoup. 
+        The scraped data was processed into a tabular format using pandas.
+    </p>
         
             <h3>Section 2: Graph from my Python Notebook</h3>
             <figure id="cc5_top_military_spending"></figure>
-            <p>I have created a bar chart that visualizes the military spending of the top 8 countries. The x-axis represents the countries, and the y-axis represents the military spending in billions of USD. This data highlights the global distribution of defense expenditures, showcasing the countries with the highest investments in military capabilities.</p>
+            <p>I have created a bar chart that visualizes the military spending of the top 8 countries.</p>
         </div>
     </section>  
 
@@ -158,43 +163,33 @@
                 Indonesia Urbanization and Economic Dashboard
             </p>
             <!-- Urban Population -->
-            <p>This chart shows the percentage of Indonesia's total population living in urban areas. The steady upward trend reflects the rapid urbanization in Indonesia over the decades as people move to cities for better opportunities.</p>
             <figure id="urban_population_chart"></figure>
     
             <!-- Urban Growth -->
-            <p>This chart illustrates the annual growth rate of Indonesia's urban population. It highlights the periods of accelerated urbanization and possible effects of population policies.</p>
             <figure id="urban_growth_chart"></figure>
     
             <!-- Rural Population -->
-            <p>This chart depicts the percentage of Indonesia's population living in rural areas. The declining trend indicates the migration from rural areas to urban centers.</p>
             <figure id="rural_population_chart"></figure>
                  
             <!-- Urban Density -->
-            <p>This chart displays the population density in urban areas, reflecting how crowded Indonesia’s cities have become over time.</p>
             <figure id="urban_density_chart"></figure>
     
             <!-- Population Growth -->
-            <p>This chart shows the annual growth rate of Indonesia’s total population. It provides insights into population trends and the effectiveness of policies on population control.</p>
             <figure id="population_growth_chart"></figure>
     
             <!-- Total Population -->
-            <p>This chart tracks Indonesia’s total population over time. It showcases steady growth as Indonesia becomes one of the most populous nations in the world.</p>
             <figure id="population_total_chart"></figure>
     
             <!-- GDP Growth -->
-            <p>This chart highlights Indonesia's annual GDP growth rate. It reflects economic resilience and the impacts of global and domestic economic trends.</p>
             <figure id="gdp_growth_chart"></figure>
     
             <!-- GDP Per Capita -->
-            <p>This chart illustrates Indonesia’s GDP per capita in current USD. It measures economic prosperity on an individual basis and reflects improvements in living standards.</p>
             <figure id="gdp_per_capita_chart"></figure>
     
             <!-- Life Expectancy -->
-            <p>This chart shows life expectancy at birth in Indonesia. It reflects progress in healthcare, nutrition, and overall living conditions.</p>
             <figure id="life_expectancy_chart"></figure>
     
             <!-- Poverty Rate -->
-            <p>This chart tracks the percentage of Indonesia’s population living in poverty. It measures the success of economic and social policies in reducing extreme poverty.</p>
             <figure id="poverty_rate_chart"></figure>
                     
         </div>
@@ -227,14 +222,14 @@
             <p><strong>Description:</strong> This chart shows the trend of average monthly basmati rice prices over time using the `db_prices` dataset.</p>
             <figure id="cc8_average_rice_prices"></figure>
             <p>
-                I used the UK price dataset (`db_prices.csv`) from the Long Run Price Database (Davies, 2021) (<a href="https://eco-prices-scrapes.s3.eu-west-2.amazonaws.com/teaching/davies_price_data/db_prices.csv" target="_blank">source</a>) and filtered rows for basmati rice (item_id = 210203). I cleaned the data by converting the `quote_date` column to datetime format and removing incomplete rows. Using a group-by operation, I calculated the average monthly prices and visualized the trends with a line chart in Altair.
-            </p>         
+                I used the UK price dataset (<a href="https://eco-prices-scrapes.s3.eu-west-2.amazonaws.com/teaching/davies_price_data/db_prices.csv" target="_blank">source</a>) and filtered for basmati rice (item_id = 210203). After cleaning and converting dates, I calculated average monthly prices and visualized trends with an Altair line chart.
+            </p>      
         
             <h3>Chart 2: Regional Price Comparison for Basmati Rice (January 2022)</h3>
             <p><strong>Description:</strong> This chart compares the average price of basmati rice across regions for January 2022.</p>
             <figure id="cc8_regional_basmati_rice_prices"></figure>
             <p>
-                I used the UK price dataset (`db_prices.csv`) (<a href="https://eco-prices-scrapes.s3.eu-west-2.amazonaws.com/teaching/davies_price_data/db_prices.csv" target="_blank">source</a>) and region mapping dataset (`db_region.csv`) (<a href="https://eco-prices-scrapes.s3.eu-west-2.amazonaws.com/teaching/davies_price_data/db_region.csv" target="_blank">source</a>). Data was filtered for January 2022 and basmati rice (item_id = 210203), then merged with region metadata to map region codes. I calculated the average regional prices using a group-by operation and visualized the results with a bar chart in Altair.
+                I used the UK price dataset (<a href="https://eco-prices-scrapes.s3.eu-west-2.amazonaws.com/teaching/davies_price_data/db_prices.csv" target="_blank">source</a>) and region mapping dataset (<a href="https://eco-prices-scrapes.s3.eu-west-2.amazonaws.com/teaching/davies_price_data/db_region.csv" target="_blank">source</a>). Filtering for January 2022 and basmati rice (item_id = 210203), I merged region metadata, calculated average regional prices, and visualized them with an Altair bar chart.
             </p>
         
             <p>
