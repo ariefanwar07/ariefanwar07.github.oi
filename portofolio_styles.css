@@ -179,7 +179,6 @@ body.dark-mode button {
         font-size: 14px; /* Slightly smaller font for mobile */
         padding-top: 20px;
         height: 100vh; /* Full viewport height */
-        display: flex; /* Use Flexbox for centering */
         justify-content: center; /* Center horizontally */
         align-items: center; /* Center vertically */
     }
@@ -235,7 +234,6 @@ body.dark-mode button {
         font-size: 18px; /* Slightly larger font for better readability on tablets */
         padding-top: 40px;
         height: 100vh; /* Full viewport height */
-        display: flex; /* Use Flexbox for centering */
         justify-content: center; /* Center horizontally */
         align-items: center; /* Center vertically */
     }
