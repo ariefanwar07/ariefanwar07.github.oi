@@ -51,37 +51,6 @@ p {
     color: #222; /* Consistent font color */
 }
 
-/* List Styling */
-ul, ol {
-    margin: 0 0 1.2em 20px; /* Indentation and spacing */
-    padding: 0;
-    color: #222; /* Consistent font color */
-    font-weight: 300; /* Match font weight with body text */
-    line-height: 1.8; /* Match line height with body */
-}
-
-li {
-    margin-bottom: 0.5em; /* Spacing between list items */
-}
-
-ul {
-    list-style-type: disc; /* Bullet points for unordered lists */
-}
-
-ol {
-    list-style-type: decimal; /* Numbers for ordered lists */
-}
-
-ul ul {
-    list-style-type: circle; /* Different bullet style for nested lists */
-    margin-left: 20px; /* Additional indentation for nested lists */
-}
-
-ol ol {
-    list-style-type: lower-alpha; /* Lowercase letters for nested ordered lists */
-    margin-left: 20px; /* Additional indentation */
-}
-
 /* Section Styling */
 section {
     margin-bottom: 1.5em; /* Reduced spacing for mobile */
@@ -92,6 +61,7 @@ section {
     width: 100%;
     max-width: 100%; /* Full width for mobile */
     box-sizing: border-box; /* Ensures padding is part of width */
+    overflow: hidden; /* Prevent content overflow */
 }
 
 /* Links */
@@ -122,12 +92,21 @@ img {
 
 .chart {
     width: 100%; /* Full width for mobile */
+    max-width: 100%; /* Prevent exceeding section width */
     margin-bottom: 20px;
     border: 1px solid #ddd;
     border-radius: 8px;
     padding: 10px;
     background-color: #fafafa;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    box-sizing: border-box; /* Include padding in width calculation */
+}
+
+/* Ensure chart content scales within container */
+.chart canvas,
+.chart svg {
+    width: 100%; /* Ensure content scales within the chart */
+    height: auto; /* Maintain aspect ratio */
 }
 
 /* Button Styling */
