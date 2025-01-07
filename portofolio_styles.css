@@ -177,7 +177,7 @@ body.dark-mode button {
     }
 
     section {
-        width: 95%; /* Use most of the screen width */
+        width: 100%; /* Use most of the screen width */
         margin: 0 auto; /* Center the section */
         padding: 15px; /* Adjust padding for smaller screens */
     }
@@ -228,7 +228,7 @@ body.dark-mode button {
     }
 
     section {
-        width: 90%; /* Adjust width for tablet screens */
+        width: 100%; /* Adjust width for tablet screens */
         margin: 0 auto; /* Center the section */
         padding: 20px;
     }
