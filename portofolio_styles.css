@@ -238,9 +238,9 @@ body.dark-mode button {
     }
 
     .chart {
-        flex: 1 1 calc(48% - 20px); /* Limit chart width to about 48% */
-        max-width: calc(48% - 20px); /* Ensure consistent sizing */
-        margin: 10px auto; /* Center charts within their container */
+        flex: 1 1 100%; /* Make charts full-width on mobile */
+        max-width: 100%;
+        margin-bottom: 20px; /* Add spacing between charts */
     }
 
     button {
