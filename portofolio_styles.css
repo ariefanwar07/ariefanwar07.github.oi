@@ -61,7 +61,6 @@ section {
     width: 100%;
     max-width: 100%; /* Full width for mobile */
     box-sizing: border-box; /* Ensures padding is part of width */
-    overflow: hidden; /* Prevent content overflow */
 }
 
 /* Links */
@@ -91,9 +90,9 @@ img {
 }
 
 .chart {
-    width: 100%; /* Full width for mobile */
-    max-width: 100%; /* Prevent exceeding section width */
-    margin-bottom: 20px;
+    width: 90%; /* Reduce the size of the chart to fit smaller screens */
+    max-width: 600px; /* Maintain a reasonable maximum size for larger screens */
+    margin: 0 auto 20px; /* Center the chart and add spacing below */
     border: 1px solid #ddd;
     border-radius: 8px;
     padding: 10px;
@@ -102,10 +101,10 @@ img {
     box-sizing: border-box; /* Include padding in width calculation */
 }
 
-/* Ensure chart content scales within container */
+/* Ensure chart content scales proportionally */
 .chart canvas,
 .chart svg {
-    width: 100%; /* Ensure content scales within the chart */
+    width: 100%; /* Ensure content scales with the chart */
     height: auto; /* Maintain aspect ratio */
 }
 
