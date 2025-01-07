@@ -192,21 +192,3 @@ body.dark-mode button {
         max-width: calc(50% - 20px);
     }
 }
-
-@media (min-width: 1024px) {
-    body {
-        font-size: 18px;
-        max-width: 900px;
-        padding-top: 60px;
-    }
-
-    section {
-        padding: 25px;
-        max-width: 100%; /* Reduced spacing for larger screens */
-    }
-
-    .chart {
-        flex: 1 1 calc(33.33% - 20px); /* Three charts per row on larger screens */
-        max-width: calc(33.33% - 20px);
-    }
-}
