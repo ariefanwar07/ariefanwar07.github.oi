@@ -101,5 +101,11 @@
                 "format": ".2%"
             }
         ]
+    },
+  "selection": {
+    "zoom": {
+      "type": "interval",
+      "bind": "scales"
     }
+  }
 }

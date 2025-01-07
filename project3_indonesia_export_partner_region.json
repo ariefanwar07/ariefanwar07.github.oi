@@ -1,0 +1,87 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 600,
+  "height": 400,
+  "title": {
+    "text": "Chart 4: Indonesia's Export Partner Countries",
+    "subtitle": [
+      "Total exports to partner countries (2012–2022)",
+      "Source: UN Comtrade",
+      ""
+    ],
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "middle",
+    "color": "black"
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/ariefanwar07/ariefanwar07.github.oi/refs/heads/main/project_data_indonesia_export_partners_region.csv"
+  },
+  "params": [
+    {
+      "name": "region",
+      "value": "All",
+      "bind": {
+        "input": "select",
+        "options": ["All", "Africa", "Americas", "Asia", "Europe", "Oceania"],
+        "name": "Region:"
+      }
+    },
+    {
+      "name": "year",
+      "value": 2022,
+      "bind": {
+        "input": "range",
+        "min": 2012,
+        "max": 2022,
+        "step": 1,
+        "name": "Year:"
+      }
+    }
+  ],
+  "projection": {"type": "mercator"},
+  "transform": [
+    {
+      "lookup": "ISO",
+      "from": {
+        "data": {
+          "url": "https://raw.githubusercontent.com/ariefanwar07/ariefanwar07.github.oi/main/map_world.geojson",
+          "format": {"type": "json", "property": "features"}
+        },
+        "key": "properties.ISO3",
+        "fields": ["type", "geometry", "properties"]
+      }
+    },
+    {"filter": "datum.period == year"},
+    {
+      "filter": "region == 'All' || datum.region == region"
+    }
+  ],
+  "layer": [
+    {
+      "mark": {"type": "geoshape", "fill": "lightgray", "stroke": "white"},
+      "encoding": {
+        "tooltip": [
+          {"field": "properties.ISO3", "type": "nominal", "title": "Country"}
+        ]
+      }
+    },
+    {
+      "mark": {"type": "geoshape"},
+      "transform": [{"filter": "datum.period == year"}],
+      "encoding": {
+        "color": {
+          "field": "export_value",
+          "type": "quantitative",
+          "scale": {"scheme": "blues"},
+          "title": "Export Value (US$)"
+        },
+        "tooltip": [
+          {"field": "COUNTRY", "type": "nominal", "title": "Country"},
+          {"field": "export_value", "type": "quantitative", "title": "Export Value (US$)"},
+          {"field": "period", "type": "ordinal", "title": "Year"}
+        ]
+      }
+    }
+  ]
+}

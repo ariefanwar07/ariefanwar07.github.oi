@@ -76,7 +76,7 @@
                                 <strong>How Data Was Accessed:</strong>
                                 <ul>
                                     <li>World Bank: Data was retrieved programmatically using the World Bank API. Python scripts written in Google Colab leveraged the <code>requests</code> library for API queries and <code>pandas</code> for data processing.</li>
-                                    <li>UN Comtrade: Data was accessed via their publicly available web interface, with queries filtered to focus on key commodities and trade partners. Data was manually downloaded for analysis. While UN Comtrade offers an API for more advanced data retrieval, full access requires a subscription. For instance, the Premium Individual plan costs $2,000 per year.</li>
+                                    <li>UN Comtrade: Data was accessed via their publicly available web interface, with queries filtered to focus on key commodities and trade partners. Data was manually downloaded for analysis. While UN Comtrade offers an API for more advanced data retrieval, full access requires a subscription. For instance, the Premium Individual plan costs $2,000 per year and includes individual access, up to 5,000 queries per day, and internal-use terms.</li>
                                 </ul>
                             </li>
                             <li>
@@ -157,7 +157,7 @@
                     <div class="chart-container">
                         <h3>Export Partner Countries</h3>
                         <p>Interactive map displaying export values (US$) to partner countries. Darker shades indicate higher values.</p>
-                        <figure id="project3_indonesia_export_partner_region"></figure>
+                        <figure id="project3_indonesia_export_partner"></figure>
                         <p>
                             <strong>Data Source:</strong> <a href="https://comtrade.un.org/">UN Comtrade</a>
                         </p>
@@ -165,7 +165,7 @@
                     <div class="chart-container">
                         <h3>Import Partner Countries</h3>
                         <p>Interactive map showing import values (US$) from partner countries. Darker shades represent higher values.</p>
-                        <figure id="project3_indonesia_import_partner_region"></figure>
+                        <figure id="project3_indonesia_import_partner"></figure>
                         <p>
                             <strong>Data Source:</strong> <a href="https://comtrade.un.org/">UN Comtrade</a>
                         </p>
@@ -252,35 +252,33 @@
                 <ul>
                     <li><strong>Data Cleaning and Analysis:</strong>
                         <ul>
-                            <li>Standardizing trade data into a consistent tabular format suitable for analysis was challenging due to inconsistent formats and missing values across datasets. This was resolved using Python libraries like <code>pandas</code> for data wrangling and cleaning.</li>
-                            <li>Integrating diverse datasets, such as country codes (ISO3) and HS codes for commodities, required cross-referencing multiple sources. Tools like <code>pandas</code> and merge functions ensured accurate alignment.</li>
+                            <li>Standardizing trade data into a consistent tabular format suitable for analysis was challenging due to inconsistent formats and missing values across datasets. This was resolved using Python libraries like `pandas` for data wrangling and cleaning.</li>
+                            <li>Integrating diverse datasets, such as country codes (ISO3) and HS codes for commodities, required cross-referencing multiple sources. Tools like `pandas` and `merge` functions were used to ensure accurate alignment.</li>
                         </ul>
                     </li>
                     <li><strong>Data Visualization:</strong>
                         <ul>
-                            <li>Addressing challenges in visualizing multi-dimensional data involved breaking down datasets into simpler subsets and using interactive charts to allow users to explore specific dimensions effectively.</li>
-                            <li>Ensuring compatibility across platforms was achieved by embedding visualizations directly into web pages using Vega-Lite JSON specifications and the <code>vega-embed</code> library.</li>
-                            <li>Adapting visualizations for mobile screens included:
-                                <ul>
-                                    <li><strong>Responsive Scaling:</strong> Utilized the <code>width</code> and <code>height</code> parameters in Vega-Lite to create responsive charts that automatically adapt to different screen sizes, ensuring seamless integration with mobile layouts.</li>
-                                    <li><strong>Simplified Layouts:</strong> Simplified complex charts by dividing them into focused visualizations, highlighting key data points for better readability and user engagement.</li>
-                                    <li><strong>Thorough Testing:</strong> Conducted rigorous testing using mobile simulation modes to verify usability and responsiveness across different devices and screen sizes.</li>
-                                </ul>
-                            </li>
+                            <li>Balancing detail and clarity in visualizations, particularly for complex datasets, was addressed using Vega-Lite for interactive and flexible chart creation.</li>
+                            <li>Ensuring compatibility across platforms was achieved by embedding visualizations directly into web pages using Vega-Lite JSON specifications and the `vega-embed` library.</li>
+                            <li>Addressing challenges in visualizing multi-dimensional data involved breaking down datasets into simpler subsets and using interactive charts to allow users to explore specific dimensions.</li>
                         </ul>
                     </li>
                 </ul>
                 <h2>Conclusions</h2>
                 <ul>
-                    <li>Indonesia's trade balance has improved significantly since 2020, driven by export growth and economic recovery post-COVID-19. Key export commodities like palm oil and coal continue to dominate revenues, highlighting the country’s resource wealth but also its reliance on raw materials, which poses challenges for sustainable growth.</li>
-                    <li>Regional and global trade partnerships remain crucial, with China, Japan, and ASEAN countries playing vital roles in Indonesia’s trade network. Singapore leads as a top ASEAN partner due to its global trade hub status, while Viet Nam's rapid industrial growth is strengthening its position as an emerging partner.</li>
-                    <li>External risks, such as global commodity price fluctuations, heavily influence Indonesia's trade revenues, particularly in coal and palm oil. These risks underline the need for economic diversification and the development of value-added manufacturing sectors like technology, automotive components, and processed goods to reduce dependence on raw exports.</li>
-                    <li>Trade agreements, such as the IJEPA with Japan, have bolstered export volumes and strengthened economic ties. Meanwhile, the push for renewable energy and sustainable practices offers new opportunities in green technologies, aligning with global trends toward sustainability.</li>
-                    <li>Future policies must prioritize strengthening domestic industries and optimizing trade agreements, focusing on fostering innovation, infrastructure development, and competitiveness to ensure long-term economic stability and resilience against global market volatility.</li>
+                    <li>Indonesia's trade balance has improved significantly since 2020, driven by increased exports and economic recovery post-COVID-19.</li>
+                    <li>Key export commodities like palm oil and coal dominate revenue, while imports emphasize industrial reliance on foreign technology.</li>
+                    <li>China, Japan, and ASEAN countries are vital trade partners, underscoring Indonesia's regional and global integration.</li>
+                    <li>Singapore remains Indonesia's dominant trade partner in ASEAN, leveraging its strategic location and advanced infrastructure, while Viet Nam is rapidly emerging as a key partner, driven by industrial growth and integration into global supply chains.</li>
+                    <li>Price fluctuations in commodities like coal and palm oil significantly influence export revenues, highlighting Indonesia’s vulnerability to global markets.</li>
+                    <li>The IJEPA agreement has positively impacted Indonesia's trade to Japan.</li>
+                    <li>Economic diversification remains a key challenge, as Indonesia's heavy reliance on natural resources exposes the economy to global market volatility.</li>
+                    <li>Despite improvements in trade, there is a growing need for value-added manufacturing to reduce dependency on raw commodity exports.</li>
+                    <li>Indonesia's focus on renewable energy and sustainable practices offers potential opportunities to expand trade in green technologies and services.</li>
+                    <li>Future economic policies should focus on strengthening domestic industries and improving trade agreements to ensure long-term growth and stability.</li>
                 </ul>
             </div>
         </section>
-        
 
         <footer>
             &copy; 2024 Arief Anwar Project | Designed with data-driven insights
@@ -291,8 +289,8 @@
             vegaEmbed("#project1_indonesia_trade_data", "project1_indonesia_trade_data.json").catch(console.error);
             vegaEmbed("#project2_top_export_commodity", "project2_top_export_commodity.json").catch(console.error);
             vegaEmbed("#project2_top_import_commodity", "project2_top_import_commodity.json").catch(console.error);
-            vegaEmbed("#project3_indonesia_export_partner_region", "project3_indonesia_export_partner_region.json").catch(console.error);
-            vegaEmbed("#project3_indonesia_import_partner_region", "project3_indonesia_import_partner_region.json").catch(console.error);
+            vegaEmbed("#project3_indonesia_export_partner", "project3_indonesia_export_partner.json").catch(console.error);
+            vegaEmbed("#project3_indonesia_import_partner", "project3_indonesia_import_partner.json").catch(console.error);
             vegaEmbed("#project4_commodity_price_total_import_unit", "project4_commodity_price_total_import_unit.json").catch(console.error);
             vegaEmbed("#project4_commodity_price_total_export_unit", "project4_commodity_price_total_export_unit.json").catch(console.error);
             vegaEmbed("#project5_ijepa_implementation_2016", "project5_ijepa_implementation_2016.json").catch(console.error);
