@@ -238,13 +238,18 @@ body.dark-mode button {
     }
 
     .chart {
-        flex: 1 1 calc(100% - 20px); /* Single-column layout for charts on tablets */
-        max-width: calc(100% - 20px);
+        flex: 1 1 calc(48% - 20px); /* Limit chart width to about 48% */
+        max-width: calc(48% - 20px); /* Ensure consistent sizing */
+        margin: 10px auto; /* Center charts within their container */
     }
 
     button {
         font-size: 1.1em; /* Slightly larger buttons for easier interaction */
         padding: 14px 28px;
+    }
+
+    #chartGrid {
+        gap: 15px; /* Slightly smaller gap between charts */
     }
 }
 
