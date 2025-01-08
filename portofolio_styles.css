@@ -104,11 +104,7 @@ img {
     max-width: 1000px; /* Constrain width for larger screens */
     margin: 0 auto; /* Center align */
     overflow-x: auto; /* Prevent clipping */
-    border: 1px solid #ddd;
-    border-radius: 8px;
     padding: 10px;
-    background-color: #fafafa;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
 }
 
 /* Chart Grid Container */
