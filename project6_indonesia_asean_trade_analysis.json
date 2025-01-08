@@ -13,6 +13,17 @@
     "height": 400,
     "params": [
         {
+            "name": "selectedYear",
+            "value": 2022,
+            "bind": {
+                "input": "range",
+                "min": 2013,
+                "max": 2022,
+                "step": 1,
+                "name": "Year: "
+            }
+        },
+        {
             "name": "selectedCountries",
             "value": ["Singapore"],
             "bind": {
@@ -23,17 +34,6 @@
                     "Thailand", "Viet Nam"
                 ],
                 "name": "Country: "
-            }
-        },
-        {
-            "name": "selectedYear",
-            "value": 2022,
-            "bind": {
-                "input": "range",
-                "min": 2013,
-                "max": 2022,
-                "step": 1,
-                "name": "Year: "
             }
         }
     ],
@@ -68,8 +68,7 @@
             "type": "quantitative",
             "axis": {"title": "Trade Value (USD Million)"},
             "scale": {
-                "domainMin": 0, 
-                "clamp": true
+                "domain": [0, 30000000000]
             }
         },
         "color": {
