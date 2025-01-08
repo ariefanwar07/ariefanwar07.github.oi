@@ -239,7 +239,7 @@ body.dark-mode button {
     #project4_commodity_price_total_export_unit,
     #project5_ijepa_implementation_2016,
     #project6_indonesia_asean_trade_analysis {
-        width: 100%; /* Fit the mobile screen width */
+        width: 95vw; /* Fit the mobile screen width */
         max-width: 1000px; /* Constrain width for larger screens */
         margin: 0 auto; /* Center horizontally */
         overflow-x: auto; /* Enable horizontal scrolling only if needed */
@@ -278,7 +278,7 @@ body.dark-mode button {
     #project4_commodity_price_total_export_unit,
     #project5_ijepa_implementation_2016,
     #project6_indonesia_asean_trade_analysis {
-        width: 100%; /* Fit screen width */
+        width: 95vw; /* Fit screen width */
         max-width: 1000px; /* Constrain width for larger screens */
         height: auto; /* Maintain aspect ratio */
         margin: 0 auto; /* Keep centered */
